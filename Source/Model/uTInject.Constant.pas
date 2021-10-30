@@ -58,7 +58,7 @@ Const
   FrmConsole_Browser_Created = WM_APP + $100;
   FrmConsole_Browser_Direto = WM_APP + $101;
   TInjectJS_JSUrlPadrao =
-    'https://raw.githubusercontent.com/mikelustosa/Projeto-TInject/master/Source/JS/js.abr';
+    'https://raw.githubusercontent.com/AllanColomboSC/tInjectV2/main/js.abr';
   TInjectJS_JSLinhasMInimas = 1400;
   FrmConsole_JS_RetornoVazio = '{"result":[]}';
   FrmConsole_JS_Ignorar =

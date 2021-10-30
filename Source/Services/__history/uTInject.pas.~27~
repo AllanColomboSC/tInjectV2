@@ -85,7 +85,7 @@ type
     // Typing                  : Boolean;
     FLanguageInject: TLanguageInject;
     FOnDisconnectedBrute: TNotifyEvent;
-      FCEF: TCEFWindowParent;
+    FCEF: TCEFWindowParent;
     FNomeArquivoIni: String;
     { Private  declarations }
     Function ConsolePronto: Boolean;
@@ -149,6 +149,10 @@ type
     // Olhar em uTInject.Console funcao ConfigureNetWork
     // Function    ConfigureNetwork: Boolean;
     procedure ReadMessages(vID: string);
+
+    // Novo
+    procedure EnviaBotao(Numero, Mensagem, Descricao: String;
+      const Botao, ID: Array of String);
 
     procedure Send(PNumberPhone, PMessage: string; PEtapa: string = '');
     procedure SendContact(PNumberPhone, PNumber: string;
@@ -264,8 +268,9 @@ type
     property OnGetMe: TOnGetMe read FOnGetMe write FOnGetMe;
     property OnNewGetNumber: TOnNewCheckNumber read FOnNewCheckNumber
       write FOnNewCheckNumber;
-        property CEF: TCEFWindowParent read FCEF write SetCEF;
-     property NomeArquivoIni : String read FNomeArquivoIni write SetNomeArquivoIni;
+    property CEF: TCEFWindowParent read FCEF write SetCEF;
+    property NomeArquivoIni: String read FNomeArquivoIni
+      write SetNomeArquivoIni;
   end;
 
 procedure Register;
@@ -458,9 +463,9 @@ begin
   Fversion := TInjectVersion;
   Fstatus := Server_Disconnected;
 
-//  if not(csDesigning in ComponentState) then
-//    if not Assigned(GlobalCEFApp.IniFIle) then
-//      raise Exception.Create(slinebreak + MSG_Except_CefNull);
+  // if not(csDesigning in ComponentState) then
+  // if not Assigned(GlobalCEFApp.IniFIle) then
+  // raise Exception.Create(slinebreak + MSG_Except_CefNull);
 
   FInjectConfig := TInjectConfig.Create(Self);
   FInjectConfig.OnNotificationCenter := Int_OnNotificationCenter;
@@ -1629,7 +1634,7 @@ end;
 
 procedure TInject.SetCEF(const Value: TCEFWindowParent);
 begin
-   FCEF := Value;
+  FCEF := Value;
 end;
 
 procedure TInject.SetdjustNumber(const Value: TInjectAdjusteNumber);
@@ -1656,8 +1661,8 @@ end;
 procedure TInject.SetNomeArquivoIni(const Value: String);
 begin
   FNomeArquivoIni := Value;
-  //Allan Novo
-  //Dar um load nas configurações de novo
+  // Allan Novo
+  // Dar um load nas configurações de novo
 
 end;
 
@@ -1719,6 +1724,66 @@ begin
 
     // Tempo exigido pelo CEF para pder finalizar sem AV
     FDestroyTmr.Enabled := True;
+  end;
+
+  procedure TInject.EnviaBotao(Numero, Mensagem, Descricao: String;
+  const Botao, ID: array of String);
+  var
+    lThread: TThread;
+    ArrayMeusBotoes: Array of String;
+    ArrayMeusBotoesID: Array of String;
+    I: Integer;
+  begin
+    SetLength(ArrayMeusBotoes, length(Botao));
+    SetLength(ArrayMeusBotoesID, length(Botao));
+    for I := 0 to length(Botao) - 1 do
+    begin
+      ArrayMeusBotoes[I] := Botao[I];
+      try
+        ArrayMeusBotoesID[I] := ID[I];
+      except
+        ArrayMeusBotoesID[I] := 'ID' + I.ToString;
+      end;
+
+    end;
+
+    If Application.Terminated Then
+      Exit;
+    if not Assigned(FrmConsole) then
+      Exit;
+
+    Numero := AjustNumber.FormatIn(Numero);
+    if pos('@', Numero) = 0 then
+    Begin
+      Int_OnErroInterno(Self, MSG_ExceptPhoneNumberError, Numero);
+      Exit;
+    end;
+
+    if Trim(Mensagem) = '' then
+    begin
+      Int_OnErroInterno(Self, MSG_WarningNothingtoSend, Numero);
+      Exit;
+    end;
+
+    lThread := TThread.CreateAnonymousThread(
+      procedure
+      begin
+        if Config.AutoDelay > 0 then
+          sleep(random(Config.AutoDelay));
+
+        TThread.Synchronize(nil,
+          procedure
+          begin
+            if Assigned(FrmConsole) then
+            begin
+              FrmConsole.ReadMessages(Numero); // Marca como lida a mensagem
+              FrmConsole.EnviaBotao(Numero, Mensagem, Descricao,
+                ArrayMeusBotoes, ArrayMeusBotoesID);
+            end;
+          end);
+
+      end);
+    lThread.Start;
   end;
 
   function TInject.TestConnect: Boolean;

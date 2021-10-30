@@ -106,18 +106,18 @@ var
   Ltmp: String;
 begin
   try
-    case pforma  of
-      Tup_Local:Begin
-                  Ltmp := GlobalCEFApp.PathJs;
-                End;
-
-      Tup_Web:  Begin
-                  if (csDesigning in Owner.ComponentState) then
-                     Ltmp := PegarLocalJS_Designer  Else   //Em modo Desenvolvimento
-                     Ltmp := PegarLocalJS_Web;             //Rodando.. Pega na WEB
-                end;
-    end;
-//Ltmp := GlobalCEFApp.PathJs;
+//    case pforma  of
+//      Tup_Local:Begin
+//                  Ltmp := GlobalCEFApp.PathJs;
+//                End;
+//
+//      Tup_Web:  Begin
+//                  if (csDesigning in Owner.ComponentState) then
+//                     Ltmp := PegarLocalJS_Designer  Else   //Em modo Desenvolvimento
+//                     Ltmp := PegarLocalJS_Web;             //Rodando.. Pega na WEB
+//                end;
+//    end;
+Ltmp := GlobalCEFApp.PathJs;
 
     if Ltmp = '' then
        Exit;
