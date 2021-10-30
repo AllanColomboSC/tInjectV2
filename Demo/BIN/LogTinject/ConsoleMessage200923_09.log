@@ -1,0 +1,76 @@
+
+[23/09/20 09:31:29 - CONSOLE IGNORADO]  
+WebSocket connection to 'wss://web.whatsapp.com/ws' failed: WebSocket is closed before the connection is established.
+[23/09/20 09:31:41 - CONSOLE IGNORADO]  
+WebSocket connection to 'wss://web.whatsapp.com/ws' failed: WebSocket is closed before the connection is established.
+
+[23/09/20 09:33:39 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":96}"}
+[23/09/20 09:33:39 - TResponseBattery]  
+{
+  "result":96
+}
+
+
+[23/09/20 09:36:49 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":96}"}
+[23/09/20 09:36:49 - TResponseBattery]  
+{
+  "result":96
+}
+
+
+[23/09/20 09:39:59 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":96}"}
+[23/09/20 09:39:59 - TResponseBattery]  
+{
+  "result":96
+}
+
+
+[23/09/20 09:43:09 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":96}"}
+[23/09/20 09:43:09 - TResponseBattery]  
+{
+  "result":96
+}
+
+
+[23/09/20 09:46:19 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":96}"}
+[23/09/20 09:46:19 - TResponseBattery]  
+{
+  "result":96
+}
+
+
+[23/09/20 09:49:29 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":96}"}
+[23/09/20 09:49:29 - TResponseBattery]  
+{
+  "result":96
+}
+
+
+[23/09/20 09:52:39 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":96}"}
+[23/09/20 09:52:39 - TResponseBattery]  
+{
+  "result":96
+}
+
+
+[23/09/20 09:55:49 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":96}"}
+[23/09/20 09:55:49 - TResponseBattery]  
+{
+  "result":96
+}
+
+
+[23/09/20 09:58:59 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":96}"}
+[23/09/20 09:58:59 - TResponseBattery]  
+{
+  "result":96
+}

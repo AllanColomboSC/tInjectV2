@@ -1,0 +1,127 @@
+
+
+[28/09/20 13:00:33 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":18}"}
+[28/09/20 13:00:33 - TResponseBattery]  
+{
+  "result":18
+}
+
+
+[28/09/20 13:03:43 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":18}"}
+[28/09/20 13:03:43 - TResponseBattery]  
+{
+  "result":18
+}
+
+
+[28/09/20 13:06:53 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":18}"}
+[28/09/20 13:06:53 - TResponseBattery]  
+{
+  "result":18
+}
+
+
+[28/09/20 13:10:03 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":18}"}
+[28/09/20 13:10:03 - TResponseBattery]  
+{
+  "result":18
+}
+
+
+[28/09/20 13:13:13 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":18}"}
+[28/09/20 13:13:13 - TResponseBattery]  
+{
+  "result":18
+}
+
+
+[28/09/20 13:16:23 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":18}"}
+[28/09/20 13:16:23 - TResponseBattery]  
+{
+  "result":18
+}
+
+
+[28/09/20 13:19:33 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":18}"}
+[28/09/20 13:19:33 - TResponseBattery]  
+{
+  "result":18
+}
+
+
+[28/09/20 13:22:43 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":18}"}
+[28/09/20 13:22:43 - TResponseBattery]  
+{
+  "result":18
+}
+
+
+[28/09/20 13:25:53 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":18}"}
+[28/09/20 13:25:53 - TResponseBattery]  
+{
+  "result":18
+}
+
+
+[28/09/20 13:29:03 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":18}"}
+[28/09/20 13:29:03 - TResponseBattery]  
+{
+  "result":18
+}
+
+
+[28/09/20 13:32:13 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":18}"}
+[28/09/20 13:32:13 - TResponseBattery]  
+{
+  "result":18
+}
+
+
+[28/09/20 13:35:23 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":18}"}
+[28/09/20 13:35:23 - TResponseBattery]  
+{
+  "result":18
+}
+
+
+[28/09/20 13:38:33 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":18}"}
+[28/09/20 13:38:33 - TResponseBattery]  
+{
+  "result":18
+}
+
+
+[28/09/20 13:41:43 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":18}"}
+[28/09/20 13:41:43 - TResponseBattery]  
+{
+  "result":18
+}
+
+
+[28/09/20 13:44:20 - CONSOLE]  
+{"name":"OnChangeConnect","result":"{\"result\":false}"}
+[28/09/20 13:44:20 - TOnChangeConnect]  
+{
+  "result":false
+}
+
+[28/09/20 13:44:49 - TResultQRCodeClass]  
+{
+  "result":
+  [
+      ]
+}

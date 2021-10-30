@@ -1,0 +1,152 @@
+
+
+[23/09/20 10:02:09 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":96}"}
+[23/09/20 10:02:09 - TResponseBattery]  
+{
+  "result":96
+}
+
+
+[23/09/20 10:05:19 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":93}"}
+[23/09/20 10:05:19 - TResponseBattery]  
+{
+  "result":93
+}
+
+
+[23/09/20 10:08:29 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":92}"}
+[23/09/20 10:08:29 - TResponseBattery]  
+{
+  "result":92
+}
+
+
+[23/09/20 10:11:39 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":92}"}
+[23/09/20 10:11:39 - TResponseBattery]  
+{
+  "result":92
+}
+
+
+[23/09/20 10:14:49 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":92}"}
+[23/09/20 10:14:49 - TResponseBattery]  
+{
+  "result":92
+}
+
+
+[23/09/20 10:17:59 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":92}"}
+[23/09/20 10:17:59 - TResponseBattery]  
+{
+  "result":92
+}
+
+
+[23/09/20 10:21:09 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":92}"}
+[23/09/20 10:21:09 - TResponseBattery]  
+{
+  "result":92
+}
+
+
+[23/09/20 10:24:19 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":92}"}
+[23/09/20 10:24:19 - TResponseBattery]  
+{
+  "result":92
+}
+
+
+[23/09/20 10:27:29 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":92}"}
+[23/09/20 10:27:29 - TResponseBattery]  
+{
+  "result":92
+}
+
+
+[23/09/20 10:30:39 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":92}"}
+[23/09/20 10:30:39 - TResponseBattery]  
+{
+  "result":92
+}
+
+
+[23/09/20 10:33:49 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":92}"}
+[23/09/20 10:33:49 - TResponseBattery]  
+{
+  "result":92
+}
+
+
+[23/09/20 10:36:59 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":92}"}
+[23/09/20 10:36:59 - TResponseBattery]  
+{
+  "result":92
+}
+
+
+[23/09/20 10:40:09 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":92}"}
+[23/09/20 10:40:09 - TResponseBattery]  
+{
+  "result":92
+}
+
+
+[23/09/20 10:43:19 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":92}"}
+[23/09/20 10:43:19 - TResponseBattery]  
+{
+  "result":92
+}
+
+
+[23/09/20 10:46:29 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":92}"}
+[23/09/20 10:46:29 - TResponseBattery]  
+{
+  "result":92
+}
+
+
+[23/09/20 10:49:39 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":92}"}
+[23/09/20 10:49:39 - TResponseBattery]  
+{
+  "result":92
+}
+
+
+[23/09/20 10:52:49 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":92}"}
+[23/09/20 10:52:49 - TResponseBattery]  
+{
+  "result":92
+}
+
+
+[23/09/20 10:55:59 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":92}"}
+[23/09/20 10:55:59 - TResponseBattery]  
+{
+  "result":92
+}
+
+
+[23/09/20 10:59:09 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":92}"}
+[23/09/20 10:59:09 - TResponseBattery]  
+{
+  "result":92
+}

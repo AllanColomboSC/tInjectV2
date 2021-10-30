@@ -1,0 +1,329 @@
+
+[13/06/20 13:43:21]  Versao TInject: 3.0.0.0
+[13/06/20 13:43:21]  Versao  JS.ABR: 1.0.0.4
+[13/06/20 13:43:21]  Versao     CEF: 78.3.0
+[13/06/20 13:43:21]   
+[13/06/20 13:43:22 - CONSOLE IGNORADO]  
+Uncaught TypeError: Cannot read property 'toDataURL' of undefined
+[13/06/20 13:43:51 - TResultQRCodeClass]  
+{
+  "result":
+  [
+      ]
+}
+
+[13/06/20 13:43:51 - CONSOLE IGNORADO]  
+Uncaught TypeError: webpackJsonp is not a function
+[13/06/20 13:43:51 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[13/06/20 13:43:51 - TResponseMyNumber]  
+{
+  "result":"554891406417@c.us"
+}
+
+[13/06/20 13:43:55 - CONSOLE IGNORADO]  
+Uncaught TypeError: Cannot read property 'getAllGroups' of undefined
+[13/06/20 13:44:01 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[13/06/20 13:44:10 - CONSOLE IGNORADO]  
+Uncaught TypeError: Cannot read property 'createGroup' of undefined
+[13/06/20 13:44:11 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[13/06/20 13:44:12 - CONSOLE IGNORADO]  
+Uncaught TypeError: Cannot read property 'getAllGroups' of undefined
+[13/06/20 13:44:21 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[13/06/20 13:44:31 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[13/06/20 13:44:41 - CONSOLE IGNORADO]  
+Uncaught TypeError: Cannot read property 'createGroup' of undefined
+[13/06/20 13:44:41 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[13/06/20 13:44:42 - CONSOLE IGNORADO]  
+Uncaught TypeError: Cannot read property 'getAllGroups' of undefined
+[13/06/20 13:44:51 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[13/06/20 13:45:01 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[13/06/20 13:45:11 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[13/06/20 13:45:21 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[13/06/20 13:45:31 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[13/06/20 13:45:32 - CONSOLE IGNORADO]  
+Uncaught TypeError: Cannot read property 'createGroup' of undefined
+[13/06/20 13:45:41 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[13/06/20 13:45:51 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[13/06/20 13:46:01 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[13/06/20 13:46:11 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[13/06/20 13:46:21 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[13/06/20 13:46:31 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[13/06/20 13:46:41 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[13/06/20 13:46:51 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[13/06/20 13:47:01 - CONSOLE IGNORADO]  
+Uncaught TypeError: Cannot read property 'getBatteryLevel' of undefined
+[13/06/20 13:47:01 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[13/06/20 13:47:11 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[13/06/20 13:47:14 - CONSOLE IGNORADO]  
+Uncaught TypeError: Cannot read property 'createGroup' of undefined
+[13/06/20 13:47:21 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[13/06/20 13:47:31 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[13/06/20 13:47:37 - TResultQRCodeClass]  
+{
+  "result":
+  [
+      ]
+}
+
+[13/06/20 13:47:48]  Versao TInject: 3.0.0.0
+[13/06/20 13:47:48]  Versao  JS.ABR: 1.0.0.4
+[13/06/20 13:47:48]  Versao     CEF: 78.3.0
+[13/06/20 13:47:48]   
+[13/06/20 13:47:49 - CONSOLE IGNORADO]  
+Uncaught TypeError: Cannot read property 'toDataURL' of undefined
+[13/06/20 13:47:52 - TResultQRCodeClass]  
+{
+  "result":
+  [
+      ]
+}
+
+[13/06/20 13:47:52 - CONSOLE IGNORADO]  
+Uncaught TypeError: webpackJsonp is not a function
+[13/06/20 13:47:53 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[13/06/20 13:47:53 - TResponseMyNumber]  
+{
+  "result":"554891406417@c.us"
+}
+
+[13/06/20 13:47:58 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[13/06/20 13:48:27 - CONSOLE IGNORADO]  
+Uncaught TypeError: Cannot read property 'createGroup' of undefined
+[13/06/20 13:48:27 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[13/06/20 13:48:35 - TResultQRCodeClass]  
+{
+  "result":
+  [
+      ]
+}
+
+[13/06/20 13:48:52]  Versao TInject: 3.0.0.0
+[13/06/20 13:48:52]  Versao  JS.ABR: 1.0.0.7
+[13/06/20 13:48:52]  Versao     CEF: 78.3.0
+[13/06/20 13:48:52]   
+[13/06/20 13:48:53 - CONSOLE IGNORADO]  
+Uncaught TypeError: Cannot read property 'toDataURL' of undefined
+[13/06/20 13:48:57 - TResultQRCodeClass]  
+{
+  "result":
+  [
+      ]
+}
+
+[13/06/20 13:48:58 - TResponseMyNumber]  
+{
+  "result":"554891406417@c.us"
+}
+
+[13/06/20 13:49:19 - TRetornoAllGroups]  
+{
+  "result":
+  [
+    "554891406417-1592066957@g.us Novo Grupo"
+  ]
+}
+
+[13/06/20 13:49:27 - TClassAllGroupContacts]  
+{
+  "result":"[\"554898111156@c.us\",\"554891406417@c.us\"]"
+}
+
+[13/06/20 13:49:27 - TRetornoAllGroupAdmins]  
+{
+  "result":
+  [
+    "554891406417@c.us"
+  ]
+}
+
+[13/06/20 13:49:31 - TClassAllGroupContacts]  
+{
+  "result":"[\"554898111156@c.us\",\"554891406417@c.us\"]"
+}
+
+[13/06/20 13:49:31 - TRetornoAllGroupAdmins]  
+{
+  "result":
+  [
+    "554891406417@c.us"
+  ]
+}
+
+[13/06/20 13:49:32 - TRetornoAllGroups]  
+{
+  "result":
+  [
+    "554891406417-1592066957@g.us Novo Grupo"
+  ]
+}
+
+[13/06/20 13:49:36 - TClassAllGroupContacts]  
+{
+  "result":"[\"554898111156@c.us\",\"554891406417@c.us\"]"
+}
+
+[13/06/20 13:49:36 - TRetornoAllGroupAdmins]  
+{
+  "result":
+  [
+    "554891406417@c.us"
+  ]
+}
+
+[13/06/20 13:49:42 - TResultQRCodeClass]  
+{
+  "result":
+  [
+      ]
+}
+
+[13/06/20 13:50:20]  Versao TInject: 3.0.0.0
+[13/06/20 13:50:20]  Versao  JS.ABR: 1.0.0.7
+[13/06/20 13:50:20]  Versao     CEF: 78.3.0
+[13/06/20 13:50:20]   
+[13/06/20 13:50:21 - CONSOLE IGNORADO]  
+Uncaught TypeError: Cannot read property 'toDataURL' of undefined
+[13/06/20 13:50:24 - TResultQRCodeClass]  
+{
+  "result":
+  [
+      ]
+}
+
+[13/06/20 13:50:25 - TResponseMyNumber]  
+{
+  "result":"554891406417@c.us"
+}
+
+[13/06/20 13:50:28 - TRetornoAllGroups]  
+{
+  "result":
+  [
+    "554891406417-1592066957@g.us Novo Grupo"
+  ]
+}
+
+[13/06/20 13:56:28]  Versao TInject: 3.0.0.0
+[13/06/20 13:56:28]  Versao  JS.ABR: 1.0.0.7
+[13/06/20 13:56:28]  Versao     CEF: 78.3.0
+[13/06/20 13:56:28]   
+[13/06/20 13:56:28 - CONSOLE IGNORADO]  
+Uncaught TypeError: Cannot read property 'toDataURL' of undefined
+[13/06/20 13:56:41 - TResultQRCodeClass]  
+{
+  "result":
+  [
+      ]
+}
+
+[13/06/20 13:56:42 - TResponseMyNumber]  
+{
+  "result":"554891406417@c.us"
+}
+
+[13/06/20 13:56:48 - TRetornoAllGroups]  
+{
+  "result":
+  [
+    "554891406417-1592066957@g.us Novo Grupo"
+  ]
+}
+
+[13/06/20 13:56:54 - TResultQRCodeClass]  
+{
+  "result":
+  [
+      ]
+}
+
+[13/06/20 13:57:35]  Versao TInject: 3.0.0.0
+[13/06/20 13:57:35]  Versao  JS.ABR: 1.0.0.7
+[13/06/20 13:57:35]  Versao     CEF: 78.3.0
+[13/06/20 13:57:35]   
+[13/06/20 13:57:36 - CONSOLE IGNORADO]  
+Uncaught TypeError: Cannot read property 'toDataURL' of undefined
+[13/06/20 13:57:40 - TResultQRCodeClass]  
+{
+  "result":
+  [
+      ]
+}
+
+[13/06/20 13:57:40 - TResponseMyNumber]  
+{
+  "result":"554891406417@c.us"
+}
+
+[13/06/20 13:57:45 - TRetornoAllGroups]  
+{
+  "result":
+  [
+    "554891406417-1592066957@g.us Novo Grupo"
+  ]
+}
+
+[13/06/20 13:57:55 - TResultQRCodeClass]  
+{
+  "result":
+  [
+      ]
+}
+
+[13/06/20 13:58:16]  Versao TInject: 3.0.0.0
+[13/06/20 13:58:16]  Versao  JS.ABR: 1.0.0.7
+[13/06/20 13:58:16]  Versao     CEF: 78.3.0
+[13/06/20 13:58:16]   
+[13/06/20 13:58:17 - CONSOLE IGNORADO]  
+Uncaught TypeError: Cannot read property 'toDataURL' of undefined
+[13/06/20 13:58:23 - TResultQRCodeClass]  
+{
+  "result":
+  [
+      ]
+}
+
+[13/06/20 13:58:24 - TResponseMyNumber]  
+{
+  "result":"554891406417@c.us"
+}
+
+[13/06/20 13:58:27 - TRetornoAllGroups]  
+{
+  "result":
+  [
+    "554891406417-1592066957@g.us Novo Grupo"
+  ]
+}
+
+[13/06/20 13:58:33 - TResultQRCodeClass]  
+{
+  "result":
+  [
+      ]
+}

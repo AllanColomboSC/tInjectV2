@@ -1,0 +1,452 @@
+
+[23/09/20 21:38:55]  Versao TInject: 3.1.0.0
+[23/09/20 21:38:55]  Versao  JS.ABR: 1.0.0.8
+[23/09/20 21:38:55]  Versao     CEF: 78.3.0
+[23/09/20 21:38:55]   
+[23/09/20 21:38:56 - CONSOLE IGNORADO]  
+Uncaught TypeError: Cannot read property 'toDataURL' of undefined
+[23/09/20 21:39:00 - TResultQRCodeClass]  
+{
+  "result":
+  [
+      ]
+}
+
+
+[23/09/20 21:39:01 - CONSOLE]  
+{"name":"getMyNumber","result":"{\"result\":\"554898153342@c.us\"}"}
+[23/09/20 21:39:01 - TResponseMyNumber]  
+{
+  "result":"554898153342@c.us"
+}
+
+
+[23/09/20 21:39:15 - CONSOLE]  
+{"name":"getUnreadMessages","result":"{\"result\":[{\"id\":\"554898111156@c.us\",\"pendingMsgs\":false,\"lastReceivedKey\":{\"fromMe\":false,\"remote\":\"554898111156@c.us\",\"id\":\"A6994DC033A4ED16327535573567196F\",\"_serialized\":\"false_554898111156@c.us_A6994DC033A4ED16327535573567196F\"},\"t\":1600907954,\"unreadCount\":1,\"archive\":false,\"isReadOnly\":false,\"modifyTag\":665592,\"muteExpiration\":0,\"name\":\"Allan\",\"notSpam\":true,\"pin\":0,\"msgs\":null,\"kind\":\"chat\",\"isGroup\":false,\"formattedTitle\":\"Allan\",\"contact\":{\"id\":\"554898111156@c.us\",\"name\":\"Allan\",\"shortName\":\"Allan\",\"pushname\":\"...\",\"type\":\"in\",\"isBusiness\":false,\"isEnterprise\":false,\"statusMute\":false,\"labels\":[],\"formattedName\":\"Allan\",\"isMe\":false,\"isMyContact\":true,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{\"eurl\":\"https://pps.whatsapp.net/v/t61.24694-24/86179821_2564638573815487_9125477457020068719_n.jpg?oh=49197be3329ecfa282f1036fbb606a2f&oe=5F70DE10\",\"id\":\"554898111156@c.us\",\"img\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F86179821_2564638573815487_9125477457020068719_n.jpg%3Foh%3D49197be3329ecfa282f1036fbb606a2f%26oe%3D5F70DE10&t=s&u=554898111156%40c.us&i=1585186472&n=XqEN0RqcF3NndR7dkGwU93or7QoCPY3gb6nWZextkD0%3D\",\"imgFull\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F86179821_2564638573815487_9125477457020068719_n.jpg%3Foh%3D49197be3329ecfa282f1036fbb606a2f%26oe%3D5F70DE10&t=l&u=554898111156%40c.us&i=1585186472&n=XqEN0RqcF3NndR7dkGwU93or7QoCPY3gb6nWZextkD0%3D\",\"raw\":null,\"tag\":\"1585186472\"},\"msgs\":null},\"groupMetadata\":null,\"presence\":{\"id\":\"554898111156@c.us\",\"chatstates\":[]},\"messages\":[{\"id\":\"false_554898111156@c.us_A6994DC033A4ED16327535573567196F\",\"body\":\"Oi\",\"type\":\"chat\",\"t\":1600907954,\"notifyName\":\"\",\"from\":\"554898111156@c.us\",\"to\":\"554898153342@c.us\",\"self\":\"in\",\"ack\":-1,\"invis\":false,\"isNewMsg\":false,\"star\":false,\"recvFresh\":true,\"broadcast\":false,\"mentionedJidList\":[],\"isVcardOverMmsDocument\":false,\"isForwarded\":false,\"labels\":[],\"chatId\":\"554898111156@c.us\",\"fromMe\":false,\"sender\":{\"id\":\"554898111156@c.us\",\"name\":\"Allan\",\"shortName\":\"Allan\",\"pushname\":\"...\",\"type\":\"in\",\"isBusiness\":false,\"isEnterprise\":false,\"statusMute\":false,\"labels\":[],\"formattedName\":\"Allan\",\"isMe\":false,\"isMyContact\":true,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{\"eurl\":\"https://pps.whatsapp.net/v/t61.24694-24/86179821_2564638573815487_9125477457020068719_n.jpg?oh=49197be3329ecfa282f1036fbb606a2f&oe=5F70DE10\",\"id\":\"554898111156@c.us\",\"img\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F86179821_2564638573815487_9125477457020068719_n.jpg%3Foh%3D49197be3329ecfa282f1036fbb606a2f%26oe%3D5F70DE10&t=s&u=554898111156%40c.us&i=1585186472&n=XqEN0RqcF3NndR7dkGwU93or7QoCPY3gb6nWZextkD0%3D\",\"imgFull\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F86179821_2564638573815487_9125477457020068719_n.jpg%3Foh%3D49197be3329ecfa282f1036fbb606a2f%26oe%3D5F70DE10&t=l&u=554898111156%40c.us&i=1585186472&n=XqEN0RqcF3NndR7dkGwU93or7QoCPY3gb6nWZextkD0%3D\",\"raw\":null,\"tag\":\"1585186472\"},\"msgs\":null},\"timestamp\":1600907954,\"content\":\"Oi\",\"isGroupMsg\":false,\"isMMS\":false,\"isMedia\":false,\"isNotification\":false,\"isPSA\":false,\"chat\":{\"id\":\"554898111156@c.us\",\"pendingMsgs\":false,\"lastReceivedKey\":{\"fromMe\":false,\"remote\":\"554898111156@c.us\",\"id\":\"A6994DC033A4ED16327535573567196F\",\"_serialized\":\"false_554898111156@c.us_A6994DC033A4ED16327535573567196F\"},\"t\":1600907954,\"unreadCount\":1,\"archive\":false,\"isReadOnly\":false,\"modifyTag\":665592,\"muteExpiration\":0,\"name\":\"Allan\",\"notSpam\":true,\"pin\":0,\"msgs\":null,\"kind\":\"chat\",\"isGroup\":false,\"formattedTitle\":\"Allan\",\"contact\":{\"id\":\"554898111156@c.us\",\"name\":\"Allan\",\"shortName\":\"Allan\",\"pushname\":\"...\",\"type\":\"in\",\"isBusiness\":false,\"isEnterprise\":false,\"statusMute\":false,\"labels\":[],\"formattedName\":\"Allan\",\"isMe\":false,\"isMyContact\":true,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{\"eurl\":\"https://pps.whatsapp.net/v/t61.24694-24/86179821_2564638573815487_9125477457020068719_n.jpg?oh=49197be3329ecfa282f1036fbb606a2f&oe=5F70DE10\",\"id\":\"554898111156@c.us\",\"img\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F86179821_2564638573815487_9125477457020068719_n.jpg%3Foh%3D49197be3329ecfa282f1036fbb606a2f%26oe%3D5F70DE10&t=s&u=554898111156%40c.us&i=1585186472&n=XqEN0RqcF3NndR7dkGwU93or7QoCPY3gb6nWZextkD0%3D\",\"imgFull\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F86179821_2564638573815487_9125477457020068719_n.jpg%3Foh%3D49197be3329ecfa282f1036fbb606a2f%26oe%3D5F70DE10&t=l&u=554898111156%40c.us&i=1585186472&n=XqEN0RqcF3NndR7dkGwU93or7QoCPY3gb6nWZextkD0%3D\",\"raw\":null,\"tag\":\"1585186472\"},\"msgs\":null},\"groupMetadata\":null,\"presence\":{\"id\":\"554898111156@c.us\",\"chatstates\":[]}},\"quotedMsgObj\":null,\"mediaData\":{}}]}]}"}
+[23/09/20 21:39:15 - TChatList]  
+{
+  "result":
+  [
+        {
+      "id":"554898111156@c.us",
+      "pendingMsgs":false,
+      "lastReceivedKey":
+      {
+        "fromMe":false,
+        "remote":"554898111156@c.us",
+        "id":"A6994DC033A4ED16327535573567196F",
+        "_serialized":"false_554898111156@c.us_A6994DC033A4ED16327535573567196F"
+      }
+,
+      "t":1600907954,
+      "unreadCount":1,
+      "archive":false,
+      "isReadOnly":false,
+      "modifyTag":665592,
+      "muteExpiration":0,
+      "name":"Allan",
+      "notSpam":true,
+      "pin":0,
+      "msgs":null,
+      "kind":"chat",
+      "isGroup":false,
+      "formattedTitle":"Allan",
+      "contact":
+      {
+        "id":"554898111156@c.us",
+        "name":"Allan",
+        "shortName":"Allan",
+        "pushname":"...",
+        "type":"in",
+        "isBusiness":false,
+        "isEnterprise":false,
+        "statusMute":false,
+        "labels":
+        [
+                  ]
+,
+        "formattedName":"Allan",
+        "isMe":false,
+        "isMyContact":true,
+        "isPSA":false,
+        "isUser":true,
+        "isWAContact":true,
+        "profilePicThumbObj":
+        {
+          "eurl":"https://pps.whatsapp.net/v/t61.24694-24/86179821_2564638573815487_9125477457020068719_n.jpg?oh=49197be3329ecfa282f1036fbb606a2f&oe=5F70DE10",
+          "id":"554898111156@c.us",
+          "img":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F86179821_2564638573815487_9125477457020068719_n.jpg%3Foh%3D49197be3329ecfa282f1036fbb606a2f%26oe%3D5F70DE10&t=s&u=554898111156%40c.us&i=1585186472&n=XqEN0RqcF3NndR7dkGwU93or7QoCPY3gb6nWZextkD0%3D",
+          "imgFull":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F86179821_2564638573815487_9125477457020068719_n.jpg%3Foh%3D49197be3329ecfa282f1036fbb606a2f%26oe%3D5F70DE10&t=l&u=554898111156%40c.us&i=1585186472&n=XqEN0RqcF3NndR7dkGwU93or7QoCPY3gb6nWZextkD0%3D",
+          "raw":null,
+          "tag":"1585186472"
+        }
+,
+        "msgs":null
+      }
+,
+      "groupMetadata":null,
+      "presence":
+      {
+        "id":"554898111156@c.us",
+        "chatstates":
+        [
+                  ]
+      }
+,
+      "messages":
+      [
+                {
+          "id":"false_554898111156@c.us_A6994DC033A4ED16327535573567196F",
+          "body":"Oi",
+          "type":"chat",
+          "t":1600907954,
+          "notifyName":"",
+          "from":"554898111156@c.us",
+          "to":"554898153342@c.us",
+          "self":"in",
+          "ack":-1,
+          "invis":false,
+          "isNewMsg":false,
+          "star":false,
+          "recvFresh":true,
+          "broadcast":false,
+          "mentionedJidList":
+          [
+                      ]
+,
+          "isVcardOverMmsDocument":false,
+          "isForwarded":false,
+          "labels":
+          [
+                      ]
+,
+          "chatId":"554898111156@c.us",
+          "fromMe":false,
+          "sender":
+          {
+            "id":"554898111156@c.us",
+            "name":"Allan",
+            "shortName":"Allan",
+            "pushname":"...",
+            "type":"in",
+            "isBusiness":false,
+            "isEnterprise":false,
+            "statusMute":false,
+            "labels":
+            [
+                          ]
+,
+            "formattedName":"Allan",
+            "isMe":false,
+            "isMyContact":true,
+            "isPSA":false,
+            "isUser":true,
+            "isWAContact":true,
+            "profilePicThumbObj":
+            {
+              "eurl":"https://pps.whatsapp.net/v/t61.24694-24/86179821_2564638573815487_9125477457020068719_n.jpg?oh=49197be3329ecfa282f1036fbb606a2f&oe=5F70DE10",
+              "id":"554898111156@c.us",
+              "img":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F86179821_2564638573815487_9125477457020068719_n.jpg%3Foh%3D49197be3329ecfa282f1036fbb606a2f%26oe%3D5F70DE10&t=s&u=554898111156%40c.us&i=1585186472&n=XqEN0RqcF3NndR7dkGwU93or7QoCPY3gb6nWZextkD0%3D",
+              "imgFull":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F86179821_2564638573815487_9125477457020068719_n.jpg%3Foh%3D49197be3329ecfa282f1036fbb606a2f%26oe%3D5F70DE10&t=l&u=554898111156%40c.us&i=1585186472&n=XqEN0RqcF3NndR7dkGwU93or7QoCPY3gb6nWZextkD0%3D",
+              "raw":null,
+              "tag":"1585186472"
+            }
+,
+            "msgs":null
+          }
+,
+          "timestamp":1600907954,
+          "content":"Oi",
+          "isGroupMsg":false,
+          "isMMS":false,
+          "isMedia":false,
+          "isNotification":false,
+          "isPSA":false,
+          "chat":
+          {
+            "id":"554898111156@c.us",
+            "pendingMsgs":false,
+            "lastReceivedKey":
+            {
+              "fromMe":false,
+              "remote":"554898111156@c.us",
+              "id":"A6994DC033A4ED16327535573567196F",
+              "_serialized":"false_554898111156@c.us_A6994DC033A4ED16327535573567196F"
+            }
+,
+            "t":1600907954,
+            "unreadCount":1,
+            "archive":false,
+            "isReadOnly":false,
+            "modifyTag":665592,
+            "muteExpiration":0,
+            "name":"Allan",
+            "notSpam":true,
+            "pin":0,
+            "msgs":null,
+            "kind":"chat",
+            "isGroup":false,
+            "formattedTitle":"Allan",
+            "contact":
+            {
+              "id":"554898111156@c.us",
+              "name":"Allan",
+              "shortName":"Allan",
+              "pushname":"...",
+              "type":"in",
+              "isBusiness":false,
+              "isEnterprise":false,
+              "statusMute":false,
+              "labels":
+              [
+                              ]
+,
+              "formattedName":"Allan",
+              "isMe":false,
+              "isMyContact":true,
+              "isPSA":false,
+              "isUser":true,
+              "isWAContact":true,
+              "profilePicThumbObj":
+              {
+                "eurl":"https://pps.whatsapp.net/v/t61.24694-24/86179821_2564638573815487_9125477457020068719_n.jpg?oh=49197be3329ecfa282f1036fbb606a2f&oe=5F70DE10",
+                "id":"554898111156@c.us",
+                "img":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F86179821_2564638573815487_9125477457020068719_n.jpg%3Foh%3D49197be3329ecfa282f1036fbb606a2f%26oe%3D5F70DE10&t=s&u=554898111156%40c.us&i=1585186472&n=XqEN0RqcF3NndR7dkGwU93or7QoCPY3gb6nWZextkD0%3D",
+                "imgFull":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F86179821_2564638573815487_9125477457020068719_n.jpg%3Foh%3D49197be3329ecfa282f1036fbb606a2f%26oe%3D5F70DE10&t=l&u=554898111156%40c.us&i=1585186472&n=XqEN0RqcF3NndR7dkGwU93or7QoCPY3gb6nWZextkD0%3D",
+                "raw":null,
+                "tag":"1585186472"
+              }
+,
+              "msgs":null
+            }
+,
+            "groupMetadata":null,
+            "presence":
+            {
+              "id":"554898111156@c.us",
+              "chatstates":
+              [
+                              ]
+            }
+          }
+,
+          "quotedMsgObj":null,
+          "mediaData":
+          {
+                      }
+        }
+      ]
+    }
+  ]
+}
+
+
+[23/09/20 21:39:16 - CONSOLE]  
+{"name":"getUnreadMessages","result":"{\"result\":[{\"id\":\"554898111156@c.us\",\"pendingMsgs\":false,\"lastReceivedKey\":{\"fromMe\":true,\"remote\":\"554898111156@c.us\",\"id\":\"3EB0ECB8A1484936A9DF\",\"_serialized\":\"true_554898111156@c.us_3EB0ECB8A1484936A9DF\"},\"t\":1600907955,\"unreadCount\":0,\"archive\":false,\"isReadOnly\":false,\"modifyTag\":665592,\"muteExpiration\":0,\"name\":\"Allan\",\"notSpam\":true,\"pin\":0,\"msgs\":null,\"kind\":\"chat\",\"isGroup\":false,\"formattedTitle\":\"Allan\",\"contact\":{\"id\":\"554898111156@c.us\",\"name\":\"Allan\",\"shortName\":\"Allan\",\"pushname\":\"...\",\"type\":\"in\",\"isBusiness\":false,\"isEnterprise\":false,\"statusMute\":false,\"labels\":[],\"formattedName\":\"Allan\",\"isMe\":false,\"isMyContact\":true,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{\"eurl\":\"https://pps.whatsapp.net/v/t61.24694-24/86179821_2564638573815487_9125477457020068719_n.jpg?oh=49197be3329ecfa282f1036fbb606a2f&oe=5F70DE10\",\"id\":\"554898111156@c.us\",\"img\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F86179821_2564638573815487_9125477457020068719_n.jpg%3Foh%3D49197be3329ecfa282f1036fbb606a2f%26oe%3D5F70DE10&t=s&u=554898111156%40c.us&i=1585186472&n=XqEN0RqcF3NndR7dkGwU93or7QoCPY3gb6nWZextkD0%3D\",\"imgFull\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F86179821_2564638573815487_9125477457020068719_n.jpg%3Foh%3D49197be3329ecfa282f1036fbb606a2f%26oe%3D5F70DE10&t=l&u=554898111156%40c.us&i=1585186472&n=XqEN0RqcF3NndR7dkGwU93or7QoCPY3gb6nWZextkD0%3D\",\"raw\":null,\"tag\":\"1585186472\"},\"msgs\":null},\"groupMetadata\":null,\"presence\":{\"id\":\"554898111156@c.us\",\"chatstates\":[]},\"messages\":[{\"id\":\"true_554898111156@c.us_3EB0ECB8A1484936A9DF\",\"body\":\"V\",\"type\":\"chat\",\"subtype\":null,\"t\":1600907955,\"from\":\"554898153342@c.us\",\"to\":\"554898111156@c.us\",\"self\":\"out\",\"ack\":1,\"isNewMsg\":false,\"star\":false,\"mentionedJidList\":[],\"isVcardOverMmsDocument\":false,\"isForwarded\":false,\"ephemeralStartTimestamp\":1600907956,\"chatId\":\"554898111156@c.us\",\"fromMe\":true,\"sender\":{\"id\":\"554898153342@c.us\",\"type\":\"in\",\"formattedName\":\"Voce\",\"isMe\":true,\"isMyContact\":false,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{\"eurl\":\"https://pps.whatsapp.net/v/t61.24694-24/116269755_2675348859371768_4964371647744728908_n.jpg?oh=4afc3b172ecdc16d65dfe3b3a319f079&oe=5F6FEC3F\",\"id\":\"554898153342@c.us\",\"img\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116269755_2675348859371768_4964371647744728908_n.jpg%3Foh%3D4afc3b172ecdc16d65dfe3b3a319f079%26oe%3D5F6FEC3F&t=s&u=554898153342%40c.us&i=1595640568&n=rQZ%2BS%2Fybn5cRG9ZdvhU7z57BSbmT8VeFZzxIaDJLlcA%3D\",\"imgFull\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116269755_2675348859371768_4964371647744728908_n.jpg%3Foh%3D4afc3b172ecdc16d65dfe3b3a319f079%26oe%3D5F6FEC3F&t=l&u=554898153342%40c.us&i=1595640568&n=rQZ%2BS%2Fybn5cRG9ZdvhU7z57BSbmT8VeFZzxIaDJLlcA%3D\",\"raw\":null,\"tag\":\"1595640568\"},\"msgs\":null},\"timestamp\":1600907955,\"content\":\"V\",\"isGroupMsg\":false,\"isMMS\":false,\"isMedia\":false,\"isNotification\":false,\"isPSA\":false,\"chat\":{\"id\":\"554898111156@c.us\",\"pendingMsgs\":false,\"lastReceivedKey\":{\"fromMe\":true,\"remote\":\"554898111156@c.us\",\"id\":\"3EB0ECB8A1484936A9DF\",\"_serialized\":\"true_554898111156@c.us_3EB0ECB8A1484936A9DF\"},\"t\":1600907955,\"unreadCount\":0,\"archive\":false,\"isReadOnly\":false,\"modifyTag\":665592,\"muteExpiration\":0,\"name\":\"Allan\",\"notSpam\":true,\"pin\":0,\"msgs\":null,\"kind\":\"chat\",\"isGroup\":false,\"formattedTitle\":\"Allan\",\"contact\":{\"id\":\"554898111156@c.us\",\"name\":\"Allan\",\"shortName\":\"Allan\",\"pushname\":\"...\",\"type\":\"in\",\"isBusiness\":false,\"isEnterprise\":false,\"statusMute\":false,\"labels\":[],\"formattedName\":\"Allan\",\"isMe\":false,\"isMyContact\":true,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{\"eurl\":\"https://pps.whatsapp.net/v/t61.24694-24/86179821_2564638573815487_9125477457020068719_n.jpg?oh=49197be3329ecfa282f1036fbb606a2f&oe=5F70DE10\",\"id\":\"554898111156@c.us\",\"img\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F86179821_2564638573815487_9125477457020068719_n.jpg%3Foh%3D49197be3329ecfa282f1036fbb606a2f%26oe%3D5F70DE10&t=s&u=554898111156%40c.us&i=1585186472&n=XqEN0RqcF3NndR7dkGwU93or7QoCPY3gb6nWZextkD0%3D\",\"imgFull\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F86179821_2564638573815487_9125477457020068719_n.jpg%3Foh%3D49197be3329ecfa282f1036fbb606a2f%26oe%3D5F70DE10&t=l&u=554898111156%40c.us&i=1585186472&n=XqEN0RqcF3NndR7dkGwU93or7QoCPY3gb6nWZextkD0%3D\",\"raw\":null,\"tag\":\"1585186472\"},\"msgs\":null},\"groupMetadata\":null,\"presence\":{\"id\":\"554898111156@c.us\",\"chatstates\":[]}},\"quotedMsgObj\":null,\"mediaData\":{}}]}]}"}
+[23/09/20 21:39:16 - TChatList]  
+{
+  "result":
+  [
+        {
+      "id":"554898111156@c.us",
+      "pendingMsgs":false,
+      "lastReceivedKey":
+      {
+        "fromMe":true,
+        "remote":"554898111156@c.us",
+        "id":"3EB0ECB8A1484936A9DF",
+        "_serialized":"true_554898111156@c.us_3EB0ECB8A1484936A9DF"
+      }
+,
+      "t":1600907955,
+      "unreadCount":0,
+      "archive":false,
+      "isReadOnly":false,
+      "modifyTag":665592,
+      "muteExpiration":0,
+      "name":"Allan",
+      "notSpam":true,
+      "pin":0,
+      "msgs":null,
+      "kind":"chat",
+      "isGroup":false,
+      "formattedTitle":"Allan",
+      "contact":
+      {
+        "id":"554898111156@c.us",
+        "name":"Allan",
+        "shortName":"Allan",
+        "pushname":"...",
+        "type":"in",
+        "isBusiness":false,
+        "isEnterprise":false,
+        "statusMute":false,
+        "labels":
+        [
+                  ]
+,
+        "formattedName":"Allan",
+        "isMe":false,
+        "isMyContact":true,
+        "isPSA":false,
+        "isUser":true,
+        "isWAContact":true,
+        "profilePicThumbObj":
+        {
+          "eurl":"https://pps.whatsapp.net/v/t61.24694-24/86179821_2564638573815487_9125477457020068719_n.jpg?oh=49197be3329ecfa282f1036fbb606a2f&oe=5F70DE10",
+          "id":"554898111156@c.us",
+          "img":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F86179821_2564638573815487_9125477457020068719_n.jpg%3Foh%3D49197be3329ecfa282f1036fbb606a2f%26oe%3D5F70DE10&t=s&u=554898111156%40c.us&i=1585186472&n=XqEN0RqcF3NndR7dkGwU93or7QoCPY3gb6nWZextkD0%3D",
+          "imgFull":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F86179821_2564638573815487_9125477457020068719_n.jpg%3Foh%3D49197be3329ecfa282f1036fbb606a2f%26oe%3D5F70DE10&t=l&u=554898111156%40c.us&i=1585186472&n=XqEN0RqcF3NndR7dkGwU93or7QoCPY3gb6nWZextkD0%3D",
+          "raw":null,
+          "tag":"1585186472"
+        }
+,
+        "msgs":null
+      }
+,
+      "groupMetadata":null,
+      "presence":
+      {
+        "id":"554898111156@c.us",
+        "chatstates":
+        [
+                  ]
+      }
+,
+      "messages":
+      [
+                {
+          "id":"true_554898111156@c.us_3EB0ECB8A1484936A9DF",
+          "body":"V",
+          "type":"chat",
+          "subtype":null,
+          "t":1600907955,
+          "from":"554898153342@c.us",
+          "to":"554898111156@c.us",
+          "self":"out",
+          "ack":1,
+          "isNewMsg":false,
+          "star":false,
+          "mentionedJidList":
+          [
+                      ]
+,
+          "isVcardOverMmsDocument":false,
+          "isForwarded":false,
+          "ephemeralStartTimestamp":1600907956,
+          "chatId":"554898111156@c.us",
+          "fromMe":true,
+          "sender":
+          {
+            "id":"554898153342@c.us",
+            "type":"in",
+            "formattedName":"Voce",
+            "isMe":true,
+            "isMyContact":false,
+            "isPSA":false,
+            "isUser":true,
+            "isWAContact":true,
+            "profilePicThumbObj":
+            {
+              "eurl":"https://pps.whatsapp.net/v/t61.24694-24/116269755_2675348859371768_4964371647744728908_n.jpg?oh=4afc3b172ecdc16d65dfe3b3a319f079&oe=5F6FEC3F",
+              "id":"554898153342@c.us",
+              "img":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116269755_2675348859371768_4964371647744728908_n.jpg%3Foh%3D4afc3b172ecdc16d65dfe3b3a319f079%26oe%3D5F6FEC3F&t=s&u=554898153342%40c.us&i=1595640568&n=rQZ%2BS%2Fybn5cRG9ZdvhU7z57BSbmT8VeFZzxIaDJLlcA%3D",
+              "imgFull":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116269755_2675348859371768_4964371647744728908_n.jpg%3Foh%3D4afc3b172ecdc16d65dfe3b3a319f079%26oe%3D5F6FEC3F&t=l&u=554898153342%40c.us&i=1595640568&n=rQZ%2BS%2Fybn5cRG9ZdvhU7z57BSbmT8VeFZzxIaDJLlcA%3D",
+              "raw":null,
+              "tag":"1595640568"
+            }
+,
+            "msgs":null
+          }
+,
+          "timestamp":1600907955,
+          "content":"V",
+          "isGroupMsg":false,
+          "isMMS":false,
+          "isMedia":false,
+          "isNotification":false,
+          "isPSA":false,
+          "chat":
+          {
+            "id":"554898111156@c.us",
+            "pendingMsgs":false,
+            "lastReceivedKey":
+            {
+              "fromMe":true,
+              "remote":"554898111156@c.us",
+              "id":"3EB0ECB8A1484936A9DF",
+              "_serialized":"true_554898111156@c.us_3EB0ECB8A1484936A9DF"
+            }
+,
+            "t":1600907955,
+            "unreadCount":0,
+            "archive":false,
+            "isReadOnly":false,
+            "modifyTag":665592,
+            "muteExpiration":0,
+            "name":"Allan",
+            "notSpam":true,
+            "pin":0,
+            "msgs":null,
+            "kind":"chat",
+            "isGroup":false,
+            "formattedTitle":"Allan",
+            "contact":
+            {
+              "id":"554898111156@c.us",
+              "name":"Allan",
+              "shortName":"Allan",
+              "pushname":"...",
+              "type":"in",
+              "isBusiness":false,
+              "isEnterprise":false,
+              "statusMute":false,
+              "labels":
+              [
+                              ]
+,
+              "formattedName":"Allan",
+              "isMe":false,
+              "isMyContact":true,
+              "isPSA":false,
+              "isUser":true,
+              "isWAContact":true,
+              "profilePicThumbObj":
+              {
+                "eurl":"https://pps.whatsapp.net/v/t61.24694-24/86179821_2564638573815487_9125477457020068719_n.jpg?oh=49197be3329ecfa282f1036fbb606a2f&oe=5F70DE10",
+                "id":"554898111156@c.us",
+                "img":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F86179821_2564638573815487_9125477457020068719_n.jpg%3Foh%3D49197be3329ecfa282f1036fbb606a2f%26oe%3D5F70DE10&t=s&u=554898111156%40c.us&i=1585186472&n=XqEN0RqcF3NndR7dkGwU93or7QoCPY3gb6nWZextkD0%3D",
+                "imgFull":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F86179821_2564638573815487_9125477457020068719_n.jpg%3Foh%3D49197be3329ecfa282f1036fbb606a2f%26oe%3D5F70DE10&t=l&u=554898111156%40c.us&i=1585186472&n=XqEN0RqcF3NndR7dkGwU93or7QoCPY3gb6nWZextkD0%3D",
+                "raw":null,
+                "tag":"1585186472"
+              }
+,
+              "msgs":null
+            }
+,
+            "groupMetadata":null,
+            "presence":
+            {
+              "id":"554898111156@c.us",
+              "chatstates":
+              [
+                              ]
+            }
+          }
+,
+          "quotedMsgObj":null,
+          "mediaData":
+          {
+                      }
+        }
+      ]
+    }
+  ]
+}
+
+[23/09/20 21:39:28 - TResultQRCodeClass]  
+{
+  "result":
+  [
+      ]
+}

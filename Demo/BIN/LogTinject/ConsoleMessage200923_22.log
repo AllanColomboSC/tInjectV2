@@ -1,0 +1,136 @@
+
+[23/09/20 22:18:47]  Versao TInject: 3.1.0.0
+[23/09/20 22:18:47]  Versao  JS.ABR: 1.0.0.8
+[23/09/20 22:18:47]  Versao     CEF: 78.3.0
+[23/09/20 22:18:47]   
+[23/09/20 22:18:48 - CONSOLE IGNORADO]  
+Uncaught TypeError: Cannot read property 'toDataURL' of undefined
+[23/09/20 22:18:51 - TResultQRCodeClass]  
+{
+  "result":
+  [
+      ]
+}
+
+[23/09/20 22:18:52 - CONSOLE IGNORADO]  
+Uncaught TypeError: module.default.toString is not a function
+[23/09/20 22:18:52 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+
+[23/09/20 22:18:52 - CONSOLE]  
+{"name":"getMyNumber","result":"{\"result\":\"554898153342@c.us\"}"}
+[23/09/20 22:18:52 - TResponseMyNumber]  
+{
+  "result":"554898153342@c.us"
+}
+
+[23/09/20 22:18:58 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[23/09/20 22:19:08 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[23/09/20 22:19:18 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[23/09/20 22:19:28 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[23/09/20 22:19:38 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[23/09/20 22:19:48 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[23/09/20 22:19:58 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[23/09/20 22:20:05 - TResultQRCodeClass]  
+{
+  "result":
+  [
+      ]
+}
+
+[23/09/20 22:21:43]  Versao TInject: 3.1.0.0
+[23/09/20 22:21:43]  Versao  JS.ABR: 1.0.0.8
+[23/09/20 22:21:43]  Versao     CEF: 78.3.0
+[23/09/20 22:21:43]   
+[23/09/20 22:21:44 - CONSOLE IGNORADO]  
+Uncaught TypeError: Cannot read property 'toDataURL' of undefined
+[23/09/20 22:21:47 - TResultQRCodeClass]  
+{
+  "result":
+  [
+      ]
+}
+
+[23/09/20 22:21:48 - CONSOLE IGNORADO]  
+Uncaught TypeError: module.default.toString is not a function
+[23/09/20 22:21:48 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+
+[23/09/20 22:21:48 - CONSOLE]  
+{"name":"getMyNumber","result":"{\"result\":\"554898153342@c.us\"}"}
+[23/09/20 22:21:48 - TResponseMyNumber]  
+{
+  "result":"554898153342@c.us"
+}
+
+[23/09/20 22:21:54 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[23/09/20 22:22:04 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[23/09/20 22:22:14 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[23/09/20 22:22:24 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[23/09/20 22:22:34 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[23/09/20 22:22:44 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[23/09/20 22:22:54 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[23/09/20 22:23:02 - TResultQRCodeClass]  
+{
+  "result":
+  [
+      ]
+}
+
+[23/09/20 22:41:41]  Versao TInject: 3.1.0.0
+[23/09/20 22:41:41]  Versao  JS.ABR: 1.0.0.8
+[23/09/20 22:41:41]  Versao     CEF: 78.3.0
+[23/09/20 22:41:41]   
+[23/09/20 22:41:42 - CONSOLE IGNORADO]  
+Uncaught TypeError: Cannot read property 'toDataURL' of undefined
+[23/09/20 22:42:00 - TResultQRCodeClass]  
+{
+  "result":
+  [
+      ]
+}
+
+[23/09/20 22:42:00 - CONSOLE IGNORADO]  
+Uncaught TypeError: module.default.toString is not a function
+[23/09/20 22:42:00 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+
+[23/09/20 22:42:00 - CONSOLE]  
+{"name":"getMyNumber","result":"{\"result\":\"554898153342@c.us\"}"}
+[23/09/20 22:42:01 - TResponseMyNumber]  
+{
+  "result":"554898153342@c.us"
+}
+
+[23/09/20 22:42:01 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[23/09/20 22:42:11 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[23/09/20 22:42:21 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[23/09/20 22:42:31 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[23/09/20 22:42:41 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[23/09/20 22:42:51 - CONSOLE IGNORADO]  
+Uncaught ReferenceError: WAPI is not defined
+[23/09/20 22:42:58 - TResultQRCodeClass]  
+{
+  "result":
+  [
+      ]
+}

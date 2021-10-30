@@ -1,0 +1,109 @@
+
+
+[23/09/20 01:00:47 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":12}"}
+[23/09/20 01:00:47 - TResponseBattery]  
+{
+  "result":12
+}
+
+
+[23/09/20 01:03:57 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":12}"}
+[23/09/20 01:03:57 - TResponseBattery]  
+{
+  "result":12
+}
+
+
+[23/09/20 01:07:07 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":12}"}
+[23/09/20 01:07:07 - TResponseBattery]  
+{
+  "result":12
+}
+
+
+[23/09/20 01:10:17 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":12}"}
+[23/09/20 01:10:17 - TResponseBattery]  
+{
+  "result":12
+}
+
+
+[23/09/20 01:13:27 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":12}"}
+[23/09/20 01:13:27 - TResponseBattery]  
+{
+  "result":12
+}
+
+
+[23/09/20 01:16:37 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":12}"}
+[23/09/20 01:16:37 - TResponseBattery]  
+{
+  "result":12
+}
+
+
+[23/09/20 01:19:47 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":12}"}
+[23/09/20 01:19:47 - TResponseBattery]  
+{
+  "result":12
+}
+
+
+[23/09/20 01:22:57 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":12}"}
+[23/09/20 01:22:57 - TResponseBattery]  
+{
+  "result":12
+}
+
+
+[23/09/20 01:26:07 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":12}"}
+[23/09/20 01:26:07 - TResponseBattery]  
+{
+  "result":12
+}
+
+
+[23/09/20 01:29:17 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":12}"}
+[23/09/20 01:29:17 - TResponseBattery]  
+{
+  "result":12
+}
+
+
+[23/09/20 01:32:27 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":12}"}
+[23/09/20 01:32:27 - TResponseBattery]  
+{
+  "result":12
+}
+
+
+[23/09/20 01:35:37 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":12}"}
+[23/09/20 01:35:37 - TResponseBattery]  
+{
+  "result":12
+}
+
+
+[23/09/20 01:38:47 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":12}"}
+[23/09/20 01:38:47 - TResponseBattery]  
+{
+  "result":12
+}
+
+[23/09/20 01:39:32 - CONSOLE IGNORADO]  
+WebSocket connection to 'wss://web.whatsapp.com/ws' failed: Error in connection establishment: net::ERR_NETWORK_IO_SUSPENDED
+[23/09/20 01:39:33 - CONSOLE IGNORADO]  
+WebSocket connection to 'wss://web.whatsapp.com/ws' failed: Error in connection establishment: net::ERR_NETWORK_IO_SUSPENDED

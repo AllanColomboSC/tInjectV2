@@ -1,0 +1,2201 @@
+
+[10/01/21 22:29:05]  Versao TInject: 3.1.0.0
+[10/01/21 22:29:05]  Versao  JS.ABR: 1.0.1.0
+[10/01/21 22:29:05]  Versao     CEF: 78.3.0
+[10/01/21 22:29:05]   
+[10/01/21 22:29:06 - CONSOLE IGNORADO]  
+Uncaught TypeError: Cannot read property 'toDataURL' of undefined
+[10/01/21 22:29:26 - TResultQRCodeClass]  
+{
+  "result":
+  [
+      ]
+}
+
+
+[10/01/21 22:29:27 - CONSOLE]  
+{"name":"getMyNumber","result":"{\"result\":\"554898153342@c.us\"}"}
+[10/01/21 22:29:27 - TResponseMyNumber]  
+{
+  "result":"554898153342@c.us"
+}
+
+
+[10/01/21 22:29:28 - CONSOLE]  
+{"name":"OnChangeConnect","result":"{\"result\":true}"}
+[10/01/21 22:29:28 - TOnChangeConnect]  
+{
+  "result":true
+}
+
+
+[10/01/21 22:29:28 - CONSOLE]  
+{"name":"getUnreadMessages","result":"{\"result\":[{\"id\":\"554891406417@c.us\",\"pendingMsgs\":false,\"lastReceivedKey\":{\"fromMe\":false,\"remote\":\"554891406417@c.us\",\"id\":\"3EB0AC4F5988E2EA730C\",\"_serialized\":\"false_554891406417@c.us_3EB0AC4F5988E2EA730C\"},\"t\":1610230818,\"unreadCount\":5,\"archive\":false,\"isReadOnly\":false,\"modifyTag\":94041,\"muteExpiration\":0,\"name\":\"Test\",\"notSpam\":true,\"pin\":0,\"ephemeralDuration\":0,\"ephemeralSettingTimestamp\":0,\"msgs\":null,\"kind\":\"chat\",\"isGroup\":false,\"formattedTitle\":\"Test\",\"contact\":{\"id\":\"554891406417@c.us\",\"name\":\"Test\",\"type\":\"in\",\"verifiedName\":\"Test\",\"isBusiness\":true,\"isEnterprise\":false,\"verifiedLevel\":0,\"statusMute\":false,\"labels\":[],\"formattedName\":\"Test\",\"isMe\":false,\"isMyContact\":true,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{\"eurl\":\"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5\",\"id\":\"554891406417@c.us\",\"img\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"imgFull\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"raw\":null,\"tag\":\"1595551168\"},\"msgs\":null},\"groupMetadata\":null,\"presence\":{\"id\":\"554891406417@c.us\",\"chatstates\":[]},\"messages\":[{\"id\":\"false_554891406417@c.us_3EB0AC4F5988E2EA730C\",\"body\":\"Ola *SUPORTE PAPALEGUAS*, boa noite bem vindo a *Via-Pian Lancheria (Rio Maina)* as nossas promocoes sao validas para *VEM BUSCAR* ou *CONSUMO NO LOCAL*.\\n\\nDigite *D* para *DELIVERY*\\nDigite *V* para *VEM BUSCAR*\",\"type\":\"chat\",\"t\":1610230818,\"notifyName\":\"\",\"from\":\"554891406417@c.us\",\"to\":\"554898153342@c.us\",\"self\":\"in\",\"ack\":-1,\"invis\":true,\"star\":false,\"isFromTemplate\":false,\"broadcast\":false,\"mentionedJidList\":[],\"isVcardOverMmsDocument\":false,\"isForwarded\":false,\"labels\":[],\"ephemeralOutOfSync\":false,\"chatId\":\"554891406417@c.us\",\"fromMe\":false,\"sender\":{\"id\":\"554891406417@c.us\",\"name\":\"Test\",\"type\":\"in\",\"verifiedName\":\"Test\",\"isBusiness\":true,\"isEnterprise\":false,\"verifiedLevel\":0,\"statusMute\":false,\"labels\":[],\"formattedName\":\"Test\",\"isMe\":false,\"isMyContact\":true,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{\"eurl\":\"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5\",\"id\":\"554891406417@c.us\",\"img\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"imgFull\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"raw\":null,\"tag\":\"1595551168\"},\"msgs\":null},\"timestamp\":1610230818,\"content\":\"Ola *SUPORTE PAPALEGUAS*, boa noite bem vindo a *Via-Pian Lancheria (Rio Maina)* as nossas promocoes sao validas para *VEM BUSCAR* ou *CONSUMO NO LOCAL*.\\n\\nDigite *D* para *DELIVERY*\\nDigite *V* para *VEM BUSCAR*\",\"isGroupMsg\":false,\"isMMS\":false,\"isMedia\":false,\"isNotification\":false,\"isPSA\":false,\"chat\":{\"id\":\"554891406417@c.us\",\"pendingMsgs\":false,\"lastReceivedKey\":{\"fromMe\":false,\"remote\":\"554891406417@c.us\",\"id\":\"3EB0AC4F5988E2EA730C\",\"_serialized\":\"false_554891406417@c.us_3EB0AC4F5988E2EA730C\"},\"t\":1610230818,\"unreadCount\":5,\"archive\":false,\"isReadOnly\":false,\"modifyTag\":94041,\"muteExpiration\":0,\"name\":\"Test\",\"notSpam\":true,\"pin\":0,\"ephemeralDuration\":0,\"ephemeralSettingTimestamp\":0,\"msgs\":null,\"kind\":\"chat\",\"isGroup\":false,\"formattedTitle\":\"Test\",\"contact\":{\"id\":\"554891406417@c.us\",\"name\":\"Test\",\"type\":\"in\",\"verifiedName\":\"Test\",\"isBusiness\":true,\"isEnterprise\":false,\"verifiedLevel\":0,\"statusMute\":false,\"labels\":[],\"formattedName\":\"Test\",\"isMe\":false,\"isMyContact\":true,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{\"eurl\":\"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5\",\"id\":\"554891406417@c.us\",\"img\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"imgFull\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"raw\":null,\"tag\":\"1595551168\"},\"msgs\":null},\"groupMetadata\":null,\"presence\":{\"id\":\"554891406417@c.us\",\"chatstates\":[]}},\"quotedMsgObj\":null,\"mediaData\":{}}]}]}"}
+[10/01/21 22:29:28 - TChatList]  
+{
+  "result":
+  [
+        {
+      "id":"554891406417@c.us",
+      "pendingMsgs":false,
+      "lastReceivedKey":
+      {
+        "fromMe":false,
+        "remote":"554891406417@c.us",
+        "id":"3EB0AC4F5988E2EA730C",
+        "_serialized":"false_554891406417@c.us_3EB0AC4F5988E2EA730C"
+      }
+,
+      "t":1610230818,
+      "unreadCount":5,
+      "archive":false,
+      "isReadOnly":false,
+      "modifyTag":94041,
+      "muteExpiration":0,
+      "name":"Test",
+      "notSpam":true,
+      "pin":0,
+      "ephemeralDuration":0,
+      "ephemeralSettingTimestamp":0,
+      "msgs":null,
+      "kind":"chat",
+      "isGroup":false,
+      "formattedTitle":"Test",
+      "contact":
+      {
+        "id":"554891406417@c.us",
+        "name":"Test",
+        "type":"in",
+        "verifiedName":"Test",
+        "isBusiness":true,
+        "isEnterprise":false,
+        "verifiedLevel":0,
+        "statusMute":false,
+        "labels":
+        [
+                  ]
+,
+        "formattedName":"Test",
+        "isMe":false,
+        "isMyContact":true,
+        "isPSA":false,
+        "isUser":true,
+        "isWAContact":true,
+        "profilePicThumbObj":
+        {
+          "eurl":"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5",
+          "id":"554891406417@c.us",
+          "img":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+          "imgFull":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+          "raw":null,
+          "tag":"1595551168"
+        }
+,
+        "msgs":null
+      }
+,
+      "groupMetadata":null,
+      "presence":
+      {
+        "id":"554891406417@c.us",
+        "chatstates":
+        [
+                  ]
+      }
+,
+      "messages":
+      [
+                {
+          "id":"false_554891406417@c.us_3EB0AC4F5988E2EA730C",
+          "body":"Ola *SUPORTE PAPALEGUAS*, boa noite bem vindo a *Via-Pian Lancheria (Rio Maina)* as nossas promocoes sao validas para *VEM BUSCAR* ou *CONSUMO NO LOCAL*.
+
+Digite *D* para *DELIVERY*
+Digite *V* para *VEM BUSCAR*",
+          "type":"chat",
+          "t":1610230818,
+          "notifyName":"",
+          "from":"554891406417@c.us",
+          "to":"554898153342@c.us",
+          "self":"in",
+          "ack":-1,
+          "invis":true,
+          "star":false,
+          "isFromTemplate":false,
+          "broadcast":false,
+          "mentionedJidList":
+          [
+                      ]
+,
+          "isVcardOverMmsDocument":false,
+          "isForwarded":false,
+          "labels":
+          [
+                      ]
+,
+          "ephemeralOutOfSync":false,
+          "chatId":"554891406417@c.us",
+          "fromMe":false,
+          "sender":
+          {
+            "id":"554891406417@c.us",
+            "name":"Test",
+            "type":"in",
+            "verifiedName":"Test",
+            "isBusiness":true,
+            "isEnterprise":false,
+            "verifiedLevel":0,
+            "statusMute":false,
+            "labels":
+            [
+                          ]
+,
+            "formattedName":"Test",
+            "isMe":false,
+            "isMyContact":true,
+            "isPSA":false,
+            "isUser":true,
+            "isWAContact":true,
+            "profilePicThumbObj":
+            {
+              "eurl":"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5",
+              "id":"554891406417@c.us",
+              "img":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+              "imgFull":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+              "raw":null,
+              "tag":"1595551168"
+            }
+,
+            "msgs":null
+          }
+,
+          "timestamp":1610230818,
+          "content":"Ola *SUPORTE PAPALEGUAS*, boa noite bem vindo a *Via-Pian Lancheria (Rio Maina)* as nossas promocoes sao validas para *VEM BUSCAR* ou *CONSUMO NO LOCAL*.
+
+Digite *D* para *DELIVERY*
+Digite *V* para *VEM BUSCAR*",
+          "isGroupMsg":false,
+          "isMMS":false,
+          "isMedia":false,
+          "isNotification":false,
+          "isPSA":false,
+          "chat":
+          {
+            "id":"554891406417@c.us",
+            "pendingMsgs":false,
+            "lastReceivedKey":
+            {
+              "fromMe":false,
+              "remote":"554891406417@c.us",
+              "id":"3EB0AC4F5988E2EA730C",
+              "_serialized":"false_554891406417@c.us_3EB0AC4F5988E2EA730C"
+            }
+,
+            "t":1610230818,
+            "unreadCount":5,
+            "archive":false,
+            "isReadOnly":false,
+            "modifyTag":94041,
+            "muteExpiration":0,
+            "name":"Test",
+            "notSpam":true,
+            "pin":0,
+            "ephemeralDuration":0,
+            "ephemeralSettingTimestamp":0,
+            "msgs":null,
+            "kind":"chat",
+            "isGroup":false,
+            "formattedTitle":"Test",
+            "contact":
+            {
+              "id":"554891406417@c.us",
+              "name":"Test",
+              "type":"in",
+              "verifiedName":"Test",
+              "isBusiness":true,
+              "isEnterprise":false,
+              "verifiedLevel":0,
+              "statusMute":false,
+              "labels":
+              [
+                              ]
+,
+              "formattedName":"Test",
+              "isMe":false,
+              "isMyContact":true,
+              "isPSA":false,
+              "isUser":true,
+              "isWAContact":true,
+              "profilePicThumbObj":
+              {
+                "eurl":"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5",
+                "id":"554891406417@c.us",
+                "img":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+                "imgFull":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+                "raw":null,
+                "tag":"1595551168"
+              }
+,
+              "msgs":null
+            }
+,
+            "groupMetadata":null,
+            "presence":
+            {
+              "id":"554891406417@c.us",
+              "chatstates":
+              [
+                              ]
+            }
+          }
+,
+          "quotedMsgObj":null,
+          "mediaData":
+          {
+                      }
+        }
+      ]
+    }
+  ]
+}
+
+
+[10/01/21 22:29:29 - CONSOLE]  
+{"name":"getUnreadMessages","result":"{\"result\":[{\"id\":\"554891406417@c.us\",\"pendingMsgs\":false,\"lastReceivedKey\":{\"fromMe\":true,\"remote\":\"554891406417@c.us\",\"id\":\"3EB0E9C6EFD9E513D230\",\"_serialized\":\"true_554891406417@c.us_3EB0E9C6EFD9E513D230\"},\"t\":1610328611,\"unreadCount\":0,\"archive\":false,\"isReadOnly\":false,\"modifyTag\":94041,\"muteExpiration\":0,\"name\":\"Test\",\"notSpam\":true,\"pin\":0,\"ephemeralDuration\":0,\"ephemeralSettingTimestamp\":0,\"msgs\":null,\"kind\":\"chat\",\"isGroup\":false,\"formattedTitle\":\"Test\",\"contact\":{\"id\":\"554891406417@c.us\",\"name\":\"Test\",\"type\":\"in\",\"verifiedName\":\"Test\",\"isBusiness\":true,\"isEnterprise\":false,\"verifiedLevel\":0,\"statusMute\":false,\"labels\":[],\"formattedName\":\"Test\",\"isMe\":false,\"isMyContact\":true,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{\"eurl\":\"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5\",\"id\":\"554891406417@c.us\",\"img\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"imgFull\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"raw\":null,\"tag\":\"1595551168\"},\"msgs\":null},\"groupMetadata\":null,\"presence\":{\"id\":\"554891406417@c.us\",\"chatstates\":[]},\"messages\":[{\"id\":\"true_554891406417@c.us_3EB0E9C6EFD9E513D230\",\"body\":\"V\",\"type\":\"chat\",\"subtype\":null,\"t\":1610328611,\"from\":\"554898153342@c.us\",\"to\":\"554891406417@c.us\",\"self\":\"out\",\"ack\":1,\"isNewMsg\":false,\"star\":false,\"isFromTemplate\":false,\"mentionedJidList\":[],\"isVcardOverMmsDocument\":false,\"isForwarded\":false,\"ephemeralStartTimestamp\":1610328612,\"chatId\":\"554891406417@c.us\",\"fromMe\":true,\"sender\":{\"id\":\"554898153342@c.us\",\"type\":\"in\",\"formattedName\":\"Voce\",\"isMe\":true,\"isMyContact\":false,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{\"eurl\":\"https://pps.whatsapp.net/v/t61.24694-24/116269755_2675348859371768_4964371647744728908_n.jpg?oh=0c395db361d8d890cda5a29c648df3bc&oe=5FFF9FBF\",\"id\":\"554898153342@c.us\",\"img\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116269755_2675348859371768_4964371647744728908_n.jpg%3Foh%3D0c395db361d8d890cda5a29c648df3bc%26oe%3D5FFF9FBF&t=s&u=554898153342%40c.us&i=1595640568&n=5Uxd2gAv4TGWZYme8UDbr7gC6wUTV3RRHkJ6SA9Cq%2FA%3D\",\"imgFull\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116269755_2675348859371768_4964371647744728908_n.jpg%3Foh%3D0c395db361d8d890cda5a29c648df3bc%26oe%3D5FFF9FBF&t=l&u=554898153342%40c.us&i=1595640568&n=5Uxd2gAv4TGWZYme8UDbr7gC6wUTV3RRHkJ6SA9Cq%2FA%3D\",\"raw\":null,\"tag\":\"1595640568\"},\"msgs\":null},\"timestamp\":1610328611,\"content\":\"V\",\"isGroupMsg\":false,\"isMMS\":false,\"isMedia\":false,\"isNotification\":false,\"isPSA\":false,\"chat\":{\"id\":\"554891406417@c.us\",\"pendingMsgs\":false,\"lastReceivedKey\":{\"fromMe\":true,\"remote\":\"554891406417@c.us\",\"id\":\"3EB0E9C6EFD9E513D230\",\"_serialized\":\"true_554891406417@c.us_3EB0E9C6EFD9E513D230\"},\"t\":1610328611,\"unreadCount\":0,\"archive\":false,\"isReadOnly\":false,\"modifyTag\":94041,\"muteExpiration\":0,\"name\":\"Test\",\"notSpam\":true,\"pin\":0,\"ephemeralDuration\":0,\"ephemeralSettingTimestamp\":0,\"msgs\":null,\"kind\":\"chat\",\"isGroup\":false,\"formattedTitle\":\"Test\",\"contact\":{\"id\":\"554891406417@c.us\",\"name\":\"Test\",\"type\":\"in\",\"verifiedName\":\"Test\",\"isBusiness\":true,\"isEnterprise\":false,\"verifiedLevel\":0,\"statusMute\":false,\"labels\":[],\"formattedName\":\"Test\",\"isMe\":false,\"isMyContact\":true,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{\"eurl\":\"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5\",\"id\":\"554891406417@c.us\",\"img\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"imgFull\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"raw\":null,\"tag\":\"1595551168\"},\"msgs\":null},\"groupMetadata\":null,\"presence\":{\"id\":\"554891406417@c.us\",\"chatstates\":[]}},\"quotedMsgObj\":null,\"mediaData\":{}}]}]}"}
+[10/01/21 22:29:29 - TChatList]  
+{
+  "result":
+  [
+        {
+      "id":"554891406417@c.us",
+      "pendingMsgs":false,
+      "lastReceivedKey":
+      {
+        "fromMe":true,
+        "remote":"554891406417@c.us",
+        "id":"3EB0E9C6EFD9E513D230",
+        "_serialized":"true_554891406417@c.us_3EB0E9C6EFD9E513D230"
+      }
+,
+      "t":1610328611,
+      "unreadCount":0,
+      "archive":false,
+      "isReadOnly":false,
+      "modifyTag":94041,
+      "muteExpiration":0,
+      "name":"Test",
+      "notSpam":true,
+      "pin":0,
+      "ephemeralDuration":0,
+      "ephemeralSettingTimestamp":0,
+      "msgs":null,
+      "kind":"chat",
+      "isGroup":false,
+      "formattedTitle":"Test",
+      "contact":
+      {
+        "id":"554891406417@c.us",
+        "name":"Test",
+        "type":"in",
+        "verifiedName":"Test",
+        "isBusiness":true,
+        "isEnterprise":false,
+        "verifiedLevel":0,
+        "statusMute":false,
+        "labels":
+        [
+                  ]
+,
+        "formattedName":"Test",
+        "isMe":false,
+        "isMyContact":true,
+        "isPSA":false,
+        "isUser":true,
+        "isWAContact":true,
+        "profilePicThumbObj":
+        {
+          "eurl":"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5",
+          "id":"554891406417@c.us",
+          "img":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+          "imgFull":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+          "raw":null,
+          "tag":"1595551168"
+        }
+,
+        "msgs":null
+      }
+,
+      "groupMetadata":null,
+      "presence":
+      {
+        "id":"554891406417@c.us",
+        "chatstates":
+        [
+                  ]
+      }
+,
+      "messages":
+      [
+                {
+          "id":"true_554891406417@c.us_3EB0E9C6EFD9E513D230",
+          "body":"V",
+          "type":"chat",
+          "subtype":null,
+          "t":1610328611,
+          "from":"554898153342@c.us",
+          "to":"554891406417@c.us",
+          "self":"out",
+          "ack":1,
+          "isNewMsg":false,
+          "star":false,
+          "isFromTemplate":false,
+          "mentionedJidList":
+          [
+                      ]
+,
+          "isVcardOverMmsDocument":false,
+          "isForwarded":false,
+          "ephemeralStartTimestamp":1610328612,
+          "chatId":"554891406417@c.us",
+          "fromMe":true,
+          "sender":
+          {
+            "id":"554898153342@c.us",
+            "type":"in",
+            "formattedName":"Voce",
+            "isMe":true,
+            "isMyContact":false,
+            "isPSA":false,
+            "isUser":true,
+            "isWAContact":true,
+            "profilePicThumbObj":
+            {
+              "eurl":"https://pps.whatsapp.net/v/t61.24694-24/116269755_2675348859371768_4964371647744728908_n.jpg?oh=0c395db361d8d890cda5a29c648df3bc&oe=5FFF9FBF",
+              "id":"554898153342@c.us",
+              "img":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116269755_2675348859371768_4964371647744728908_n.jpg%3Foh%3D0c395db361d8d890cda5a29c648df3bc%26oe%3D5FFF9FBF&t=s&u=554898153342%40c.us&i=1595640568&n=5Uxd2gAv4TGWZYme8UDbr7gC6wUTV3RRHkJ6SA9Cq%2FA%3D",
+              "imgFull":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116269755_2675348859371768_4964371647744728908_n.jpg%3Foh%3D0c395db361d8d890cda5a29c648df3bc%26oe%3D5FFF9FBF&t=l&u=554898153342%40c.us&i=1595640568&n=5Uxd2gAv4TGWZYme8UDbr7gC6wUTV3RRHkJ6SA9Cq%2FA%3D",
+              "raw":null,
+              "tag":"1595640568"
+            }
+,
+            "msgs":null
+          }
+,
+          "timestamp":1610328611,
+          "content":"V",
+          "isGroupMsg":false,
+          "isMMS":false,
+          "isMedia":false,
+          "isNotification":false,
+          "isPSA":false,
+          "chat":
+          {
+            "id":"554891406417@c.us",
+            "pendingMsgs":false,
+            "lastReceivedKey":
+            {
+              "fromMe":true,
+              "remote":"554891406417@c.us",
+              "id":"3EB0E9C6EFD9E513D230",
+              "_serialized":"true_554891406417@c.us_3EB0E9C6EFD9E513D230"
+            }
+,
+            "t":1610328611,
+            "unreadCount":0,
+            "archive":false,
+            "isReadOnly":false,
+            "modifyTag":94041,
+            "muteExpiration":0,
+            "name":"Test",
+            "notSpam":true,
+            "pin":0,
+            "ephemeralDuration":0,
+            "ephemeralSettingTimestamp":0,
+            "msgs":null,
+            "kind":"chat",
+            "isGroup":false,
+            "formattedTitle":"Test",
+            "contact":
+            {
+              "id":"554891406417@c.us",
+              "name":"Test",
+              "type":"in",
+              "verifiedName":"Test",
+              "isBusiness":true,
+              "isEnterprise":false,
+              "verifiedLevel":0,
+              "statusMute":false,
+              "labels":
+              [
+                              ]
+,
+              "formattedName":"Test",
+              "isMe":false,
+              "isMyContact":true,
+              "isPSA":false,
+              "isUser":true,
+              "isWAContact":true,
+              "profilePicThumbObj":
+              {
+                "eurl":"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5",
+                "id":"554891406417@c.us",
+                "img":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+                "imgFull":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+                "raw":null,
+                "tag":"1595551168"
+              }
+,
+              "msgs":null
+            }
+,
+            "groupMetadata":null,
+            "presence":
+            {
+              "id":"554891406417@c.us",
+              "chatstates":
+              [
+                              ]
+            }
+          }
+,
+          "quotedMsgObj":null,
+          "mediaData":
+          {
+                      }
+        }
+      ]
+    }
+  ]
+}
+
+
+[10/01/21 22:30:18 - CONSOLE]  
+{"name":"getUnreadMessages","result":"{\"result\":[{\"id\":\"554891406417@c.us\",\"pendingMsgs\":false,\"lastReceivedKey\":{\"fromMe\":true,\"remote\":\"554891406417@c.us\",\"id\":\"3EB0E9C6EFD9E513D230\",\"_serialized\":\"true_554891406417@c.us_3EB0E9C6EFD9E513D230\",\"t\":1610328615},\"t\":1610328611,\"unreadCount\":5,\"archive\":false,\"isReadOnly\":false,\"modifyTag\":94041,\"muteExpiration\":0,\"name\":\"Test\",\"notSpam\":true,\"pin\":0,\"ephemeralDuration\":0,\"ephemeralSettingTimestamp\":0,\"msgs\":null,\"kind\":\"chat\",\"isGroup\":false,\"formattedTitle\":\"Test\",\"contact\":{\"id\":\"554891406417@c.us\",\"name\":\"Test\",\"type\":\"in\",\"verifiedName\":\"Test\",\"isBusiness\":true,\"isEnterprise\":false,\"verifiedLevel\":0,\"statusMute\":false,\"labels\":[],\"formattedName\":\"Test\",\"isMe\":false,\"isMyContact\":true,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{\"eurl\":\"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5\",\"id\":\"554891406417@c.us\",\"img\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"imgFull\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"raw\":null,\"tag\":\"1595551168\"},\"msgs\":null},\"groupMetadata\":null,\"presence\":{\"id\":\"554891406417@c.us\",\"chatstates\":[]},\"messages\":[{\"id\":\"false_554891406417@c.us_3EB0AC4F5988E2EA730C\",\"body\":\"Ola *SUPORTE PAPALEGUAS*, boa noite bem vindo a *Via-Pian Lancheria (Rio Maina)* as nossas promocoes sao validas para *VEM BUSCAR* ou *CONSUMO NO LOCAL*.\\n\\nDigite *D* para *DELIVERY*\\nDigite *V* para *VEM BUSCAR*\",\"type\":\"chat\",\"t\":1610230818,\"notifyName\":\"\",\"from\":\"554891406417@c.us\",\"to\":\"554898153342@c.us\",\"self\":\"in\",\"ack\":-1,\"invis\":true,\"star\":false,\"isFromTemplate\":false,\"broadcast\":false,\"mentionedJidList\":[],\"isVcardOverMmsDocument\":false,\"isForwarded\":false,\"labels\":[],\"ephemeralOutOfSync\":false,\"chatId\":\"554891406417@c.us\",\"fromMe\":false,\"sender\":{\"id\":\"554891406417@c.us\",\"name\":\"Test\",\"type\":\"in\",\"verifiedName\":\"Test\",\"isBusiness\":true,\"isEnterprise\":false,\"verifiedLevel\":0,\"statusMute\":false,\"labels\":[],\"formattedName\":\"Test\",\"isMe\":false,\"isMyContact\":true,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{\"eurl\":\"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5\",\"id\":\"554891406417@c.us\",\"img\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"imgFull\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"raw\":null,\"tag\":\"1595551168\"},\"msgs\":null},\"timestamp\":1610230818,\"content\":\"Ola *SUPORTE PAPALEGUAS*, boa noite bem vindo a *Via-Pian Lancheria (Rio Maina)* as nossas promocoes sao validas para *VEM BUSCAR* ou *CONSUMO NO LOCAL*.\\n\\nDigite *D* para *DELIVERY*\\nDigite *V* para *VEM BUSCAR*\",\"isGroupMsg\":false,\"isMMS\":false,\"isMedia\":false,\"isNotification\":false,\"isPSA\":false,\"chat\":{\"id\":\"554891406417@c.us\",\"pendingMsgs\":false,\"lastReceivedKey\":{\"fromMe\":true,\"remote\":\"554891406417@c.us\",\"id\":\"3EB0E9C6EFD9E513D230\",\"_serialized\":\"true_554891406417@c.us_3EB0E9C6EFD9E513D230\",\"t\":1610328615},\"t\":1610328611,\"unreadCount\":5,\"archive\":false,\"isReadOnly\":false,\"modifyTag\":94041,\"muteExpiration\":0,\"name\":\"Test\",\"notSpam\":true,\"pin\":0,\"ephemeralDuration\":0,\"ephemeralSettingTimestamp\":0,\"msgs\":null,\"kind\":\"chat\",\"isGroup\":false,\"formattedTitle\":\"Test\",\"contact\":{\"id\":\"554891406417@c.us\",\"name\":\"Test\",\"type\":\"in\",\"verifiedName\":\"Test\",\"isBusiness\":true,\"isEnterprise\":false,\"verifiedLevel\":0,\"statusMute\":false,\"labels\":[],\"formattedName\":\"Test\",\"isMe\":false,\"isMyContact\":true,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{\"eurl\":\"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5\",\"id\":\"554891406417@c.us\",\"img\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"imgFull\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"raw\":null,\"tag\":\"1595551168\"},\"msgs\":null},\"groupMetadata\":null,\"presence\":{\"id\":\"554891406417@c.us\",\"chatstates\":[]}},\"quotedMsgObj\":null,\"mediaData\":{}}]}]}"}
+[10/01/21 22:30:18 - TChatList]  
+{
+  "result":
+  [
+        {
+      "id":"554891406417@c.us",
+      "pendingMsgs":false,
+      "lastReceivedKey":
+      {
+        "fromMe":true,
+        "remote":"554891406417@c.us",
+        "id":"3EB0E9C6EFD9E513D230",
+        "_serialized":"true_554891406417@c.us_3EB0E9C6EFD9E513D230",
+        "t":1610328615
+      }
+,
+      "t":1610328611,
+      "unreadCount":5,
+      "archive":false,
+      "isReadOnly":false,
+      "modifyTag":94041,
+      "muteExpiration":0,
+      "name":"Test",
+      "notSpam":true,
+      "pin":0,
+      "ephemeralDuration":0,
+      "ephemeralSettingTimestamp":0,
+      "msgs":null,
+      "kind":"chat",
+      "isGroup":false,
+      "formattedTitle":"Test",
+      "contact":
+      {
+        "id":"554891406417@c.us",
+        "name":"Test",
+        "type":"in",
+        "verifiedName":"Test",
+        "isBusiness":true,
+        "isEnterprise":false,
+        "verifiedLevel":0,
+        "statusMute":false,
+        "labels":
+        [
+                  ]
+,
+        "formattedName":"Test",
+        "isMe":false,
+        "isMyContact":true,
+        "isPSA":false,
+        "isUser":true,
+        "isWAContact":true,
+        "profilePicThumbObj":
+        {
+          "eurl":"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5",
+          "id":"554891406417@c.us",
+          "img":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+          "imgFull":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+          "raw":null,
+          "tag":"1595551168"
+        }
+,
+        "msgs":null
+      }
+,
+      "groupMetadata":null,
+      "presence":
+      {
+        "id":"554891406417@c.us",
+        "chatstates":
+        [
+                  ]
+      }
+,
+      "messages":
+      [
+                {
+          "id":"false_554891406417@c.us_3EB0AC4F5988E2EA730C",
+          "body":"Ola *SUPORTE PAPALEGUAS*, boa noite bem vindo a *Via-Pian Lancheria (Rio Maina)* as nossas promocoes sao validas para *VEM BUSCAR* ou *CONSUMO NO LOCAL*.
+
+Digite *D* para *DELIVERY*
+Digite *V* para *VEM BUSCAR*",
+          "type":"chat",
+          "t":1610230818,
+          "notifyName":"",
+          "from":"554891406417@c.us",
+          "to":"554898153342@c.us",
+          "self":"in",
+          "ack":-1,
+          "invis":true,
+          "star":false,
+          "isFromTemplate":false,
+          "broadcast":false,
+          "mentionedJidList":
+          [
+                      ]
+,
+          "isVcardOverMmsDocument":false,
+          "isForwarded":false,
+          "labels":
+          [
+                      ]
+,
+          "ephemeralOutOfSync":false,
+          "chatId":"554891406417@c.us",
+          "fromMe":false,
+          "sender":
+          {
+            "id":"554891406417@c.us",
+            "name":"Test",
+            "type":"in",
+            "verifiedName":"Test",
+            "isBusiness":true,
+            "isEnterprise":false,
+            "verifiedLevel":0,
+            "statusMute":false,
+            "labels":
+            [
+                          ]
+,
+            "formattedName":"Test",
+            "isMe":false,
+            "isMyContact":true,
+            "isPSA":false,
+            "isUser":true,
+            "isWAContact":true,
+            "profilePicThumbObj":
+            {
+              "eurl":"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5",
+              "id":"554891406417@c.us",
+              "img":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+              "imgFull":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+              "raw":null,
+              "tag":"1595551168"
+            }
+,
+            "msgs":null
+          }
+,
+          "timestamp":1610230818,
+          "content":"Ola *SUPORTE PAPALEGUAS*, boa noite bem vindo a *Via-Pian Lancheria (Rio Maina)* as nossas promocoes sao validas para *VEM BUSCAR* ou *CONSUMO NO LOCAL*.
+
+Digite *D* para *DELIVERY*
+Digite *V* para *VEM BUSCAR*",
+          "isGroupMsg":false,
+          "isMMS":false,
+          "isMedia":false,
+          "isNotification":false,
+          "isPSA":false,
+          "chat":
+          {
+            "id":"554891406417@c.us",
+            "pendingMsgs":false,
+            "lastReceivedKey":
+            {
+              "fromMe":true,
+              "remote":"554891406417@c.us",
+              "id":"3EB0E9C6EFD9E513D230",
+              "_serialized":"true_554891406417@c.us_3EB0E9C6EFD9E513D230",
+              "t":1610328615
+            }
+,
+            "t":1610328611,
+            "unreadCount":5,
+            "archive":false,
+            "isReadOnly":false,
+            "modifyTag":94041,
+            "muteExpiration":0,
+            "name":"Test",
+            "notSpam":true,
+            "pin":0,
+            "ephemeralDuration":0,
+            "ephemeralSettingTimestamp":0,
+            "msgs":null,
+            "kind":"chat",
+            "isGroup":false,
+            "formattedTitle":"Test",
+            "contact":
+            {
+              "id":"554891406417@c.us",
+              "name":"Test",
+              "type":"in",
+              "verifiedName":"Test",
+              "isBusiness":true,
+              "isEnterprise":false,
+              "verifiedLevel":0,
+              "statusMute":false,
+              "labels":
+              [
+                              ]
+,
+              "formattedName":"Test",
+              "isMe":false,
+              "isMyContact":true,
+              "isPSA":false,
+              "isUser":true,
+              "isWAContact":true,
+              "profilePicThumbObj":
+              {
+                "eurl":"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5",
+                "id":"554891406417@c.us",
+                "img":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+                "imgFull":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+                "raw":null,
+                "tag":"1595551168"
+              }
+,
+              "msgs":null
+            }
+,
+            "groupMetadata":null,
+            "presence":
+            {
+              "id":"554891406417@c.us",
+              "chatstates":
+              [
+                              ]
+            }
+          }
+,
+          "quotedMsgObj":null,
+          "mediaData":
+          {
+                      }
+        }
+      ]
+    }
+  ]
+}
+
+
+[10/01/21 22:30:19 - CONSOLE]  
+{"name":"getUnreadMessages","result":"{\"result\":[{\"id\":\"554891406417@c.us\",\"pendingMsgs\":false,\"lastReceivedKey\":{\"fromMe\":true,\"remote\":\"554891406417@c.us\",\"id\":\"3EB0EA1EC7B149517BED\",\"_serialized\":\"true_554891406417@c.us_3EB0EA1EC7B149517BED\"},\"t\":1610328661,\"unreadCount\":0,\"archive\":false,\"isReadOnly\":false,\"modifyTag\":94041,\"muteExpiration\":0,\"name\":\"Test\",\"notSpam\":true,\"pin\":0,\"ephemeralDuration\":0,\"ephemeralSettingTimestamp\":0,\"msgs\":null,\"kind\":\"chat\",\"isGroup\":false,\"formattedTitle\":\"Test\",\"contact\":{\"id\":\"554891406417@c.us\",\"name\":\"Test\",\"type\":\"in\",\"verifiedName\":\"Test\",\"isBusiness\":true,\"isEnterprise\":false,\"verifiedLevel\":0,\"statusMute\":false,\"labels\":[],\"formattedName\":\"Test\",\"isMe\":false,\"isMyContact\":true,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{\"eurl\":\"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5\",\"id\":\"554891406417@c.us\",\"img\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"imgFull\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"raw\":null,\"tag\":\"1595551168\"},\"msgs\":null},\"groupMetadata\":null,\"presence\":{\"id\":\"554891406417@c.us\",\"chatstates\":[]},\"messages\":[{\"id\":\"true_554891406417@c.us_3EB0EA1EC7B149517BED\",\"body\":\"V\",\"type\":\"chat\",\"subtype\":null,\"t\":1610328661,\"from\":\"554898153342@c.us\",\"to\":\"554891406417@c.us\",\"self\":\"out\",\"ack\":1,\"isNewMsg\":false,\"star\":false,\"isFromTemplate\":false,\"mentionedJidList\":[],\"isVcardOverMmsDocument\":false,\"isForwarded\":false,\"ephemeralStartTimestamp\":1610328662,\"chatId\":\"554891406417@c.us\",\"fromMe\":true,\"sender\":{\"id\":\"554898153342@c.us\",\"type\":\"in\",\"formattedName\":\"Voce\",\"isMe\":true,\"isMyContact\":false,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{\"eurl\":\"https://pps.whatsapp.net/v/t61.24694-24/116269755_2675348859371768_4964371647744728908_n.jpg?oh=0c395db361d8d890cda5a29c648df3bc&oe=5FFF9FBF\",\"id\":\"554898153342@c.us\",\"img\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116269755_2675348859371768_4964371647744728908_n.jpg%3Foh%3D0c395db361d8d890cda5a29c648df3bc%26oe%3D5FFF9FBF&t=s&u=554898153342%40c.us&i=1595640568&n=5Uxd2gAv4TGWZYme8UDbr7gC6wUTV3RRHkJ6SA9Cq%2FA%3D\",\"imgFull\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116269755_2675348859371768_4964371647744728908_n.jpg%3Foh%3D0c395db361d8d890cda5a29c648df3bc%26oe%3D5FFF9FBF&t=l&u=554898153342%40c.us&i=1595640568&n=5Uxd2gAv4TGWZYme8UDbr7gC6wUTV3RRHkJ6SA9Cq%2FA%3D\",\"raw\":null,\"tag\":\"1595640568\"},\"msgs\":null},\"timestamp\":1610328661,\"content\":\"V\",\"isGroupMsg\":false,\"isMMS\":false,\"isMedia\":false,\"isNotification\":false,\"isPSA\":false,\"chat\":{\"id\":\"554891406417@c.us\",\"pendingMsgs\":false,\"lastReceivedKey\":{\"fromMe\":true,\"remote\":\"554891406417@c.us\",\"id\":\"3EB0EA1EC7B149517BED\",\"_serialized\":\"true_554891406417@c.us_3EB0EA1EC7B149517BED\"},\"t\":1610328661,\"unreadCount\":0,\"archive\":false,\"isReadOnly\":false,\"modifyTag\":94041,\"muteExpiration\":0,\"name\":\"Test\",\"notSpam\":true,\"pin\":0,\"ephemeralDuration\":0,\"ephemeralSettingTimestamp\":0,\"msgs\":null,\"kind\":\"chat\",\"isGroup\":false,\"formattedTitle\":\"Test\",\"contact\":{\"id\":\"554891406417@c.us\",\"name\":\"Test\",\"type\":\"in\",\"verifiedName\":\"Test\",\"isBusiness\":true,\"isEnterprise\":false,\"verifiedLevel\":0,\"statusMute\":false,\"labels\":[],\"formattedName\":\"Test\",\"isMe\":false,\"isMyContact\":true,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{\"eurl\":\"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5\",\"id\":\"554891406417@c.us\",\"img\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"imgFull\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"raw\":null,\"tag\":\"1595551168\"},\"msgs\":null},\"groupMetadata\":null,\"presence\":{\"id\":\"554891406417@c.us\",\"chatstates\":[]}},\"quotedMsgObj\":null,\"mediaData\":{}}]}]}"}
+[10/01/21 22:30:19 - TChatList]  
+{
+  "result":
+  [
+        {
+      "id":"554891406417@c.us",
+      "pendingMsgs":false,
+      "lastReceivedKey":
+      {
+        "fromMe":true,
+        "remote":"554891406417@c.us",
+        "id":"3EB0EA1EC7B149517BED",
+        "_serialized":"true_554891406417@c.us_3EB0EA1EC7B149517BED"
+      }
+,
+      "t":1610328661,
+      "unreadCount":0,
+      "archive":false,
+      "isReadOnly":false,
+      "modifyTag":94041,
+      "muteExpiration":0,
+      "name":"Test",
+      "notSpam":true,
+      "pin":0,
+      "ephemeralDuration":0,
+      "ephemeralSettingTimestamp":0,
+      "msgs":null,
+      "kind":"chat",
+      "isGroup":false,
+      "formattedTitle":"Test",
+      "contact":
+      {
+        "id":"554891406417@c.us",
+        "name":"Test",
+        "type":"in",
+        "verifiedName":"Test",
+        "isBusiness":true,
+        "isEnterprise":false,
+        "verifiedLevel":0,
+        "statusMute":false,
+        "labels":
+        [
+                  ]
+,
+        "formattedName":"Test",
+        "isMe":false,
+        "isMyContact":true,
+        "isPSA":false,
+        "isUser":true,
+        "isWAContact":true,
+        "profilePicThumbObj":
+        {
+          "eurl":"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5",
+          "id":"554891406417@c.us",
+          "img":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+          "imgFull":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+          "raw":null,
+          "tag":"1595551168"
+        }
+,
+        "msgs":null
+      }
+,
+      "groupMetadata":null,
+      "presence":
+      {
+        "id":"554891406417@c.us",
+        "chatstates":
+        [
+                  ]
+      }
+,
+      "messages":
+      [
+                {
+          "id":"true_554891406417@c.us_3EB0EA1EC7B149517BED",
+          "body":"V",
+          "type":"chat",
+          "subtype":null,
+          "t":1610328661,
+          "from":"554898153342@c.us",
+          "to":"554891406417@c.us",
+          "self":"out",
+          "ack":1,
+          "isNewMsg":false,
+          "star":false,
+          "isFromTemplate":false,
+          "mentionedJidList":
+          [
+                      ]
+,
+          "isVcardOverMmsDocument":false,
+          "isForwarded":false,
+          "ephemeralStartTimestamp":1610328662,
+          "chatId":"554891406417@c.us",
+          "fromMe":true,
+          "sender":
+          {
+            "id":"554898153342@c.us",
+            "type":"in",
+            "formattedName":"Voce",
+            "isMe":true,
+            "isMyContact":false,
+            "isPSA":false,
+            "isUser":true,
+            "isWAContact":true,
+            "profilePicThumbObj":
+            {
+              "eurl":"https://pps.whatsapp.net/v/t61.24694-24/116269755_2675348859371768_4964371647744728908_n.jpg?oh=0c395db361d8d890cda5a29c648df3bc&oe=5FFF9FBF",
+              "id":"554898153342@c.us",
+              "img":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116269755_2675348859371768_4964371647744728908_n.jpg%3Foh%3D0c395db361d8d890cda5a29c648df3bc%26oe%3D5FFF9FBF&t=s&u=554898153342%40c.us&i=1595640568&n=5Uxd2gAv4TGWZYme8UDbr7gC6wUTV3RRHkJ6SA9Cq%2FA%3D",
+              "imgFull":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116269755_2675348859371768_4964371647744728908_n.jpg%3Foh%3D0c395db361d8d890cda5a29c648df3bc%26oe%3D5FFF9FBF&t=l&u=554898153342%40c.us&i=1595640568&n=5Uxd2gAv4TGWZYme8UDbr7gC6wUTV3RRHkJ6SA9Cq%2FA%3D",
+              "raw":null,
+              "tag":"1595640568"
+            }
+,
+            "msgs":null
+          }
+,
+          "timestamp":1610328661,
+          "content":"V",
+          "isGroupMsg":false,
+          "isMMS":false,
+          "isMedia":false,
+          "isNotification":false,
+          "isPSA":false,
+          "chat":
+          {
+            "id":"554891406417@c.us",
+            "pendingMsgs":false,
+            "lastReceivedKey":
+            {
+              "fromMe":true,
+              "remote":"554891406417@c.us",
+              "id":"3EB0EA1EC7B149517BED",
+              "_serialized":"true_554891406417@c.us_3EB0EA1EC7B149517BED"
+            }
+,
+            "t":1610328661,
+            "unreadCount":0,
+            "archive":false,
+            "isReadOnly":false,
+            "modifyTag":94041,
+            "muteExpiration":0,
+            "name":"Test",
+            "notSpam":true,
+            "pin":0,
+            "ephemeralDuration":0,
+            "ephemeralSettingTimestamp":0,
+            "msgs":null,
+            "kind":"chat",
+            "isGroup":false,
+            "formattedTitle":"Test",
+            "contact":
+            {
+              "id":"554891406417@c.us",
+              "name":"Test",
+              "type":"in",
+              "verifiedName":"Test",
+              "isBusiness":true,
+              "isEnterprise":false,
+              "verifiedLevel":0,
+              "statusMute":false,
+              "labels":
+              [
+                              ]
+,
+              "formattedName":"Test",
+              "isMe":false,
+              "isMyContact":true,
+              "isPSA":false,
+              "isUser":true,
+              "isWAContact":true,
+              "profilePicThumbObj":
+              {
+                "eurl":"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5",
+                "id":"554891406417@c.us",
+                "img":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+                "imgFull":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+                "raw":null,
+                "tag":"1595551168"
+              }
+,
+              "msgs":null
+            }
+,
+            "groupMetadata":null,
+            "presence":
+            {
+              "id":"554891406417@c.us",
+              "chatstates":
+              [
+                              ]
+            }
+          }
+,
+          "quotedMsgObj":null,
+          "mediaData":
+          {
+                      }
+        }
+      ]
+    }
+  ]
+}
+
+
+[10/01/21 22:30:39 - CONSOLE]  
+{"name":"GetStatusMessage","result":"{\"result\":{\"id\":\"558196988474@c.us\",\"status\":\"Apenas chamadas urgentes\"}}"}
+[10/01/21 22:30:39 - TResponseStatusMessage]  
+{
+  "id":"558196988474@c.us",
+  "status":"Apenas chamadas urgentes"
+}
+
+
+[10/01/21 22:30:41 - CONSOLE]  
+{"name":"GetStatusMessage","result":"{\"result\":{\"id\":\"558198007759@c.us\",\"status\":\"Horario de funcionamento: Segunda a sexta-feira das 06:30 h as 18:00 h!\"}}"}
+[10/01/21 22:30:41 - TResponseStatusMessage]  
+{
+  "id":"558198007759@c.us",
+  "status":"Horario de funcionamento: Segunda a sexta-feira das 06:30 h as 18:00 h!"
+}
+
+
+[10/01/21 22:30:44 - CONSOLE]  
+{"name":"GetStatusMessage","result":"{\"result\":{\"id\":\"558196988474@c.us\",\"status\":\"Apenas chamadas urgentes\"}}"}
+[10/01/21 22:30:44 - TResponseStatusMessage]  
+{
+  "id":"558196988474@c.us",
+  "status":"Apenas chamadas urgentes"
+}
+
+
+[10/01/21 22:30:45 - CONSOLE]  
+{"name":"GetStatusMessage","result":"{\"result\":{\"id\":\"558198007759@c.us\",\"status\":\"Horario de funcionamento: Segunda a sexta-feira das 06:30 h as 18:00 h!\"}}"}
+[10/01/21 22:30:45 - TResponseStatusMessage]  
+{
+  "id":"558198007759@c.us",
+  "status":"Horario de funcionamento: Segunda a sexta-feira das 06:30 h as 18:00 h!"
+}
+
+
+[10/01/21 22:30:48 - CONSOLE]  
+{"name":"GetMe","result":"{\"result\":{\"id\":\"1\",\"pushname\":\"Suporte PapaLeguas\",\"type\":\"in\",\"isContactBlocked\":false,\"pendingAction\":0,\"_notifyName\":null,\"promises\":{},\"status\":{\"id\":\"554898153342@c.us\"},\"profilePicThumb\":{\"id\":\"554898153342@c.us\",\"token\":\"5Uxd2gAv4TGWZYme8UDbr7gC6wUTV3RRHkJ6SA9Cq/A=\",\"tag\":\"1595640568\",\"raw\":null,\"eurl\":\"https://pps.whatsapp.net/v/t61.24694-24/116269755_2675348859371768_4964371647744728908_n.jpg?oh=0c395db361d8d890cda5a29c648df3bc&oe=5FFF9FBF\"},\"ref\":\"1@g8PxXiqZDgVbxptDhqYC7q3FQXnYg8g/UOsfa4xGujWvv5RqJcfBaF9RgWFa+2feX9/WAsGxJ8Jg+Q==\",\"refTTL\":20000,\"wid\":\"554898153342@c.us\",\"connected\":true,\"protoVersion\":[0,17],\"clientToken\":\"+K2lLVuzz41m9iiVCtNvji7tcIPj8/821Q16SSVPTwQ=\",\"serverToken\":\"1@GrGoiA5emMRYZNOWre2Px6/dOhzteUgBd330+0Yw3FigeIJJBLUe7h3yEOaH8OG0in+NMS4H9gWzCA==\",\"secret\":\"PxrkF+i9gmJeVRqoWSkv+fvpezEQENw0/xuGolCgInQggWzoqQPGa9aGVte6nYmyYtI75d4CZvTI73QZqGHhG8c/7KRQpkG2Uf0S0Z0rwWp9VJxcFEwZBCr3/9GYLugoH6NBg9asddJQFQSJP/iYFOmAKb3JsGyMtVQswO4FMgHM+KW/XT0oGK+zM3YrInUA\",\"isResponse\":\"true\",\"battery\":59,\"plugged\":false,\"lc\":\"BR\",\"lg\":\"pt\",\"locales\":\"pt-BR\",\"is24h\":true,\"platform\":\"smba\",\"phone\":{\"wa_version\":\"2.20.206.24\",\"mcc\":\"724\",\"mnc\":\"004\",\"os_version\":\"10\",\"device_manufacturer\":\"samsung\",\"device_model\":\"a7y18lte\",\"os_build_number\":\"QP1A.190711.020.A750GUBS6CTH1\"},\"tos\":0,\"blockStoreAdds\":false,\"isVoipInitialized\":false}}"}
+[10/01/21 22:30:48 - TGetMeClass]  
+{
+  "id":"1",
+  "pushname":"Suporte PapaLeguas",
+  "type":"in",
+  "isContactBlocked":false,
+  "pendingAction":0,
+  "_notifyName":null,
+  "promises":
+  {
+      }
+,
+  "status":
+  {
+    "id":"554898153342@c.us"
+  }
+,
+  "profilePicThumb":
+  {
+    "id":"554898153342@c.us",
+    "token":"5Uxd2gAv4TGWZYme8UDbr7gC6wUTV3RRHkJ6SA9Cq/A=",
+    "tag":"1595640568",
+    "raw":null,
+    "eurl":"https://pps.whatsapp.net/v/t61.24694-24/116269755_2675348859371768_4964371647744728908_n.jpg?oh=0c395db361d8d890cda5a29c648df3bc&oe=5FFF9FBF"
+  }
+,
+  "ref":"1@g8PxXiqZDgVbxptDhqYC7q3FQXnYg8g/UOsfa4xGujWvv5RqJcfBaF9RgWFa+2feX9/WAsGxJ8Jg+Q==",
+  "refTTL":20000,
+  "wid":"554898153342@c.us",
+  "connected":true,
+  "protoVersion":
+  [
+    0,
+    17
+  ]
+,
+  "clientToken":"+K2lLVuzz41m9iiVCtNvji7tcIPj8/821Q16SSVPTwQ=",
+  "serverToken":"1@GrGoiA5emMRYZNOWre2Px6/dOhzteUgBd330+0Yw3FigeIJJBLUe7h3yEOaH8OG0in+NMS4H9gWzCA==",
+  "secret":"PxrkF+i9gmJeVRqoWSkv+fvpezEQENw0/xuGolCgInQggWzoqQPGa9aGVte6nYmyYtI75d4CZvTI73QZqGHhG8c/7KRQpkG2Uf0S0Z0rwWp9VJxcFEwZBCr3/9GYLugoH6NBg9asddJQFQSJP/iYFOmAKb3JsGyMtVQswO4FMgHM+KW/XT0oGK+zM3YrInUA",
+  "isResponse":"true",
+  "battery":59,
+  "plugged":false,
+  "lc":"BR",
+  "lg":"pt",
+  "locales":"pt-BR",
+  "is24h":true,
+  "platform":"smba",
+  "phone":
+  {
+    "wa_version":"2.20.206.24",
+    "mcc":"724",
+    "mnc":"004",
+    "os_version":"10",
+    "device_manufacturer":"samsung",
+    "device_model":"a7y18lte",
+    "os_build_number":"QP1A.190711.020.A750GUBS6CTH1"
+  }
+,
+  "tos":0,
+  "blockStoreAdds":false,
+  "isVoipInitialized":false
+}
+
+
+[10/01/21 22:31:31 - CONSOLE]  
+{"name":"GetStatusMessage","result":"{\"result\":{\"id\":\"554898153342@c.us\",\"status\":\"Suporte Papa Leguas\"}}"}
+[10/01/21 22:31:31 - TResponseStatusMessage]  
+{
+  "id":"554898153342@c.us",
+  "status":"Suporte Papa Leguas"
+}
+
+
+[10/01/21 22:32:35 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":59}"}
+[10/01/21 22:32:35 - TResponseBattery]  
+{
+  "result":59
+}
+
+[10/01/21 22:33:41 - TResultQRCodeClass]  
+{
+  "result":
+  [
+      ]
+}
+
+[10/01/21 22:35:10]  Versao TInject: 3.1.0.0
+[10/01/21 22:35:10]  Versao  JS.ABR: 1.0.1.0
+[10/01/21 22:35:10]  Versao     CEF: 78.3.0
+[10/01/21 22:35:10]   
+[10/01/21 22:35:11 - CONSOLE IGNORADO]  
+Uncaught TypeError: Cannot read property 'toDataURL' of undefined
+[10/01/21 22:35:24 - TResultQRCodeClass]  
+{
+  "result":
+  [
+      ]
+}
+
+
+[10/01/21 22:35:25 - CONSOLE]  
+{"name":"getMyNumber","result":"{\"result\":\"554898153342@c.us\"}"}
+[10/01/21 22:35:25 - TResponseMyNumber]  
+{
+  "result":"554898153342@c.us"
+}
+
+
+[10/01/21 22:35:26 - CONSOLE]  
+{"name":"OnChangeConnect","result":"{\"result\":true}"}
+[10/01/21 22:35:26 - TOnChangeConnect]  
+{
+  "result":true
+}
+
+
+[10/01/21 22:35:26 - CONSOLE]  
+{"name":"getUnreadMessages","result":"{\"result\":[{\"id\":\"554891406417@c.us\",\"pendingMsgs\":false,\"lastReceivedKey\":{\"fromMe\":true,\"remote\":\"554891406417@c.us\",\"id\":\"3EB0EA1EC7B149517BED\",\"_serialized\":\"true_554891406417@c.us_3EB0EA1EC7B149517BED\"},\"t\":1610328661,\"unreadCount\":5,\"archive\":false,\"isReadOnly\":false,\"modifyTag\":94041,\"muteExpiration\":0,\"name\":\"Test\",\"notSpam\":true,\"pin\":0,\"ephemeralDuration\":0,\"ephemeralSettingTimestamp\":0,\"msgs\":null,\"kind\":\"chat\",\"isGroup\":false,\"formattedTitle\":\"Test\",\"contact\":{\"id\":\"554891406417@c.us\",\"name\":\"Test\",\"type\":\"in\",\"verifiedName\":\"Test\",\"isBusiness\":true,\"isEnterprise\":false,\"verifiedLevel\":0,\"statusMute\":false,\"labels\":[],\"formattedName\":\"Test\",\"isMe\":false,\"isMyContact\":true,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{\"eurl\":\"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5\",\"id\":\"554891406417@c.us\",\"img\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"imgFull\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"raw\":null,\"tag\":\"1595551168\"},\"msgs\":null},\"groupMetadata\":null,\"presence\":{\"id\":\"554891406417@c.us\",\"chatstates\":[]},\"messages\":[{\"id\":\"false_554891406417@c.us_3EB0D05D042313B558B6\",\"body\":\"Digite o *codigo* correspondente a(o) *REFRIGERANTES*\\n\\n*1 - REFRI LATA R$: 5,00*\\n*2 - REFRI 600 ML R$: 6,00*\\n*3 - REFRI 2L R$: 10,00*\\n\\nDigite *#* para retornar ao menu inicial\",\"type\":\"chat\",\"t\":1609899176,\"notifyName\":\"\",\"from\":\"554891406417@c.us\",\"to\":\"554898153342@c.us\",\"self\":\"in\",\"ack\":-1,\"invis\":true,\"star\":false,\"isFromTemplate\":false,\"broadcast\":false,\"mentionedJidList\":[],\"isVcardOverMmsDocument\":false,\"isForwarded\":false,\"labels\":[],\"ephemeralOutOfSync\":false,\"chatId\":\"554891406417@c.us\",\"fromMe\":false,\"sender\":{\"id\":\"554891406417@c.us\",\"name\":\"Test\",\"type\":\"in\",\"verifiedName\":\"Test\",\"isBusiness\":true,\"isEnterprise\":false,\"verifiedLevel\":0,\"statusMute\":false,\"labels\":[],\"formattedName\":\"Test\",\"isMe\":false,\"isMyContact\":true,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{\"eurl\":\"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5\",\"id\":\"554891406417@c.us\",\"img\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"imgFull\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"raw\":null,\"tag\":\"1595551168\"},\"msgs\":null},\"timestamp\":1609899176,\"content\":\"Digite o *codigo* correspondente a(o) *REFRIGERANTES*\\n\\n*1 - REFRI LATA R$: 5,00*\\n*2 - REFRI 600 ML R$: 6,00*\\n*3 - REFRI 2L R$: 10,00*\\n\\nDigite *#* para retornar ao menu inicial\",\"isGroupMsg\":false,\"isMMS\":false,\"isMedia\":false,\"isNotification\":false,\"isPSA\":false,\"chat\":{\"id\":\"554891406417@c.us\",\"pendingMsgs\":false,\"lastReceivedKey\":{\"fromMe\":true,\"remote\":\"554891406417@c.us\",\"id\":\"3EB0EA1EC7B149517BED\",\"_serialized\":\"true_554891406417@c.us_3EB0EA1EC7B149517BED\"},\"t\":1610328661,\"unreadCount\":5,\"archive\":false,\"isReadOnly\":false,\"modifyTag\":94041,\"muteExpiration\":0,\"name\":\"Test\",\"notSpam\":true,\"pin\":0,\"ephemeralDuration\":0,\"ephemeralSettingTimestamp\":0,\"msgs\":null,\"kind\":\"chat\",\"isGroup\":false,\"formattedTitle\":\"Test\",\"contact\":{\"id\":\"554891406417@c.us\",\"name\":\"Test\",\"type\":\"in\",\"verifiedName\":\"Test\",\"isBusiness\":true,\"isEnterprise\":false,\"verifiedLevel\":0,\"statusMute\":false,\"labels\":[],\"formattedName\":\"Test\",\"isMe\":false,\"isMyContact\":true,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{\"eurl\":\"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5\",\"id\":\"554891406417@c.us\",\"img\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"imgFull\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"raw\":null,\"tag\":\"1595551168\"},\"msgs\":null},\"groupMetadata\":null,\"presence\":{\"id\":\"554891406417@c.us\",\"chatstates\":[]}},\"quotedMsgObj\":null,\"mediaData\":{}},{\"id\":\"false_554891406417@c.us_3EB01BFA79338BA03D3B\",\"body\":\"*DOGAO TIO SCOOBY*\\n*_Faca ja o seu pedido_*\\n\\nPor favor digite o *numero* que corresponde ao menu desejado \\n\\n*1 - BAGUETE*\\n*2 - CERVEJAS*\\n*3 - DOGS PRENSADOS*\\n*4 - DOGAO DOCE*\\n*5 - PORCOES*\\n*6 - REFRIGERANTES*\\n*7 - TRADICIONAIS*\\n*8 - XIS ABERTO*\\n*9 - XIS PRENSADO*\\n*10 - AGUAS E SUCOS*\\n\\nDigite *A* para alterar/remover item do seu pedido.\\nDigite *F* para finalizar o seu pedido.\\nDigite *C* para cancelar o seu pedido.\",\"type\":\"chat\",\"t\":1609899176,\"notifyName\":\"\",\"from\":\"554891406417@c.us\",\"to\":\"554898153342@c.us\",\"self\":\"in\",\"ack\":-1,\"invis\":true,\"star\":false,\"isFromTemplate\":false,\"broadcast\":false,\"mentionedJidList\":[],\"isVcardOverMmsDocument\":false,\"isForwarded\":false,\"labels\":[],\"ephemeralOutOfSync\":false,\"chatId\":\"554891406417@c.us\",\"fromMe\":false,\"sender\":{\"id\":\"554891406417@c.us\",\"name\":\"Test\",\"type\":\"in\",\"verifiedName\":\"Test\",\"isBusiness\":true,\"isEnterprise\":false,\"verifiedLevel\":0,\"statusMute\":false,\"labels\":[],\"formattedName\":\"Test\",\"isMe\":false,\"isMyContact\":true,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{\"eurl\":\"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5\",\"id\":\"554891406417@c.us\",\"img\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"imgFull\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"raw\":null,\"tag\":\"1595551168\"},\"msgs\":null},\"timestamp\":1609899176,\"content\":\"*DOGAO TIO SCOOBY*\\n*_Faca ja o seu pedido_*\\n\\nPor favor digite o *numero* que corresponde ao menu desejado \\n\\n*1 - BAGUETE*\\n*2 - CERVEJAS*\\n*3 - DOGS PRENSADOS*\\n*4 - DOGAO DOCE*\\n*5 - PORCOES*\\n*6 - REFRIGERANTES*\\n*7 - TRADICIONAIS*\\n*8 - XIS ABERTO*\\n*9 - XIS PRENSADO*\\n*10 - AGUAS E SUCOS*\\n\\nDigite *A* para alterar/remover item do seu pedido.\\nDigite *F* para finalizar o seu pedido.\\nDigite *C* para cancelar o seu pedido.\",\"isGroupMsg\":false,\"isMMS\":false,\"isMedia\":false,\"isNotification\":false,\"isPSA\":false,\"chat\":{\"id\":\"554891406417@c.us\",\"pendingMsgs\":false,\"lastReceivedKey\":{\"fromMe\":true,\"remote\":\"554891406417@c.us\",\"id\":\"3EB0EA1EC7B149517BED\",\"_serialized\":\"true_554891406417@c.us_3EB0EA1EC7B149517BED\"},\"t\":1610328661,\"unreadCount\":5,\"archive\":false,\"isReadOnly\":false,\"modifyTag\":94041,\"muteExpiration\":0,\"name\":\"Test\",\"notSpam\":true,\"pin\":0,\"ephemeralDuration\":0,\"ephemeralSettingTimestamp\":0,\"msgs\":null,\"kind\":\"chat\",\"isGroup\":false,\"formattedTitle\":\"Test\",\"contact\":{\"id\":\"554891406417@c.us\",\"name\":\"Test\",\"type\":\"in\",\"verifiedName\":\"Test\",\"isBusiness\":true,\"isEnterprise\":false,\"verifiedLevel\":0,\"statusMute\":false,\"labels\":[],\"formattedName\":\"Test\",\"isMe\":false,\"isMyContact\":true,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{\"eurl\":\"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5\",\"id\":\"554891406417@c.us\",\"img\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"imgFull\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"raw\":null,\"tag\":\"1595551168\"},\"msgs\":null},\"groupMetadata\":null,\"presence\":{\"id\":\"554891406417@c.us\",\"chatstates\":[]}},\"quotedMsgObj\":null,\"mediaData\":{}},{\"id\":\"false_554891406417@c.us_3EB0F030F460B76A4F59\",\"body\":\"*DOGAO TIO SCOOBY*\\n*_Faca ja o seu pedido_*\\n\\nPor favor digite o *numero* que corresponde ao menu desejado \\n\\n*1 - BAGUETE*\\n*2 - CERVEJAS*\\n*3 - DOGS PRENSADOS*\\n*4 - DOGAO DOCE*\\n*5 - PORCOES*\\n*6 - REFRIGERANTES*\\n*7 - TRADICIONAIS*\\n*8 - XIS ABERTO*\\n*9 - XIS PRENSADO*\\n*10 - AGUAS E SUCOS*\\n\\nDigite *A* para alterar/remover item do seu pedido.\\nDigite *F* para finalizar o seu pedido.\\nDigite *C* para cancelar o seu pedido.\",\"type\":\"chat\",\"t\":1609899181,\"notifyName\":\"\",\"from\":\"554891406417@c.us\",\"to\":\"554898153342@c.us\",\"self\":\"in\",\"ack\":-1,\"invis\":true,\"star\":false,\"isFromTemplate\":false,\"broadcast\":false,\"mentionedJidList\":[],\"isVcardOverMmsDocument\":false,\"isForwarded\":false,\"labels\":[],\"ephemeralOutOfSync\":false,\"chatId\":\"554891406417@c.us\",\"fromMe\":false,\"sender\":{\"id\":\"554891406417@c.us\",\"name\":\"Test\",\"type\":\"in\",\"verifiedName\":\"Test\",\"isBusiness\":true,\"isEnterprise\":false,\"verifiedLevel\":0,\"statusMute\":false,\"labels\":[],\"formattedName\":\"Test\",\"isMe\":false,\"isMyContact\":true,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{\"eurl\":\"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5\",\"id\":\"554891406417@c.us\",\"img\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"imgFull\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"raw\":null,\"tag\":\"1595551168\"},\"msgs\":null},\"timestamp\":1609899181,\"content\":\"*DOGAO TIO SCOOBY*\\n*_Faca ja o seu pedido_*\\n\\nPor favor digite o *numero* que corresponde ao menu desejado \\n\\n*1 - BAGUETE*\\n*2 - CERVEJAS*\\n*3 - DOGS PRENSADOS*\\n*4 - DOGAO DOCE*\\n*5 - PORCOES*\\n*6 - REFRIGERANTES*\\n*7 - TRADICIONAIS*\\n*8 - XIS ABERTO*\\n*9 - XIS PRENSADO*\\n*10 - AGUAS E SUCOS*\\n\\nDigite *A* para alterar/remover item do seu pedido.\\nDigite *F* para finalizar o seu pedido.\\nDigite *C* para cancelar o seu pedido.\",\"isGroupMsg\":false,\"isMMS\":false,\"isMedia\":false,\"isNotification\":false,\"isPSA\":false,\"chat\":{\"id\":\"554891406417@c.us\",\"pendingMsgs\":false,\"lastReceivedKey\":{\"fromMe\":true,\"remote\":\"554891406417@c.us\",\"id\":\"3EB0EA1EC7B149517BED\",\"_serialized\":\"true_554891406417@c.us_3EB0EA1EC7B149517BED\"},\"t\":1610328661,\"unreadCount\":5,\"archive\":false,\"isReadOnly\":false,\"modifyTag\":94041,\"muteExpiration\":0,\"name\":\"Test\",\"notSpam\":true,\"pin\":0,\"ephemeralDuration\":0,\"ephemeralSettingTimestamp\":0,\"msgs\":null,\"kind\":\"chat\",\"isGroup\":false,\"formattedTitle\":\"Test\",\"contact\":{\"id\":\"554891406417@c.us\",\"name\":\"Test\",\"type\":\"in\",\"verifiedName\":\"Test\",\"isBusiness\":true,\"isEnterprise\":false,\"verifiedLevel\":0,\"statusMute\":false,\"labels\":[],\"formattedName\":\"Test\",\"isMe\":false,\"isMyContact\":true,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{\"eurl\":\"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5\",\"id\":\"554891406417@c.us\",\"img\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"imgFull\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"raw\":null,\"tag\":\"1595551168\"},\"msgs\":null},\"groupMetadata\":null,\"presence\":{\"id\":\"554891406417@c.us\",\"chatstates\":[]}},\"quotedMsgObj\":null,\"mediaData\":{}},{\"id\":\"false_554891406417@c.us_3EB0B7A1F3F06FE6D521\",\"body\":\"Ola *SUPORTE PAPALEGUAS*, boa noite bem vindo a *Via-Pian Lancheria (Rio Maina)* as nossas promocoes sao validas para *VEM BUSCAR* ou *CONSUMO NO LOCAL*.\\n\\nDigite *D* para *DELIVERY*\\nDigite *V* para *VEM BUSCAR*\",\"type\":\"chat\",\"t\":1610230813,\"notifyName\":\"\",\"from\":\"554891406417@c.us\",\"to\":\"554898153342@c.us\",\"self\":\"in\",\"ack\":-1,\"invis\":true,\"star\":false,\"isFromTemplate\":false,\"broadcast\":false,\"mentionedJidList\":[],\"isVcardOverMmsDocument\":false,\"isForwarded\":false,\"labels\":[],\"ephemeralOutOfSync\":false,\"chatId\":\"554891406417@c.us\",\"fromMe\":false,\"sender\":{\"id\":\"554891406417@c.us\",\"name\":\"Test\",\"type\":\"in\",\"verifiedName\":\"Test\",\"isBusiness\":true,\"isEnterprise\":false,\"verifiedLevel\":0,\"statusMute\":false,\"labels\":[],\"formattedName\":\"Test\",\"isMe\":false,\"isMyContact\":true,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{\"eurl\":\"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5\",\"id\":\"554891406417@c.us\",\"img\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"imgFull\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"raw\":null,\"tag\":\"1595551168\"},\"msgs\":null},\"timestamp\":1610230813,\"content\":\"Ola *SUPORTE PAPALEGUAS*, boa noite bem vindo a *Via-Pian Lancheria (Rio Maina)* as nossas promocoes sao validas para *VEM BUSCAR* ou *CONSUMO NO LOCAL*.\\n\\nDigite *D* para *DELIVERY*\\nDigite *V* para *VEM BUSCAR*\",\"isGroupMsg\":false,\"isMMS\":false,\"isMedia\":false,\"isNotification\":false,\"isPSA\":false,\"chat\":{\"id\":\"554891406417@c.us\",\"pendingMsgs\":false,\"lastReceivedKey\":{\"fromMe\":true,\"remote\":\"554891406417@c.us\",\"id\":\"3EB0EA1EC7B149517BED\",\"_serialized\":\"true_554891406417@c.us_3EB0EA1EC7B149517BED\"},\"t\":1610328661,\"unreadCount\":5,\"archive\":false,\"isReadOnly\":false,\"modifyTag\":94041,\"muteExpiration\":0,\"name\":\"Test\",\"notSpam\":true,\"pin\":0,\"ephemeralDuration\":0,\"ephemeralSettingTimestamp\":0,\"msgs\":null,\"kind\":\"chat\",\"isGroup\":false,\"formattedTitle\":\"Test\",\"contact\":{\"id\":\"554891406417@c.us\",\"name\":\"Test\",\"type\":\"in\",\"verifiedName\":\"Test\",\"isBusiness\":true,\"isEnterprise\":false,\"verifiedLevel\":0,\"statusMute\":false,\"labels\":[],\"formattedName\":\"Test\",\"isMe\":false,\"isMyContact\":true,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{\"eurl\":\"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5\",\"id\":\"554891406417@c.us\",\"img\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"imgFull\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"raw\":null,\"tag\":\"1595551168\"},\"msgs\":null},\"groupMetadata\":null,\"presence\":{\"id\":\"554891406417@c.us\",\"chatstates\":[]}},\"quotedMsgObj\":null,\"mediaData\":{}},{\"id\":\"false_554891406417@c.us_3EB0AC4F5988E2EA730C\",\"body\":\"Ola *SUPORTE PAPALEGUAS*, boa noite bem vindo a *Via-Pian Lancheria (Rio Maina)* as nossas promocoes sao validas para *VEM BUSCAR* ou *CONSUMO NO LOCAL*.\\n\\nDigite *D* para *DELIVERY*\\nDigite *V* para *VEM BUSCAR*\",\"type\":\"chat\",\"t\":1610230818,\"notifyName\":\"\",\"from\":\"554891406417@c.us\",\"to\":\"554898153342@c.us\",\"self\":\"in\",\"ack\":-1,\"invis\":true,\"star\":false,\"isFromTemplate\":false,\"broadcast\":false,\"mentionedJidList\":[],\"isVcardOverMmsDocument\":false,\"isForwarded\":false,\"labels\":[],\"ephemeralOutOfSync\":false,\"chatId\":\"554891406417@c.us\",\"fromMe\":false,\"sender\":{\"id\":\"554891406417@c.us\",\"name\":\"Test\",\"type\":\"in\",\"verifiedName\":\"Test\",\"isBusiness\":true,\"isEnterprise\":false,\"verifiedLevel\":0,\"statusMute\":false,\"labels\":[],\"formattedName\":\"Test\",\"isMe\":false,\"isMyContact\":true,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{\"eurl\":\"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5\",\"id\":\"554891406417@c.us\",\"img\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"imgFull\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"raw\":null,\"tag\":\"1595551168\"},\"msgs\":null},\"timestamp\":1610230818,\"content\":\"Ola *SUPORTE PAPALEGUAS*, boa noite bem vindo a *Via-Pian Lancheria (Rio Maina)* as nossas promocoes sao validas para *VEM BUSCAR* ou *CONSUMO NO LOCAL*.\\n\\nDigite *D* para *DELIVERY*\\nDigite *V* para *VEM BUSCAR*\",\"isGroupMsg\":false,\"isMMS\":false,\"isMedia\":false,\"isNotification\":false,\"isPSA\":false,\"chat\":{\"id\":\"554891406417@c.us\",\"pendingMsgs\":false,\"lastReceivedKey\":{\"fromMe\":true,\"remote\":\"554891406417@c.us\",\"id\":\"3EB0EA1EC7B149517BED\",\"_serialized\":\"true_554891406417@c.us_3EB0EA1EC7B149517BED\"},\"t\":1610328661,\"unreadCount\":5,\"archive\":false,\"isReadOnly\":false,\"modifyTag\":94041,\"muteExpiration\":0,\"name\":\"Test\",\"notSpam\":true,\"pin\":0,\"ephemeralDuration\":0,\"ephemeralSettingTimestamp\":0,\"msgs\":null,\"kind\":\"chat\",\"isGroup\":false,\"formattedTitle\":\"Test\",\"contact\":{\"id\":\"554891406417@c.us\",\"name\":\"Test\",\"type\":\"in\",\"verifiedName\":\"Test\",\"isBusiness\":true,\"isEnterprise\":false,\"verifiedLevel\":0,\"statusMute\":false,\"labels\":[],\"formattedName\":\"Test\",\"isMe\":false,\"isMyContact\":true,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{\"eurl\":\"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5\",\"id\":\"554891406417@c.us\",\"img\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"imgFull\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"raw\":null,\"tag\":\"1595551168\"},\"msgs\":null},\"groupMetadata\":null,\"presence\":{\"id\":\"554891406417@c.us\",\"chatstates\":[]}},\"quotedMsgObj\":null,\"mediaData\":{}}]}]}"}
+[10/01/21 22:35:26 - TChatList]  
+{
+  "result":
+  [
+        {
+      "id":"554891406417@c.us",
+      "pendingMsgs":false,
+      "lastReceivedKey":
+      {
+        "fromMe":true,
+        "remote":"554891406417@c.us",
+        "id":"3EB0EA1EC7B149517BED",
+        "_serialized":"true_554891406417@c.us_3EB0EA1EC7B149517BED"
+      }
+,
+      "t":1610328661,
+      "unreadCount":5,
+      "archive":false,
+      "isReadOnly":false,
+      "modifyTag":94041,
+      "muteExpiration":0,
+      "name":"Test",
+      "notSpam":true,
+      "pin":0,
+      "ephemeralDuration":0,
+      "ephemeralSettingTimestamp":0,
+      "msgs":null,
+      "kind":"chat",
+      "isGroup":false,
+      "formattedTitle":"Test",
+      "contact":
+      {
+        "id":"554891406417@c.us",
+        "name":"Test",
+        "type":"in",
+        "verifiedName":"Test",
+        "isBusiness":true,
+        "isEnterprise":false,
+        "verifiedLevel":0,
+        "statusMute":false,
+        "labels":
+        [
+                  ]
+,
+        "formattedName":"Test",
+        "isMe":false,
+        "isMyContact":true,
+        "isPSA":false,
+        "isUser":true,
+        "isWAContact":true,
+        "profilePicThumbObj":
+        {
+          "eurl":"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5",
+          "id":"554891406417@c.us",
+          "img":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+          "imgFull":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+          "raw":null,
+          "tag":"1595551168"
+        }
+,
+        "msgs":null
+      }
+,
+      "groupMetadata":null,
+      "presence":
+      {
+        "id":"554891406417@c.us",
+        "chatstates":
+        [
+                  ]
+      }
+,
+      "messages":
+      [
+                {
+          "id":"false_554891406417@c.us_3EB0D05D042313B558B6",
+          "body":"Digite o *codigo* correspondente a(o) *REFRIGERANTES*
+
+*1 - REFRI LATA R$: 5,00*
+*2 - REFRI 600 ML R$: 6,00*
+*3 - REFRI 2L R$: 10,00*
+
+Digite *#* para retornar ao menu inicial",
+          "type":"chat",
+          "t":1609899176,
+          "notifyName":"",
+          "from":"554891406417@c.us",
+          "to":"554898153342@c.us",
+          "self":"in",
+          "ack":-1,
+          "invis":true,
+          "star":false,
+          "isFromTemplate":false,
+          "broadcast":false,
+          "mentionedJidList":
+          [
+                      ]
+,
+          "isVcardOverMmsDocument":false,
+          "isForwarded":false,
+          "labels":
+          [
+                      ]
+,
+          "ephemeralOutOfSync":false,
+          "chatId":"554891406417@c.us",
+          "fromMe":false,
+          "sender":
+          {
+            "id":"554891406417@c.us",
+            "name":"Test",
+            "type":"in",
+            "verifiedName":"Test",
+            "isBusiness":true,
+            "isEnterprise":false,
+            "verifiedLevel":0,
+            "statusMute":false,
+            "labels":
+            [
+                          ]
+,
+            "formattedName":"Test",
+            "isMe":false,
+            "isMyContact":true,
+            "isPSA":false,
+            "isUser":true,
+            "isWAContact":true,
+            "profilePicThumbObj":
+            {
+              "eurl":"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5",
+              "id":"554891406417@c.us",
+              "img":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+              "imgFull":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+              "raw":null,
+              "tag":"1595551168"
+            }
+,
+            "msgs":null
+          }
+,
+          "timestamp":1609899176,
+          "content":"Digite o *codigo* correspondente a(o) *REFRIGERANTES*
+
+*1 - REFRI LATA R$: 5,00*
+*2 - REFRI 600 ML R$: 6,00*
+*3 - REFRI 2L R$: 10,00*
+
+Digite *#* para retornar ao menu inicial",
+          "isGroupMsg":false,
+          "isMMS":false,
+          "isMedia":false,
+          "isNotification":false,
+          "isPSA":false,
+          "chat":
+          {
+            "id":"554891406417@c.us",
+            "pendingMsgs":false,
+            "lastReceivedKey":
+            {
+              "fromMe":true,
+              "remote":"554891406417@c.us",
+              "id":"3EB0EA1EC7B149517BED",
+              "_serialized":"true_554891406417@c.us_3EB0EA1EC7B149517BED"
+            }
+,
+            "t":1610328661,
+            "unreadCount":5,
+            "archive":false,
+            "isReadOnly":false,
+            "modifyTag":94041,
+            "muteExpiration":0,
+            "name":"Test",
+            "notSpam":true,
+            "pin":0,
+            "ephemeralDuration":0,
+            "ephemeralSettingTimestamp":0,
+            "msgs":null,
+            "kind":"chat",
+            "isGroup":false,
+            "formattedTitle":"Test",
+            "contact":
+            {
+              "id":"554891406417@c.us",
+              "name":"Test",
+              "type":"in",
+              "verifiedName":"Test",
+              "isBusiness":true,
+              "isEnterprise":false,
+              "verifiedLevel":0,
+              "statusMute":false,
+              "labels":
+              [
+                              ]
+,
+              "formattedName":"Test",
+              "isMe":false,
+              "isMyContact":true,
+              "isPSA":false,
+              "isUser":true,
+              "isWAContact":true,
+              "profilePicThumbObj":
+              {
+                "eurl":"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5",
+                "id":"554891406417@c.us",
+                "img":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+                "imgFull":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+                "raw":null,
+                "tag":"1595551168"
+              }
+,
+              "msgs":null
+            }
+,
+            "groupMetadata":null,
+            "presence":
+            {
+              "id":"554891406417@c.us",
+              "chatstates":
+              [
+                              ]
+            }
+          }
+,
+          "quotedMsgObj":null,
+          "mediaData":
+          {
+                      }
+        }
+,
+        
+        {
+          "id":"false_554891406417@c.us_3EB01BFA79338BA03D3B",
+          "body":"*DOGAO TIO SCOOBY*
+*_Faca ja o seu pedido_*
+
+Por favor digite o *numero* que corresponde ao menu desejado 
+
+*1 - BAGUETE*
+*2 - CERVEJAS*
+*3 - DOGS PRENSADOS*
+*4 - DOGAO DOCE*
+*5 - PORCOES*
+*6 - REFRIGERANTES*
+*7 - TRADICIONAIS*
+*8 - XIS ABERTO*
+*9 - XIS PRENSADO*
+*10 - AGUAS E SUCOS*
+
+Digite *A* para alterar/remover item do seu pedido.
+Digite *F* para finalizar o seu pedido.
+Digite *C* para cancelar o seu pedido.",
+          "type":"chat",
+          "t":1609899176,
+          "notifyName":"",
+          "from":"554891406417@c.us",
+          "to":"554898153342@c.us",
+          "self":"in",
+          "ack":-1,
+          "invis":true,
+          "star":false,
+          "isFromTemplate":false,
+          "broadcast":false,
+          "mentionedJidList":
+          [
+                      ]
+,
+          "isVcardOverMmsDocument":false,
+          "isForwarded":false,
+          "labels":
+          [
+                      ]
+,
+          "ephemeralOutOfSync":false,
+          "chatId":"554891406417@c.us",
+          "fromMe":false,
+          "sender":
+          {
+            "id":"554891406417@c.us",
+            "name":"Test",
+            "type":"in",
+            "verifiedName":"Test",
+            "isBusiness":true,
+            "isEnterprise":false,
+            "verifiedLevel":0,
+            "statusMute":false,
+            "labels":
+            [
+                          ]
+,
+            "formattedName":"Test",
+            "isMe":false,
+            "isMyContact":true,
+            "isPSA":false,
+            "isUser":true,
+            "isWAContact":true,
+            "profilePicThumbObj":
+            {
+              "eurl":"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5",
+              "id":"554891406417@c.us",
+              "img":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+              "imgFull":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+              "raw":null,
+              "tag":"1595551168"
+            }
+,
+            "msgs":null
+          }
+,
+          "timestamp":1609899176,
+          "content":"*DOGAO TIO SCOOBY*
+*_Faca ja o seu pedido_*
+
+Por favor digite o *numero* que corresponde ao menu desejado 
+
+*1 - BAGUETE*
+*2 - CERVEJAS*
+*3 - DOGS PRENSADOS*
+*4 - DOGAO DOCE*
+*5 - PORCOES*
+*6 - REFRIGERANTES*
+*7 - TRADICIONAIS*
+*8 - XIS ABERTO*
+*9 - XIS PRENSADO*
+*10 - AGUAS E SUCOS*
+
+Digite *A* para alterar/remover item do seu pedido.
+Digite *F* para finalizar o seu pedido.
+Digite *C* para cancelar o seu pedido.",
+          "isGroupMsg":false,
+          "isMMS":false,
+          "isMedia":false,
+          "isNotification":false,
+          "isPSA":false,
+          "chat":
+          {
+            "id":"554891406417@c.us",
+            "pendingMsgs":false,
+            "lastReceivedKey":
+            {
+              "fromMe":true,
+              "remote":"554891406417@c.us",
+              "id":"3EB0EA1EC7B149517BED",
+              "_serialized":"true_554891406417@c.us_3EB0EA1EC7B149517BED"
+            }
+,
+            "t":1610328661,
+            "unreadCount":5,
+            "archive":false,
+            "isReadOnly":false,
+            "modifyTag":94041,
+            "muteExpiration":0,
+            "name":"Test",
+            "notSpam":true,
+            "pin":0,
+            "ephemeralDuration":0,
+            "ephemeralSettingTimestamp":0,
+            "msgs":null,
+            "kind":"chat",
+            "isGroup":false,
+            "formattedTitle":"Test",
+            "contact":
+            {
+              "id":"554891406417@c.us",
+              "name":"Test",
+              "type":"in",
+              "verifiedName":"Test",
+              "isBusiness":true,
+              "isEnterprise":false,
+              "verifiedLevel":0,
+              "statusMute":false,
+              "labels":
+              [
+                              ]
+,
+              "formattedName":"Test",
+              "isMe":false,
+              "isMyContact":true,
+              "isPSA":false,
+              "isUser":true,
+              "isWAContact":true,
+              "profilePicThumbObj":
+              {
+                "eurl":"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5",
+                "id":"554891406417@c.us",
+                "img":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+                "imgFull":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+                "raw":null,
+                "tag":"1595551168"
+              }
+,
+              "msgs":null
+            }
+,
+            "groupMetadata":null,
+            "presence":
+            {
+              "id":"554891406417@c.us",
+              "chatstates":
+              [
+                              ]
+            }
+          }
+,
+          "quotedMsgObj":null,
+          "mediaData":
+          {
+                      }
+        }
+,
+        
+        {
+          "id":"false_554891406417@c.us_3EB0F030F460B76A4F59",
+          "body":"*DOGAO TIO SCOOBY*
+*_Faca ja o seu pedido_*
+
+Por favor digite o *numero* que corresponde ao menu desejado 
+
+*1 - BAGUETE*
+*2 - CERVEJAS*
+*3 - DOGS PRENSADOS*
+*4 - DOGAO DOCE*
+*5 - PORCOES*
+*6 - REFRIGERANTES*
+*7 - TRADICIONAIS*
+*8 - XIS ABERTO*
+*9 - XIS PRENSADO*
+*10 - AGUAS E SUCOS*
+
+Digite *A* para alterar/remover item do seu pedido.
+Digite *F* para finalizar o seu pedido.
+Digite *C* para cancelar o seu pedido.",
+          "type":"chat",
+          "t":1609899181,
+          "notifyName":"",
+          "from":"554891406417@c.us",
+          "to":"554898153342@c.us",
+          "self":"in",
+          "ack":-1,
+          "invis":true,
+          "star":false,
+          "isFromTemplate":false,
+          "broadcast":false,
+          "mentionedJidList":
+          [
+                      ]
+,
+          "isVcardOverMmsDocument":false,
+          "isForwarded":false,
+          "labels":
+          [
+                      ]
+,
+          "ephemeralOutOfSync":false,
+          "chatId":"554891406417@c.us",
+          "fromMe":false,
+          "sender":
+          {
+            "id":"554891406417@c.us",
+            "name":"Test",
+            "type":"in",
+            "verifiedName":"Test",
+            "isBusiness":true,
+            "isEnterprise":false,
+            "verifiedLevel":0,
+            "statusMute":false,
+            "labels":
+            [
+                          ]
+,
+            "formattedName":"Test",
+            "isMe":false,
+            "isMyContact":true,
+            "isPSA":false,
+            "isUser":true,
+            "isWAContact":true,
+            "profilePicThumbObj":
+            {
+              "eurl":"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5",
+              "id":"554891406417@c.us",
+              "img":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+              "imgFull":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+              "raw":null,
+              "tag":"1595551168"
+            }
+,
+            "msgs":null
+          }
+,
+          "timestamp":1609899181,
+          "content":"*DOGAO TIO SCOOBY*
+*_Faca ja o seu pedido_*
+
+Por favor digite o *numero* que corresponde ao menu desejado 
+
+*1 - BAGUETE*
+*2 - CERVEJAS*
+*3 - DOGS PRENSADOS*
+*4 - DOGAO DOCE*
+*5 - PORCOES*
+*6 - REFRIGERANTES*
+*7 - TRADICIONAIS*
+*8 - XIS ABERTO*
+*9 - XIS PRENSADO*
+*10 - AGUAS E SUCOS*
+
+Digite *A* para alterar/remover item do seu pedido.
+Digite *F* para finalizar o seu pedido.
+Digite *C* para cancelar o seu pedido.",
+          "isGroupMsg":false,
+          "isMMS":false,
+          "isMedia":false,
+          "isNotification":false,
+          "isPSA":false,
+          "chat":
+          {
+            "id":"554891406417@c.us",
+            "pendingMsgs":false,
+            "lastReceivedKey":
+            {
+              "fromMe":true,
+              "remote":"554891406417@c.us",
+              "id":"3EB0EA1EC7B149517BED",
+              "_serialized":"true_554891406417@c.us_3EB0EA1EC7B149517BED"
+            }
+,
+            "t":1610328661,
+            "unreadCount":5,
+            "archive":false,
+            "isReadOnly":false,
+            "modifyTag":94041,
+            "muteExpiration":0,
+            "name":"Test",
+            "notSpam":true,
+            "pin":0,
+            "ephemeralDuration":0,
+            "ephemeralSettingTimestamp":0,
+            "msgs":null,
+            "kind":"chat",
+            "isGroup":false,
+            "formattedTitle":"Test",
+            "contact":
+            {
+              "id":"554891406417@c.us",
+              "name":"Test",
+              "type":"in",
+              "verifiedName":"Test",
+              "isBusiness":true,
+              "isEnterprise":false,
+              "verifiedLevel":0,
+              "statusMute":false,
+              "labels":
+              [
+                              ]
+,
+              "formattedName":"Test",
+              "isMe":false,
+              "isMyContact":true,
+              "isPSA":false,
+              "isUser":true,
+              "isWAContact":true,
+              "profilePicThumbObj":
+              {
+                "eurl":"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5",
+                "id":"554891406417@c.us",
+                "img":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+                "imgFull":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+                "raw":null,
+                "tag":"1595551168"
+              }
+,
+              "msgs":null
+            }
+,
+            "groupMetadata":null,
+            "presence":
+            {
+              "id":"554891406417@c.us",
+              "chatstates":
+              [
+                              ]
+            }
+          }
+,
+          "quotedMsgObj":null,
+          "mediaData":
+          {
+                      }
+        }
+,
+        
+        {
+          "id":"false_554891406417@c.us_3EB0B7A1F3F06FE6D521",
+          "body":"Ola *SUPORTE PAPALEGUAS*, boa noite bem vindo a *Via-Pian Lancheria (Rio Maina)* as nossas promocoes sao validas para *VEM BUSCAR* ou *CONSUMO NO LOCAL*.
+
+Digite *D* para *DELIVERY*
+Digite *V* para *VEM BUSCAR*",
+          "type":"chat",
+          "t":1610230813,
+          "notifyName":"",
+          "from":"554891406417@c.us",
+          "to":"554898153342@c.us",
+          "self":"in",
+          "ack":-1,
+          "invis":true,
+          "star":false,
+          "isFromTemplate":false,
+          "broadcast":false,
+          "mentionedJidList":
+          [
+                      ]
+,
+          "isVcardOverMmsDocument":false,
+          "isForwarded":false,
+          "labels":
+          [
+                      ]
+,
+          "ephemeralOutOfSync":false,
+          "chatId":"554891406417@c.us",
+          "fromMe":false,
+          "sender":
+          {
+            "id":"554891406417@c.us",
+            "name":"Test",
+            "type":"in",
+            "verifiedName":"Test",
+            "isBusiness":true,
+            "isEnterprise":false,
+            "verifiedLevel":0,
+            "statusMute":false,
+            "labels":
+            [
+                          ]
+,
+            "formattedName":"Test",
+            "isMe":false,
+            "isMyContact":true,
+            "isPSA":false,
+            "isUser":true,
+            "isWAContact":true,
+            "profilePicThumbObj":
+            {
+              "eurl":"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5",
+              "id":"554891406417@c.us",
+              "img":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+              "imgFull":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+              "raw":null,
+              "tag":"1595551168"
+            }
+,
+            "msgs":null
+          }
+,
+          "timestamp":1610230813,
+          "content":"Ola *SUPORTE PAPALEGUAS*, boa noite bem vindo a *Via-Pian Lancheria (Rio Maina)* as nossas promocoes sao validas para *VEM BUSCAR* ou *CONSUMO NO LOCAL*.
+
+Digite *D* para *DELIVERY*
+Digite *V* para *VEM BUSCAR*",
+          "isGroupMsg":false,
+          "isMMS":false,
+          "isMedia":false,
+          "isNotification":false,
+          "isPSA":false,
+          "chat":
+          {
+            "id":"554891406417@c.us",
+            "pendingMsgs":false,
+            "lastReceivedKey":
+            {
+              "fromMe":true,
+              "remote":"554891406417@c.us",
+              "id":"3EB0EA1EC7B149517BED",
+              "_serialized":"true_554891406417@c.us_3EB0EA1EC7B149517BED"
+            }
+,
+            "t":1610328661,
+            "unreadCount":5,
+            "archive":false,
+            "isReadOnly":false,
+            "modifyTag":94041,
+            "muteExpiration":0,
+            "name":"Test",
+            "notSpam":true,
+            "pin":0,
+            "ephemeralDuration":0,
+            "ephemeralSettingTimestamp":0,
+            "msgs":null,
+            "kind":"chat",
+            "isGroup":false,
+            "formattedTitle":"Test",
+            "contact":
+            {
+              "id":"554891406417@c.us",
+              "name":"Test",
+              "type":"in",
+              "verifiedName":"Test",
+              "isBusiness":true,
+              "isEnterprise":false,
+              "verifiedLevel":0,
+              "statusMute":false,
+              "labels":
+              [
+                              ]
+,
+              "formattedName":"Test",
+              "isMe":false,
+              "isMyContact":true,
+              "isPSA":false,
+              "isUser":true,
+              "isWAContact":true,
+              "profilePicThumbObj":
+              {
+                "eurl":"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5",
+                "id":"554891406417@c.us",
+                "img":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+                "imgFull":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+                "raw":null,
+                "tag":"1595551168"
+              }
+,
+              "msgs":null
+            }
+,
+            "groupMetadata":null,
+            "presence":
+            {
+              "id":"554891406417@c.us",
+              "chatstates":
+              [
+                              ]
+            }
+          }
+,
+          "quotedMsgObj":null,
+          "mediaData":
+          {
+                      }
+        }
+,
+        
+        {
+          "id":"false_554891406417@c.us_3EB0AC4F5988E2EA730C",
+          "body":"Ola *SUPORTE PAPALEGUAS*, boa noite bem vindo a *Via-Pian Lancheria (Rio Maina)* as nossas promocoes sao validas para *VEM BUSCAR* ou *CONSUMO NO LOCAL*.
+
+Digite *D* para *DELIVERY*
+Digite *V* para *VEM BUSCAR*",
+          "type":"chat",
+          "t":1610230818,
+          "notifyName":"",
+          "from":"554891406417@c.us",
+          "to":"554898153342@c.us",
+          "self":"in",
+          "ack":-1,
+          "invis":true,
+          "star":false,
+          "isFromTemplate":false,
+          "broadcast":false,
+          "mentionedJidList":
+          [
+                      ]
+,
+          "isVcardOverMmsDocument":false,
+          "isForwarded":false,
+          "labels":
+          [
+                      ]
+,
+          "ephemeralOutOfSync":false,
+          "chatId":"554891406417@c.us",
+          "fromMe":false,
+          "sender":
+          {
+            "id":"554891406417@c.us",
+            "name":"Test",
+            "type":"in",
+            "verifiedName":"Test",
+            "isBusiness":true,
+            "isEnterprise":false,
+            "verifiedLevel":0,
+            "statusMute":false,
+            "labels":
+            [
+                          ]
+,
+            "formattedName":"Test",
+            "isMe":false,
+            "isMyContact":true,
+            "isPSA":false,
+            "isUser":true,
+            "isWAContact":true,
+            "profilePicThumbObj":
+            {
+              "eurl":"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5",
+              "id":"554891406417@c.us",
+              "img":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+              "imgFull":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+              "raw":null,
+              "tag":"1595551168"
+            }
+,
+            "msgs":null
+          }
+,
+          "timestamp":1610230818,
+          "content":"Ola *SUPORTE PAPALEGUAS*, boa noite bem vindo a *Via-Pian Lancheria (Rio Maina)* as nossas promocoes sao validas para *VEM BUSCAR* ou *CONSUMO NO LOCAL*.
+
+Digite *D* para *DELIVERY*
+Digite *V* para *VEM BUSCAR*",
+          "isGroupMsg":false,
+          "isMMS":false,
+          "isMedia":false,
+          "isNotification":false,
+          "isPSA":false,
+          "chat":
+          {
+            "id":"554891406417@c.us",
+            "pendingMsgs":false,
+            "lastReceivedKey":
+            {
+              "fromMe":true,
+              "remote":"554891406417@c.us",
+              "id":"3EB0EA1EC7B149517BED",
+              "_serialized":"true_554891406417@c.us_3EB0EA1EC7B149517BED"
+            }
+,
+            "t":1610328661,
+            "unreadCount":5,
+            "archive":false,
+            "isReadOnly":false,
+            "modifyTag":94041,
+            "muteExpiration":0,
+            "name":"Test",
+            "notSpam":true,
+            "pin":0,
+            "ephemeralDuration":0,
+            "ephemeralSettingTimestamp":0,
+            "msgs":null,
+            "kind":"chat",
+            "isGroup":false,
+            "formattedTitle":"Test",
+            "contact":
+            {
+              "id":"554891406417@c.us",
+              "name":"Test",
+              "type":"in",
+              "verifiedName":"Test",
+              "isBusiness":true,
+              "isEnterprise":false,
+              "verifiedLevel":0,
+              "statusMute":false,
+              "labels":
+              [
+                              ]
+,
+              "formattedName":"Test",
+              "isMe":false,
+              "isMyContact":true,
+              "isPSA":false,
+              "isUser":true,
+              "isWAContact":true,
+              "profilePicThumbObj":
+              {
+                "eurl":"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5",
+                "id":"554891406417@c.us",
+                "img":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+                "imgFull":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+                "raw":null,
+                "tag":"1595551168"
+              }
+,
+              "msgs":null
+            }
+,
+            "groupMetadata":null,
+            "presence":
+            {
+              "id":"554891406417@c.us",
+              "chatstates":
+              [
+                              ]
+            }
+          }
+,
+          "quotedMsgObj":null,
+          "mediaData":
+          {
+                      }
+        }
+      ]
+    }
+  ]
+}
+
+
+[10/01/21 22:35:27 - CONSOLE]  
+{"name":"getUnreadMessages","result":"{\"result\":[{\"id\":\"554891406417@c.us\",\"pendingMsgs\":false,\"lastReceivedKey\":{\"fromMe\":true,\"remote\":\"554891406417@c.us\",\"id\":\"3EB0EA1EC7B149517BED\",\"_serialized\":\"true_554891406417@c.us_3EB0EA1EC7B149517BED\"},\"t\":1610328970,\"unreadCount\":0,\"archive\":false,\"isReadOnly\":false,\"modifyTag\":94041,\"muteExpiration\":0,\"name\":\"Test\",\"notSpam\":true,\"pin\":0,\"ephemeralDuration\":0,\"ephemeralSettingTimestamp\":0,\"msgs\":null,\"kind\":\"chat\",\"isGroup\":false,\"formattedTitle\":\"Test\",\"contact\":{\"id\":\"554891406417@c.us\",\"name\":\"Test\",\"type\":\"in\",\"verifiedName\":\"Test\",\"isBusiness\":true,\"isEnterprise\":false,\"verifiedLevel\":0,\"statusMute\":false,\"labels\":[],\"formattedName\":\"Test\",\"isMe\":false,\"isMyContact\":true,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{\"eurl\":\"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5\",\"id\":\"554891406417@c.us\",\"img\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"imgFull\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"raw\":null,\"tag\":\"1595551168\"},\"msgs\":null},\"groupMetadata\":null,\"presence\":{\"id\":\"554891406417@c.us\",\"chatstates\":[]},\"messages\":[{\"id\":\"true_554891406417@c.us_3EB023491DA32D0B54DC\",\"body\":\"4\",\"type\":\"chat\",\"subtype\":null,\"t\":1610328970,\"from\":\"554898153342@c.us\",\"to\":\"554891406417@c.us\",\"self\":\"out\",\"ack\":0,\"isNewMsg\":false,\"star\":false,\"isFromTemplate\":false,\"mentionedJidList\":[],\"isVcardOverMmsDocument\":false,\"isForwarded\":false,\"chatId\":\"554891406417@c.us\",\"fromMe\":true,\"sender\":{\"id\":\"554898153342@c.us\",\"type\":\"in\",\"formattedName\":\"Voce\",\"isMe\":true,\"isMyContact\":false,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{\"eurl\":\"https://pps.whatsapp.net/v/t61.24694-24/116269755_2675348859371768_4964371647744728908_n.jpg?oh=dda7eddc72df6c6cd48169343fe68b70&oe=6000F13F\",\"id\":\"554898153342@c.us\",\"img\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116269755_2675348859371768_4964371647744728908_n.jpg%3Foh%3Ddda7eddc72df6c6cd48169343fe68b70%26oe%3D6000F13F&t=s&u=554898153342%40c.us&i=1595640568&n=5Uxd2gAv4TGWZYme8UDbr7gC6wUTV3RRHkJ6SA9Cq%2FA%3D\",\"imgFull\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116269755_2675348859371768_4964371647744728908_n.jpg%3Foh%3Ddda7eddc72df6c6cd48169343fe68b70%26oe%3D6000F13F&t=l&u=554898153342%40c.us&i=1595640568&n=5Uxd2gAv4TGWZYme8UDbr7gC6wUTV3RRHkJ6SA9Cq%2FA%3D\",\"raw\":null,\"tag\":\"1595640568\"},\"msgs\":null},\"timestamp\":1610328970,\"content\":\"4\",\"isGroupMsg\":false,\"isMMS\":false,\"isMedia\":false,\"isNotification\":false,\"isPSA\":false,\"chat\":{\"id\":\"554891406417@c.us\",\"pendingMsgs\":false,\"lastReceivedKey\":{\"fromMe\":true,\"remote\":\"554891406417@c.us\",\"id\":\"3EB0EA1EC7B149517BED\",\"_serialized\":\"true_554891406417@c.us_3EB0EA1EC7B149517BED\"},\"t\":1610328970,\"unreadCount\":0,\"archive\":false,\"isReadOnly\":false,\"modifyTag\":94041,\"muteExpiration\":0,\"name\":\"Test\",\"notSpam\":true,\"pin\":0,\"ephemeralDuration\":0,\"ephemeralSettingTimestamp\":0,\"msgs\":null,\"kind\":\"chat\",\"isGroup\":false,\"formattedTitle\":\"Test\",\"contact\":{\"id\":\"554891406417@c.us\",\"name\":\"Test\",\"type\":\"in\",\"verifiedName\":\"Test\",\"isBusiness\":true,\"isEnterprise\":false,\"verifiedLevel\":0,\"statusMute\":false,\"labels\":[],\"formattedName\":\"Test\",\"isMe\":false,\"isMyContact\":true,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{\"eurl\":\"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5\",\"id\":\"554891406417@c.us\",\"img\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"imgFull\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D\",\"raw\":null,\"tag\":\"1595551168\"},\"msgs\":null},\"groupMetadata\":null,\"presence\":{\"id\":\"554891406417@c.us\",\"chatstates\":[]}},\"quotedMsgObj\":null,\"mediaData\":{}}]}]}"}
+[10/01/21 22:35:27 - TChatList]  
+{
+  "result":
+  [
+        {
+      "id":"554891406417@c.us",
+      "pendingMsgs":false,
+      "lastReceivedKey":
+      {
+        "fromMe":true,
+        "remote":"554891406417@c.us",
+        "id":"3EB0EA1EC7B149517BED",
+        "_serialized":"true_554891406417@c.us_3EB0EA1EC7B149517BED"
+      }
+,
+      "t":1610328970,
+      "unreadCount":0,
+      "archive":false,
+      "isReadOnly":false,
+      "modifyTag":94041,
+      "muteExpiration":0,
+      "name":"Test",
+      "notSpam":true,
+      "pin":0,
+      "ephemeralDuration":0,
+      "ephemeralSettingTimestamp":0,
+      "msgs":null,
+      "kind":"chat",
+      "isGroup":false,
+      "formattedTitle":"Test",
+      "contact":
+      {
+        "id":"554891406417@c.us",
+        "name":"Test",
+        "type":"in",
+        "verifiedName":"Test",
+        "isBusiness":true,
+        "isEnterprise":false,
+        "verifiedLevel":0,
+        "statusMute":false,
+        "labels":
+        [
+                  ]
+,
+        "formattedName":"Test",
+        "isMe":false,
+        "isMyContact":true,
+        "isPSA":false,
+        "isUser":true,
+        "isWAContact":true,
+        "profilePicThumbObj":
+        {
+          "eurl":"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5",
+          "id":"554891406417@c.us",
+          "img":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+          "imgFull":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+          "raw":null,
+          "tag":"1595551168"
+        }
+,
+        "msgs":null
+      }
+,
+      "groupMetadata":null,
+      "presence":
+      {
+        "id":"554891406417@c.us",
+        "chatstates":
+        [
+                  ]
+      }
+,
+      "messages":
+      [
+                {
+          "id":"true_554891406417@c.us_3EB023491DA32D0B54DC",
+          "body":"4",
+          "type":"chat",
+          "subtype":null,
+          "t":1610328970,
+          "from":"554898153342@c.us",
+          "to":"554891406417@c.us",
+          "self":"out",
+          "ack":0,
+          "isNewMsg":false,
+          "star":false,
+          "isFromTemplate":false,
+          "mentionedJidList":
+          [
+                      ]
+,
+          "isVcardOverMmsDocument":false,
+          "isForwarded":false,
+          "chatId":"554891406417@c.us",
+          "fromMe":true,
+          "sender":
+          {
+            "id":"554898153342@c.us",
+            "type":"in",
+            "formattedName":"Voce",
+            "isMe":true,
+            "isMyContact":false,
+            "isPSA":false,
+            "isUser":true,
+            "isWAContact":true,
+            "profilePicThumbObj":
+            {
+              "eurl":"https://pps.whatsapp.net/v/t61.24694-24/116269755_2675348859371768_4964371647744728908_n.jpg?oh=dda7eddc72df6c6cd48169343fe68b70&oe=6000F13F",
+              "id":"554898153342@c.us",
+              "img":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116269755_2675348859371768_4964371647744728908_n.jpg%3Foh%3Ddda7eddc72df6c6cd48169343fe68b70%26oe%3D6000F13F&t=s&u=554898153342%40c.us&i=1595640568&n=5Uxd2gAv4TGWZYme8UDbr7gC6wUTV3RRHkJ6SA9Cq%2FA%3D",
+              "imgFull":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116269755_2675348859371768_4964371647744728908_n.jpg%3Foh%3Ddda7eddc72df6c6cd48169343fe68b70%26oe%3D6000F13F&t=l&u=554898153342%40c.us&i=1595640568&n=5Uxd2gAv4TGWZYme8UDbr7gC6wUTV3RRHkJ6SA9Cq%2FA%3D",
+              "raw":null,
+              "tag":"1595640568"
+            }
+,
+            "msgs":null
+          }
+,
+          "timestamp":1610328970,
+          "content":"4",
+          "isGroupMsg":false,
+          "isMMS":false,
+          "isMedia":false,
+          "isNotification":false,
+          "isPSA":false,
+          "chat":
+          {
+            "id":"554891406417@c.us",
+            "pendingMsgs":false,
+            "lastReceivedKey":
+            {
+              "fromMe":true,
+              "remote":"554891406417@c.us",
+              "id":"3EB0EA1EC7B149517BED",
+              "_serialized":"true_554891406417@c.us_3EB0EA1EC7B149517BED"
+            }
+,
+            "t":1610328970,
+            "unreadCount":0,
+            "archive":false,
+            "isReadOnly":false,
+            "modifyTag":94041,
+            "muteExpiration":0,
+            "name":"Test",
+            "notSpam":true,
+            "pin":0,
+            "ephemeralDuration":0,
+            "ephemeralSettingTimestamp":0,
+            "msgs":null,
+            "kind":"chat",
+            "isGroup":false,
+            "formattedTitle":"Test",
+            "contact":
+            {
+              "id":"554891406417@c.us",
+              "name":"Test",
+              "type":"in",
+              "verifiedName":"Test",
+              "isBusiness":true,
+              "isEnterprise":false,
+              "verifiedLevel":0,
+              "statusMute":false,
+              "labels":
+              [
+                              ]
+,
+              "formattedName":"Test",
+              "isMe":false,
+              "isMyContact":true,
+              "isPSA":false,
+              "isUser":true,
+              "isWAContact":true,
+              "profilePicThumbObj":
+              {
+                "eurl":"https://pps.whatsapp.net/v/t61.24694-24/116116450_107669734274682_8231843971424137748_n.jpg?oh=24da25482eec799a127bcdfcc67e3cb8&oe=5FFFFBE5",
+                "id":"554891406417@c.us",
+                "img":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=s&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+                "imgFull":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F116116450_107669734274682_8231843971424137748_n.jpg%3Foh%3D24da25482eec799a127bcdfcc67e3cb8%26oe%3D5FFFFBE5&t=l&u=554891406417%40c.us&i=1595551168&n=mXX3Bc23PsmBAFipalyInrWh6Weif1kMW7kUXI%2BigA0%3D",
+                "raw":null,
+                "tag":"1595551168"
+              }
+,
+              "msgs":null
+            }
+,
+            "groupMetadata":null,
+            "presence":
+            {
+              "id":"554891406417@c.us",
+              "chatstates":
+              [
+                              ]
+            }
+          }
+,
+          "quotedMsgObj":null,
+          "mediaData":
+          {
+                      }
+        }
+      ]
+    }
+  ]
+}
+
+
+[10/01/21 22:35:32 - CONSOLE]  
+{"name":"GetCheckIsConnected","result":"{\"result\":true}"}
+[10/01/21 22:35:32 - TResponseCheckIsConnected]  
+{
+  "result":true
+}
+
+
+[10/01/21 22:36:17 - CONSOLE]  
+{"name":"NewCheckIsValidNumber","result":"{\"result\":{\"id\":\"554898111156@c.us\",\"valid\":true}}"}
+[10/01/21 22:36:17 - TReturnCheckNumber]  
+{
+  "id":"554898111156@c.us",
+  "valid":true
+}
+
+
+[10/01/21 22:36:23 - CONSOLE]  
+{"name":"NewCheckIsValidNumber","result":"{\"result\":{\"id\":\"5548998111156@c.us\",\"valid\":true}}"}
+[10/01/21 22:36:23 - TReturnCheckNumber]  
+{
+  "id":"5548998111156@c.us",
+  "valid":true
+}
+
+[10/01/21 22:36:30 - TResultQRCodeClass]  
+{
+  "result":
+  [
+      ]
+}

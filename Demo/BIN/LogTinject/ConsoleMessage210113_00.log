@@ -1,0 +1,63 @@
+
+
+[13/01/21 00:00:20 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":66}"}
+[13/01/21 00:00:20 - TResponseBattery]  
+{
+  "result":66
+}
+
+
+[13/01/21 00:03:30 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":66}"}
+[13/01/21 00:03:30 - TResponseBattery]  
+{
+  "result":66
+}
+
+
+[13/01/21 00:06:41 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":66}"}
+[13/01/21 00:06:41 - TResponseBattery]  
+{
+  "result":66
+}
+
+
+[13/01/21 00:09:52 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":65}"}
+[13/01/21 00:09:52 - TResponseBattery]  
+{
+  "result":65
+}
+
+
+[13/01/21 00:13:03 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":64}"}
+[13/01/21 00:13:03 - TResponseBattery]  
+{
+  "result":64
+}
+
+
+[13/01/21 00:16:13 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":63}"}
+[13/01/21 00:16:13 - TResponseBattery]  
+{
+  "result":63
+}
+
+
+[13/01/21 00:19:24 - CONSOLE]  
+{"name":"getBatteryLevel","result":"{\"result\":63}"}
+[13/01/21 00:19:24 - TResponseBattery]  
+{
+  "result":63
+}
+
+[13/01/21 00:22:17 - TResultQRCodeClass]  
+{
+  "result":
+  [
+      ]
+}

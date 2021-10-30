@@ -1,0 +1,36 @@
+2021/04/06-14:31:25.098 37d8 Reusing MANIFEST C:\Delphi\Seattle\Componentes\TInject\Demo\BIN\cache\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-001528
+2021/04/06-14:31:25.098 37d8 Recovering log #1530
+2021/04/06-14:31:25.149 37d8 Reusing old log C:\Delphi\Seattle\Componentes\TInject\Demo\BIN\cache\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/001530.log 
+2021/04/06-14:49:24.093 54c Level-0 table #1545: started
+2021/04/06-14:49:24.130 54c Level-0 table #1545: 1467974 bytes OK
+2021/04/06-14:49:24.132 54c Delete type=0 #1530
+2021/04/06-14:50:23.656 54c Compacting 1@0 + 1@1 files
+2021/04/06-14:50:23.725 54c Generated table #1546@0: 22813 keys, 549815 bytes
+2021/04/06-14:50:23.733 54c Generated table #1547@0: 5 keys, 677 bytes
+2021/04/06-14:50:23.733 54c Compacted 1@0 + 1@1 files => 550492 bytes
+2021/04/06-14:50:23.734 54c compacted to: files[ 0 2 9 0 0 0 0 ]
+2021/04/06-14:50:23.734 54c Delete type=2 #1533
+2021/04/06-14:50:23.734 54c Delete type=2 #1545
+2021/04/06-14:50:27.087 54c Compacting 1@1 + 9@2 files
+2021/04/06-14:50:27.179 54c Generated table #1548@1: 38964 keys, 2230316 bytes
+2021/04/06-14:50:27.404 54c Generated table #1549@1: 34614 keys, 2233269 bytes
+2021/04/06-14:50:27.554 54c Generated table #1550@1: 34844 keys, 2227477 bytes
+2021/04/06-14:50:27.643 54c Generated table #1551@1: 46637 keys, 2237792 bytes
+2021/04/06-14:50:27.734 54c Generated table #1552@1: 74383 keys, 2378513 bytes
+2021/04/06-14:50:27.806 54c Generated table #1553@1: 1578 keys, 2644712 bytes
+2021/04/06-14:50:27.877 54c Generated table #1554@1: 1601 keys, 2617935 bytes
+2021/04/06-14:50:27.949 54c Generated table #1555@1: 2886 keys, 2576109 bytes
+2021/04/06-14:50:28.022 54c Generated table #1556@1: 1189 keys, 2694907 bytes
+2021/04/06-14:50:28.028 54c Generated table #1557@1: 265 keys, 25817 bytes
+2021/04/06-14:50:28.028 54c Compacted 1@1 + 9@2 files => 21866847 bytes
+2021/04/06-14:50:28.030 54c compacted to: files[ 0 1 10 0 0 0 0 ]
+2021/04/06-14:50:28.030 54c Delete type=2 #1534
+2021/04/06-14:50:28.030 54c Delete type=2 #1535
+2021/04/06-14:50:28.030 54c Delete type=2 #1536
+2021/04/06-14:50:28.031 54c Delete type=2 #1537
+2021/04/06-14:50:28.031 54c Delete type=2 #1538
+2021/04/06-14:50:28.031 54c Delete type=2 #1539
+2021/04/06-14:50:28.031 54c Delete type=2 #1540
+2021/04/06-14:50:28.032 54c Delete type=2 #1541
+2021/04/06-14:50:28.032 54c Delete type=2 #1542
+2021/04/06-14:50:28.032 54c Delete type=2 #1546

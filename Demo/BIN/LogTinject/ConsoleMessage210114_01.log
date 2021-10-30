@@ -1,0 +1,397 @@
+
+
+[14/01/21 01:00:07 - CONSOLE]  
+{"name":"getUnreadMessages","result":"{\"result\":[{\"id\":\"554891406417@c.us\",\"pendingMsgs\":false,\"lastReceivedKey\":{\"fromMe\":true,\"remote\":\"554891406417@c.us\",\"id\":\"3EB0ADB2FFC2D77ABCD5\",\"_serialized\":\"true_554891406417@c.us_3EB0ADB2FFC2D77ABCD5\"},\"t\":1610596853,\"unreadCount\":0,\"archive\":false,\"isReadOnly\":false,\"modifyTag\":708548,\"muteExpiration\":0,\"name\":\"PAPALEGUAS FOOD\",\"notSpam\":true,\"pin\":0,\"ephemeralDuration\":0,\"ephemeralSettingTimestamp\":0,\"msgs\":null,\"kind\":\"chat\",\"isGroup\":false,\"formattedTitle\":\"PAPALEGUAS FOOD\",\"contact\":{\"id\":\"554891406417@c.us\",\"name\":\"PAPALEGUAS FOOD\",\"type\":\"in\",\"verifiedName\":\"Test\",\"isBusiness\":true,\"isEnterprise\":false,\"verifiedLevel\":0,\"statusMute\":false,\"labels\":[],\"formattedName\":\"PAPALEGUAS FOOD\",\"isMe\":false,\"isMyContact\":true,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{},\"msgs\":null},\"groupMetadata\":null,\"presence\":{\"id\":\"554891406417@c.us\",\"chatstates\":[]},\"messages\":[{\"id\":\"true_554891406417@c.us_3EB061AFCF882E78CDC3\",\"body\":\"oi\",\"type\":\"chat\",\"subtype\":null,\"t\":1610596853,\"from\":\"554898111156@c.us\",\"to\":\"554891406417@c.us\",\"self\":\"out\",\"ack\":0,\"isNewMsg\":false,\"star\":false,\"isFromTemplate\":false,\"mentionedJidList\":[],\"isVcardOverMmsDocument\":false,\"isForwarded\":false,\"chatId\":\"554891406417@c.us\",\"fromMe\":true,\"sender\":{\"id\":\"554898111156@c.us\",\"type\":\"in\",\"formattedName\":\"Voce\",\"isMe\":true,\"isMyContact\":false,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{\"eurl\":\"https://pps.whatsapp.net/v/t61.24694-24/86179821_2564638573815487_9125477457020068719_n.jpg?oh=97148eb70dbb7507a0039592f34741db&oe=60048610\",\"id\":\"554898111156@c.us\",\"img\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F86179821_2564638573815487_9125477457020068719_n.jpg%3Foh%3D97148eb70dbb7507a0039592f34741db%26oe%3D60048610&t=s&u=554898111156%40c.us&i=1585186472&n=OtkZU0N1oTmgS1zcoTZrKrPw1Ac99vwQtNPvNqfggCM%3D\",\"imgFull\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F86179821_2564638573815487_9125477457020068719_n.jpg%3Foh%3D97148eb70dbb7507a0039592f34741db%26oe%3D60048610&t=l&u=554898111156%40c.us&i=1585186472&n=OtkZU0N1oTmgS1zcoTZrKrPw1Ac99vwQtNPvNqfggCM%3D\",\"raw\":null,\"tag\":\"1585186472\"},\"msgs\":null},\"timestamp\":1610596853,\"content\":\"oi\",\"isGroupMsg\":false,\"isMedia\":false,\"isNotification\":false,\"isPSA\":false,\"chat\":{\"id\":\"554891406417@c.us\",\"pendingMsgs\":false,\"lastReceivedKey\":{\"fromMe\":true,\"remote\":\"554891406417@c.us\",\"id\":\"3EB0ADB2FFC2D77ABCD5\",\"_serialized\":\"true_554891406417@c.us_3EB0ADB2FFC2D77ABCD5\"},\"t\":1610596853,\"unreadCount\":0,\"archive\":false,\"isReadOnly\":false,\"modifyTag\":708548,\"muteExpiration\":0,\"name\":\"PAPALEGUAS FOOD\",\"notSpam\":true,\"pin\":0,\"ephemeralDuration\":0,\"ephemeralSettingTimestamp\":0,\"msgs\":null,\"kind\":\"chat\",\"isGroup\":false,\"formattedTitle\":\"PAPALEGUAS FOOD\",\"contact\":{\"id\":\"554891406417@c.us\",\"name\":\"PAPALEGUAS FOOD\",\"type\":\"in\",\"verifiedName\":\"Test\",\"isBusiness\":true,\"isEnterprise\":false,\"verifiedLevel\":0,\"statusMute\":false,\"labels\":[],\"formattedName\":\"PAPALEGUAS FOOD\",\"isMe\":false,\"isMyContact\":true,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{},\"msgs\":null},\"groupMetadata\":null,\"presence\":{\"id\":\"554891406417@c.us\",\"chatstates\":[]}},\"quotedMsgObj\":null,\"mediaData\":{}}]}]}"}
+[14/01/21 01:00:08 - TChatList]  
+{
+  "result":
+  [
+        {
+      "id":"554891406417@c.us",
+      "pendingMsgs":false,
+      "lastReceivedKey":
+      {
+        "fromMe":true,
+        "remote":"554891406417@c.us",
+        "id":"3EB0ADB2FFC2D77ABCD5",
+        "_serialized":"true_554891406417@c.us_3EB0ADB2FFC2D77ABCD5"
+      }
+,
+      "t":1610596853,
+      "unreadCount":0,
+      "archive":false,
+      "isReadOnly":false,
+      "modifyTag":708548,
+      "muteExpiration":0,
+      "name":"PAPALEGUAS FOOD",
+      "notSpam":true,
+      "pin":0,
+      "ephemeralDuration":0,
+      "ephemeralSettingTimestamp":0,
+      "msgs":null,
+      "kind":"chat",
+      "isGroup":false,
+      "formattedTitle":"PAPALEGUAS FOOD",
+      "contact":
+      {
+        "id":"554891406417@c.us",
+        "name":"PAPALEGUAS FOOD",
+        "type":"in",
+        "verifiedName":"Test",
+        "isBusiness":true,
+        "isEnterprise":false,
+        "verifiedLevel":0,
+        "statusMute":false,
+        "labels":
+        [
+                  ]
+,
+        "formattedName":"PAPALEGUAS FOOD",
+        "isMe":false,
+        "isMyContact":true,
+        "isPSA":false,
+        "isUser":true,
+        "isWAContact":true,
+        "profilePicThumbObj":
+        {
+                  }
+,
+        "msgs":null
+      }
+,
+      "groupMetadata":null,
+      "presence":
+      {
+        "id":"554891406417@c.us",
+        "chatstates":
+        [
+                  ]
+      }
+,
+      "messages":
+      [
+                {
+          "id":"true_554891406417@c.us_3EB061AFCF882E78CDC3",
+          "body":"oi",
+          "type":"chat",
+          "subtype":null,
+          "t":1610596853,
+          "from":"554898111156@c.us",
+          "to":"554891406417@c.us",
+          "self":"out",
+          "ack":0,
+          "isNewMsg":false,
+          "star":false,
+          "isFromTemplate":false,
+          "mentionedJidList":
+          [
+                      ]
+,
+          "isVcardOverMmsDocument":false,
+          "isForwarded":false,
+          "chatId":"554891406417@c.us",
+          "fromMe":true,
+          "sender":
+          {
+            "id":"554898111156@c.us",
+            "type":"in",
+            "formattedName":"Voce",
+            "isMe":true,
+            "isMyContact":false,
+            "isPSA":false,
+            "isUser":true,
+            "isWAContact":true,
+            "profilePicThumbObj":
+            {
+              "eurl":"https://pps.whatsapp.net/v/t61.24694-24/86179821_2564638573815487_9125477457020068719_n.jpg?oh=97148eb70dbb7507a0039592f34741db&oe=60048610",
+              "id":"554898111156@c.us",
+              "img":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F86179821_2564638573815487_9125477457020068719_n.jpg%3Foh%3D97148eb70dbb7507a0039592f34741db%26oe%3D60048610&t=s&u=554898111156%40c.us&i=1585186472&n=OtkZU0N1oTmgS1zcoTZrKrPw1Ac99vwQtNPvNqfggCM%3D",
+              "imgFull":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F86179821_2564638573815487_9125477457020068719_n.jpg%3Foh%3D97148eb70dbb7507a0039592f34741db%26oe%3D60048610&t=l&u=554898111156%40c.us&i=1585186472&n=OtkZU0N1oTmgS1zcoTZrKrPw1Ac99vwQtNPvNqfggCM%3D",
+              "raw":null,
+              "tag":"1585186472"
+            }
+,
+            "msgs":null
+          }
+,
+          "timestamp":1610596853,
+          "content":"oi",
+          "isGroupMsg":false,
+          "isMedia":false,
+          "isNotification":false,
+          "isPSA":false,
+          "chat":
+          {
+            "id":"554891406417@c.us",
+            "pendingMsgs":false,
+            "lastReceivedKey":
+            {
+              "fromMe":true,
+              "remote":"554891406417@c.us",
+              "id":"3EB0ADB2FFC2D77ABCD5",
+              "_serialized":"true_554891406417@c.us_3EB0ADB2FFC2D77ABCD5"
+            }
+,
+            "t":1610596853,
+            "unreadCount":0,
+            "archive":false,
+            "isReadOnly":false,
+            "modifyTag":708548,
+            "muteExpiration":0,
+            "name":"PAPALEGUAS FOOD",
+            "notSpam":true,
+            "pin":0,
+            "ephemeralDuration":0,
+            "ephemeralSettingTimestamp":0,
+            "msgs":null,
+            "kind":"chat",
+            "isGroup":false,
+            "formattedTitle":"PAPALEGUAS FOOD",
+            "contact":
+            {
+              "id":"554891406417@c.us",
+              "name":"PAPALEGUAS FOOD",
+              "type":"in",
+              "verifiedName":"Test",
+              "isBusiness":true,
+              "isEnterprise":false,
+              "verifiedLevel":0,
+              "statusMute":false,
+              "labels":
+              [
+                              ]
+,
+              "formattedName":"PAPALEGUAS FOOD",
+              "isMe":false,
+              "isMyContact":true,
+              "isPSA":false,
+              "isUser":true,
+              "isWAContact":true,
+              "profilePicThumbObj":
+              {
+                              }
+,
+              "msgs":null
+            }
+,
+            "groupMetadata":null,
+            "presence":
+            {
+              "id":"554891406417@c.us",
+              "chatstates":
+              [
+                              ]
+            }
+          }
+,
+          "quotedMsgObj":null,
+          "mediaData":
+          {
+                      }
+        }
+      ]
+    }
+  ]
+}
+
+
+[14/01/21 01:01:07 - CONSOLE]  
+{"name":"getUnreadMessages","result":"{\"result\":[{\"id\":\"554891406417@c.us\",\"pendingMsgs\":false,\"lastReceivedKey\":{\"fromMe\":true,\"remote\":\"554891406417@c.us\",\"id\":\"3EB0ADB2FFC2D77ABCD5\",\"_serialized\":\"true_554891406417@c.us_3EB0ADB2FFC2D77ABCD5\"},\"t\":1610596913,\"unreadCount\":0,\"archive\":false,\"isReadOnly\":false,\"modifyTag\":708548,\"muteExpiration\":0,\"name\":\"PAPALEGUAS FOOD\",\"notSpam\":true,\"pin\":0,\"ephemeralDuration\":0,\"ephemeralSettingTimestamp\":0,\"msgs\":null,\"kind\":\"chat\",\"isGroup\":false,\"formattedTitle\":\"PAPALEGUAS FOOD\",\"contact\":{\"id\":\"554891406417@c.us\",\"name\":\"PAPALEGUAS FOOD\",\"type\":\"in\",\"verifiedName\":\"Test\",\"isBusiness\":true,\"isEnterprise\":false,\"verifiedLevel\":0,\"statusMute\":false,\"labels\":[],\"formattedName\":\"PAPALEGUAS FOOD\",\"isMe\":false,\"isMyContact\":true,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{},\"msgs\":null},\"groupMetadata\":null,\"presence\":{\"id\":\"554891406417@c.us\",\"chatstates\":[]},\"messages\":[{\"id\":\"true_554891406417@c.us_3EB07A11FC915BE6E9D8\",\"body\":\"oi\",\"type\":\"chat\",\"subtype\":null,\"t\":1610596913,\"from\":\"554898111156@c.us\",\"to\":\"554891406417@c.us\",\"self\":\"out\",\"ack\":0,\"isNewMsg\":false,\"star\":false,\"isFromTemplate\":false,\"mentionedJidList\":[],\"isVcardOverMmsDocument\":false,\"isForwarded\":false,\"chatId\":\"554891406417@c.us\",\"fromMe\":true,\"sender\":{\"id\":\"554898111156@c.us\",\"type\":\"in\",\"formattedName\":\"Voce\",\"isMe\":true,\"isMyContact\":false,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{\"eurl\":\"https://pps.whatsapp.net/v/t61.24694-24/86179821_2564638573815487_9125477457020068719_n.jpg?oh=97148eb70dbb7507a0039592f34741db&oe=60048610\",\"id\":\"554898111156@c.us\",\"img\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F86179821_2564638573815487_9125477457020068719_n.jpg%3Foh%3D97148eb70dbb7507a0039592f34741db%26oe%3D60048610&t=s&u=554898111156%40c.us&i=1585186472&n=OtkZU0N1oTmgS1zcoTZrKrPw1Ac99vwQtNPvNqfggCM%3D\",\"imgFull\":\"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F86179821_2564638573815487_9125477457020068719_n.jpg%3Foh%3D97148eb70dbb7507a0039592f34741db%26oe%3D60048610&t=l&u=554898111156%40c.us&i=1585186472&n=OtkZU0N1oTmgS1zcoTZrKrPw1Ac99vwQtNPvNqfggCM%3D\",\"raw\":null,\"tag\":\"1585186472\"},\"msgs\":null},\"timestamp\":1610596913,\"content\":\"oi\",\"isGroupMsg\":false,\"isMedia\":false,\"isNotification\":false,\"isPSA\":false,\"chat\":{\"id\":\"554891406417@c.us\",\"pendingMsgs\":false,\"lastReceivedKey\":{\"fromMe\":true,\"remote\":\"554891406417@c.us\",\"id\":\"3EB0ADB2FFC2D77ABCD5\",\"_serialized\":\"true_554891406417@c.us_3EB0ADB2FFC2D77ABCD5\"},\"t\":1610596913,\"unreadCount\":0,\"archive\":false,\"isReadOnly\":false,\"modifyTag\":708548,\"muteExpiration\":0,\"name\":\"PAPALEGUAS FOOD\",\"notSpam\":true,\"pin\":0,\"ephemeralDuration\":0,\"ephemeralSettingTimestamp\":0,\"msgs\":null,\"kind\":\"chat\",\"isGroup\":false,\"formattedTitle\":\"PAPALEGUAS FOOD\",\"contact\":{\"id\":\"554891406417@c.us\",\"name\":\"PAPALEGUAS FOOD\",\"type\":\"in\",\"verifiedName\":\"Test\",\"isBusiness\":true,\"isEnterprise\":false,\"verifiedLevel\":0,\"statusMute\":false,\"labels\":[],\"formattedName\":\"PAPALEGUAS FOOD\",\"isMe\":false,\"isMyContact\":true,\"isPSA\":false,\"isUser\":true,\"isWAContact\":true,\"profilePicThumbObj\":{},\"msgs\":null},\"groupMetadata\":null,\"presence\":{\"id\":\"554891406417@c.us\",\"chatstates\":[]}},\"quotedMsgObj\":null,\"mediaData\":{}}]}]}"}
+[14/01/21 01:01:07 - TChatList]  
+{
+  "result":
+  [
+        {
+      "id":"554891406417@c.us",
+      "pendingMsgs":false,
+      "lastReceivedKey":
+      {
+        "fromMe":true,
+        "remote":"554891406417@c.us",
+        "id":"3EB0ADB2FFC2D77ABCD5",
+        "_serialized":"true_554891406417@c.us_3EB0ADB2FFC2D77ABCD5"
+      }
+,
+      "t":1610596913,
+      "unreadCount":0,
+      "archive":false,
+      "isReadOnly":false,
+      "modifyTag":708548,
+      "muteExpiration":0,
+      "name":"PAPALEGUAS FOOD",
+      "notSpam":true,
+      "pin":0,
+      "ephemeralDuration":0,
+      "ephemeralSettingTimestamp":0,
+      "msgs":null,
+      "kind":"chat",
+      "isGroup":false,
+      "formattedTitle":"PAPALEGUAS FOOD",
+      "contact":
+      {
+        "id":"554891406417@c.us",
+        "name":"PAPALEGUAS FOOD",
+        "type":"in",
+        "verifiedName":"Test",
+        "isBusiness":true,
+        "isEnterprise":false,
+        "verifiedLevel":0,
+        "statusMute":false,
+        "labels":
+        [
+                  ]
+,
+        "formattedName":"PAPALEGUAS FOOD",
+        "isMe":false,
+        "isMyContact":true,
+        "isPSA":false,
+        "isUser":true,
+        "isWAContact":true,
+        "profilePicThumbObj":
+        {
+                  }
+,
+        "msgs":null
+      }
+,
+      "groupMetadata":null,
+      "presence":
+      {
+        "id":"554891406417@c.us",
+        "chatstates":
+        [
+                  ]
+      }
+,
+      "messages":
+      [
+                {
+          "id":"true_554891406417@c.us_3EB07A11FC915BE6E9D8",
+          "body":"oi",
+          "type":"chat",
+          "subtype":null,
+          "t":1610596913,
+          "from":"554898111156@c.us",
+          "to":"554891406417@c.us",
+          "self":"out",
+          "ack":0,
+          "isNewMsg":false,
+          "star":false,
+          "isFromTemplate":false,
+          "mentionedJidList":
+          [
+                      ]
+,
+          "isVcardOverMmsDocument":false,
+          "isForwarded":false,
+          "chatId":"554891406417@c.us",
+          "fromMe":true,
+          "sender":
+          {
+            "id":"554898111156@c.us",
+            "type":"in",
+            "formattedName":"Voce",
+            "isMe":true,
+            "isMyContact":false,
+            "isPSA":false,
+            "isUser":true,
+            "isWAContact":true,
+            "profilePicThumbObj":
+            {
+              "eurl":"https://pps.whatsapp.net/v/t61.24694-24/86179821_2564638573815487_9125477457020068719_n.jpg?oh=97148eb70dbb7507a0039592f34741db&oe=60048610",
+              "id":"554898111156@c.us",
+              "img":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F86179821_2564638573815487_9125477457020068719_n.jpg%3Foh%3D97148eb70dbb7507a0039592f34741db%26oe%3D60048610&t=s&u=554898111156%40c.us&i=1585186472&n=OtkZU0N1oTmgS1zcoTZrKrPw1Ac99vwQtNPvNqfggCM%3D",
+              "imgFull":"https://web.whatsapp.com/pp?e=https%3A%2F%2Fpps.whatsapp.net%2Fv%2Ft61.24694-24%2F86179821_2564638573815487_9125477457020068719_n.jpg%3Foh%3D97148eb70dbb7507a0039592f34741db%26oe%3D60048610&t=l&u=554898111156%40c.us&i=1585186472&n=OtkZU0N1oTmgS1zcoTZrKrPw1Ac99vwQtNPvNqfggCM%3D",
+              "raw":null,
+              "tag":"1585186472"
+            }
+,
+            "msgs":null
+          }
+,
+          "timestamp":1610596913,
+          "content":"oi",
+          "isGroupMsg":false,
+          "isMedia":false,
+          "isNotification":false,
+          "isPSA":false,
+          "chat":
+          {
+            "id":"554891406417@c.us",
+            "pendingMsgs":false,
+            "lastReceivedKey":
+            {
+              "fromMe":true,
+              "remote":"554891406417@c.us",
+              "id":"3EB0ADB2FFC2D77ABCD5",
+              "_serialized":"true_554891406417@c.us_3EB0ADB2FFC2D77ABCD5"
+            }
+,
+            "t":1610596913,
+            "unreadCount":0,
+            "archive":false,
+            "isReadOnly":false,
+            "modifyTag":708548,
+            "muteExpiration":0,
+            "name":"PAPALEGUAS FOOD",
+            "notSpam":true,
+            "pin":0,
+            "ephemeralDuration":0,
+            "ephemeralSettingTimestamp":0,
+            "msgs":null,
+            "kind":"chat",
+            "isGroup":false,
+            "formattedTitle":"PAPALEGUAS FOOD",
+            "contact":
+            {
+              "id":"554891406417@c.us",
+              "name":"PAPALEGUAS FOOD",
+              "type":"in",
+              "verifiedName":"Test",
+              "isBusiness":true,
+              "isEnterprise":false,
+              "verifiedLevel":0,
+              "statusMute":false,
+              "labels":
+              [
+                              ]
+,
+              "formattedName":"PAPALEGUAS FOOD",
+              "isMe":false,
+              "isMyContact":true,
+              "isPSA":false,
+              "isUser":true,
+              "isWAContact":true,
+              "profilePicThumbObj":
+              {
+                              }
+,
+              "msgs":null
+            }
+,
+            "groupMetadata":null,
+            "presence":
+            {
+              "id":"554891406417@c.us",
+              "chatstates":
+              [
+                              ]
+            }
+          }
+,
+          "quotedMsgObj":null,
+          "mediaData":
+          {
+                      }
+        }
+      ]
+    }
+  ]
+}
+
+[14/01/21 01:01:18 - TResultQRCodeClass]  
+{
+  "result":
+  [
+      ]
+}

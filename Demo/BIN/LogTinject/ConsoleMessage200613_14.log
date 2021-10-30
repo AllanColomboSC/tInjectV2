@@ -1,0 +1,43 @@
+
+[13/06/20 14:08:43]  Versao TInject: 3.0.0.0
+[13/06/20 14:08:43]  Versao  JS.ABR: 1.0.0.7
+[13/06/20 14:08:43]  Versao     CEF: 78.3.0
+[13/06/20 14:08:43]   
+[13/06/20 14:08:43 - CONSOLE IGNORADO]  
+Uncaught TypeError: Cannot read property 'toDataURL' of undefined
+[13/06/20 14:08:55 - TResultQRCodeClass]  
+{
+  "result":
+  [
+      ]
+}
+
+[13/06/20 14:08:55 - TResponseMyNumber]  
+{
+  "result":"554891406417@c.us"
+}
+
+[13/06/20 14:09:00 - TOnChangeConnect]  
+{
+  "result":true
+}
+
+[13/06/20 14:09:02 - TRetornoAllGroups]  
+{
+  "result":
+  [
+    "554891406417-1592066957@g.us Novo Grupo"
+  ]
+}
+
+[13/06/20 14:10:15 - TOnChangeConnect]  
+{
+  "result":false
+}
+
+[13/06/20 14:11:32 - TResultQRCodeClass]  
+{
+  "result":
+  [
+      ]
+}
