@@ -1,23 +1,23 @@
-﻿{####################################################################################################################
-                              TINJECT - Componente de comunicação (Não Oficial)
-                                            www.tinject.com.br
-                                            Novembro de 2019
-####################################################################################################################
-    Owner.....: Mike W. Lustosa            - mikelustosa@gmail.com   - +55 81 9.9630-2385
-    Developer.: Joathan Theiller           - jtheiller@hotmail.com   -
-                Daniel Oliveira Rodrigues  - Dor_poa@hotmail.com     - +55 51 9.9155-9228
-####################################################################################################################
+﻿{ ####################################################################################################################
+  TINJECT - Componente de comunicação (Não Oficial)
+  www.tinject.com.br
+  Novembro de 2019
+  ####################################################################################################################
+  Owner.....: Mike W. Lustosa            - mikelustosa@gmail.com   - +55 81 9.9630-2385
+  Developer.: Joathan Theiller           - jtheiller@hotmail.com   -
+  Daniel Oliveira Rodrigues  - Dor_poa@hotmail.com     - +55 51 9.9155-9228
+  ####################################################################################################################
   Obs:
-     - Código aberto a comunidade Delphi, desde que mantenha os dados dos autores e mantendo sempre o nome do IDEALIZADOR
-       Mike W. Lustosa;
-     - Colocar na evolução as Modificação juntamente com as informaçoes do colaborador: Data, Nova Versao, Autor;
-     - Mantenha sempre a versao mais atual acima das demais;
-     - Todo Commit ao repositório deverá ser declarado as mudança na UNIT e ainda o Incremento da Versão de
-       compilação (último digito);
+  - Código aberto a comunidade Delphi, desde que mantenha os dados dos autores e mantendo sempre o nome do IDEALIZADOR
+  Mike W. Lustosa;
+  - Colocar na evolução as Modificação juntamente com as informaçoes do colaborador: Data, Nova Versao, Autor;
+  - Mantenha sempre a versao mais atual acima das demais;
+  - Todo Commit ao repositório deverá ser declarado as mudança na UNIT e ainda o Incremento da Versão de
+  compilação (último digito);
 
-####################################################################################################################
-                                  Evolução do Código
-####################################################################################################################
+  ####################################################################################################################
+  Evolução do Código
+  ####################################################################################################################
   Autor........:
   Email........:
   Data.........:
@@ -30,78 +30,78 @@
   Identificador: @LuizAlvez
   Modificação..: Adicionadas novas propriedades das mensagens conforme verificação com o LOG
 
-####################################################################################################################
+  ####################################################################################################################
 }
 
 unit uTInject.Classes;
 
 interface
 
-
-
-uses Generics.Collections, Rest.Json, uTInject.FrmQRCode, Vcl.Graphics, System.IOUtils,
+uses Generics.Collections, Rest.Json, uTInject.FrmQRCode, Vcl.Graphics,
+  System.IOUtils,
   System.Classes, uTInject.Constant, IdHTTP, Vcl.ExtCtrls,
- {$IFDEF DELPHI25_UP}
-    Vcl.IdAntiFreeze,
-  {$ENDIF}
+{$IFDEF DELPHI25_UP}
+  Vcl.IdAntiFreeze,
+{$ENDIF}
   IdBaseComponent, IdComponent, IdTCPConnection, IdTCPClient, Vcl.Imaging.jpeg,
   IdSSLOpenSSL, UrlMon;
 
 type
 
-  TQrCodeRet   = (TQR_Http, TQR_Img, TQR_Data);
-  TQrCodeRets  = set of TQrCodeRet;
-  TChatClass   = class;   //forward
-  TSenderClass = class;   //forward
-  TTypeNumber  = (TypUndefined=0, TypContact=1, TypGroup=2, TypList=3);
-  TFormaUpdate = (Tup_Local=0, Tup_Web=1);
+  TQrCodeRet = (TQR_Http, TQR_Img, TQR_Data);
+  TQrCodeRets = set of TQrCodeRet;
+  TChatClass = class; // forward
+  TSenderClass = class; // forward
+  TTypeNumber = (TypUndefined = 0, TypContact = 1, TypGroup = 2, TypList = 3);
+  TFormaUpdate = (Tup_Local = 0, Tup_Web = 1);
 
-  TNotificationCenter    = procedure(PTypeHeader: TTypeHeader; PValue: String; Const PReturnClass : TObject = nil) of object;
-  TOnErroInternal        = procedure(Sender : TObject; Const PError: String; Const PInfoAdc:String)  of object;
-  TDown_State            = (TDw_Wait=0, TDw_Start=1, TDw_CanceledErro=2,  TDw_CanceledUser=3,  TDw_Completed=4);
-
+  TNotificationCenter = procedure(PTypeHeader: TTypeHeader; PValue: String;
+    Const PReturnClass: TObject = nil) of object;
+  TOnErroInternal = procedure(Sender: TObject; Const PError: String;
+    Const PInfoAdc: String) of object;
+  TDown_State = (TDw_Wait = 0, TDw_Start = 1, TDw_CanceledErro = 2,
+    TDw_CanceledUser = 3, TDw_Completed = 4);
 
   TUrlIndy = class(TIdHTTP)
   Private
-    FTImeOutIndy       : TTimer;
-    FTimeOut           : Integer;
-   {$IFDEF DELPHI25_UP}
-      FIdAntiFreeze      : TIdAntiFreeze;
-   {$ENDIF}
-    FReturnUrl         : TMemoryStream;
-    FShowException     : Boolean;
-    SSIOHandler        : TIdSSLIOHandlerSocketOpenSSL;
-    Procedure  OnTimeOutIndy(Sender: TObject);
+    FTImeOutIndy: TTimer;
+    FTimeOut: Integer;
+{$IFDEF DELPHI25_UP}
+    FIdAntiFreeze: TIdAntiFreeze;
+{$ENDIF}
+    FReturnUrl: TMemoryStream;
+    FShowException: Boolean;
+    SSIOHandler: TIdSSLIOHandlerSocketOpenSSL;
+    Procedure OnTimeOutIndy(Sender: TObject);
     function DownLoadInternetFile(Source, Dest: String): Boolean;
   Public
     constructor Create;
-    destructor  Destroy; override;
-    Function    GetUrl(Const Purl:String):Boolean;
+    destructor Destroy; override;
+    Function GetUrl(Const Purl: String): Boolean;
 
-    Property    ReturnUrl  : TMemoryStream         Read FReturnUrl;
+    Property ReturnUrl: TMemoryStream Read FReturnUrl;
 
-
-    Property    TimeOut : Integer         Read FTimeOut        Write FTimeOut;
-    Property    ShowException: Boolean    Read FShowException  Write FShowException;
+    Property TimeOut: Integer Read FTimeOut Write FTimeOut;
+    Property ShowException: Boolean Read FShowException Write FShowException;
   end;
-
 
   TClassPadrao = class
   private
-    FJsonString : String;
-    FJsonOption : TJsonOptions;
-    FName       : String;
-    FTypeHeader : TTypeHeader;
+    FJsonString: String;
+    FJsonOption: TJsonOptions;
+    FName: String;
+    FTypeHeader: TTypeHeader;
     FInjectWorking: Boolean;
   public
-    property InjectWorking : Boolean Read FInjectWorking  Write FInjectWorking;
+    property InjectWorking: Boolean Read FInjectWorking Write FInjectWorking;
 
-    constructor Create(pAJsonString: string; PJsonOption: TJsonOptions = JsonOptionClassPadrao);
-    destructor  Destroy; override;
-    property Name        : String         read FName;
-    Property TypeHeader  : TTypeHeader    Read FTypeHeader;
-    Property JsonOption  : TJsonOptions   Read FJsonOption;
-    Property JsonString  : String         Read FJsonString;
+    constructor Create(pAJsonString: string;
+      PJsonOption: TJsonOptions = JsonOptionClassPadrao);
+    destructor Destroy; override;
+    property Name: String read FName;
+    Property TypeHeader: TTypeHeader Read FTypeHeader;
+    Property JsonOption: TJsonOptions Read FJsonOption;
+    Property JsonString: String Read FJsonString;
     function ToJsonString: string;
   end;
 
@@ -109,45 +109,43 @@ type
   private
     FResult: String;
   public
-    property Result: String           read FResult;
+    property Result: String read FResult;
   end;
-
 
   TClassAllGroupContacts = class
   private
     FResult: String;
   public
-    constructor Create(pAJsonString: string; PJsonOption: TJsonOptions = JsonOptionClassPadrao);
-    property result: String read FResult write FResult;
+    constructor Create(pAJsonString: string;
+      PJsonOption: TJsonOptions = JsonOptionClassPadrao);
+    property Result: String read FResult write FResult;
     function ToJsonString: string;
     class function FromJsonString(AJsonString: string): TClassAllGroupContacts;
   end;
-
 
   TClassPadraoList<T> = class(TClassPadrao)
   private
     FResult: TArray<T>;
   public
-    Procedure  ClearArray(PArray : TArray<T>);
-    property   result: TArray<T> read FResult write FResult;
+    Procedure ClearArray(PArray: TArray<T>);
+    property Result: TArray<T> read FResult write FResult;
     destructor Destroy; override;
   end;
 
-
-  {########################################################################################################################################}
+  { ######################################################################################################################################## }
   TResponseConsoleMessage = class(TClassPadraoString)
   private
     FResult: String;
   public
-    property Result: String           read FResult;
+    property Result: String read FResult;
     constructor Create(pAJsonString: string);
   end;
 
-  TResponseBattery = class(TClassPadrao)//class(TClassPadraoString)
+  TResponseBattery = class(TClassPadrao) // class(TClassPadraoString)
   private
     FResult: string;
   Public
-    Property Result : string  Read FResult  Write FResult;
+    Property Result: string Read FResult Write FResult;
   end;
 
   TResponseCheckIsValidNumber = class(TClassPadrao)
@@ -155,67 +153,66 @@ type
     FResult: Boolean;
     fNumber: String;
   Public
-    Property Result : Boolean  Read FResult  Write FResult;
-    Property Number : String   Read fNumber  Write fNumber;
+    Property Result: Boolean Read FResult Write FResult;
+    Property Number: String Read fNumber Write fNumber;
   end;
 
-  TResponseCheckDelivered = class(TClassPadrao) 
+  TResponseCheckDelivered = class(TClassPadrao)
   private
-    FStatus: integer;
+    FStatus: Integer;
     FStatusDelivered: String;
   Public
-    Property status : integer  Read FStatus  Write FStatus;
-    Property StatusDelivered : string  Read FStatusDelivered  Write FStatusDelivered;
+    Property status: Integer Read FStatus Write FStatus;
+    Property StatusDelivered: string Read FStatusDelivered
+      Write FStatusDelivered;
   end;
 
   TResponseCheckIsConnected = class(TClassPadrao)
   private
     FResult: Boolean;
   Public
-    Property Result : Boolean  Read FResult  Write FResult;
+    Property Result: Boolean Read FResult Write FResult;
   end;
-
 
   TResponseGetProfilePicThumb = class(TClassPadrao)
   private
     fBase64: String;
   Public
-    Property Base64 : String   Read fBase64  Write fBase64;
+    Property Base64: String Read fBase64 Write fBase64;
     constructor Create(pAJsonString: string);
-    destructor  Destroy;       override;
+    destructor Destroy; override;
   end;
-
 
   TOnChangeConnect = class(TClassPadrao)
   private
     FResult: Boolean;
   Public
-    Property Result : Boolean  Read FResult  Write FResult;
+    Property Result: Boolean Read FResult Write FResult;
   end;
 
   TMediaDataPreviewClass = class(TClassPadrao)
   Private
-    F_retainCount      : Integer;
+    F_retainCount: Integer;
     F_inAutoreleasePool: Boolean;
-    Freleased          : Boolean;
-    Fbody              : String;
-    F_b64              : String;
+    Freleased: Boolean;
+    Fbody: String;
+    F_b64: String;
   public
-    property _retainCount      : Integer   Read F_retainCount        Write F_retainCount;
-    property _inAutoreleasePool: Boolean   Read F_inAutoreleasePool  Write F_inAutoreleasePool;
-    property released          : Boolean   Read Freleased            Write Freleased;
-    property body              : String    Read Fbody                Write Fbody;
-    property _b64              : String    Read F_b64                Write F_b64;
+    property _retainCount: Integer Read F_retainCount Write F_retainCount;
+    property _inAutoreleasePool: Boolean Read F_inAutoreleasePool
+      Write F_inAutoreleasePool;
+    property released: Boolean Read Freleased Write Freleased;
+    property body: String Read Fbody Write Fbody;
+    property _b64: String Read F_b64 Write F_b64;
   end;
-
 
   TMediaData_BlobClass = class(TClassPadrao)
   Private
     F_mimetype: String;
     F_url: String;
   Public
-     property _url            : String        Read F_url                        Write F_url;
-     property _mimetype       : String        Read F_mimetype                   Write F_mimetype;
+    property _url: String Read F_url Write F_url;
+    property _mimetype: String Read F_mimetype Write F_mimetype;
   end;
 
   TMediaDataBlobClass = class(TClassPadrao)
@@ -225,51 +222,56 @@ type
     F_inAutoreleasePool: Boolean;
     Freleased: Boolean;
   Public
-     constructor Create(pAJsonString: string);
-     destructor  Destroy;       override;
+    constructor Create(pAJsonString: string);
+    destructor Destroy; override;
 
-     property _retainCount        : Integer              Read F_retainCount             Write F_retainCount;
-     property _inAutoreleasePool  : Boolean              Read F_inAutoreleasePool       Write F_inAutoreleasePool;
-     property released            : Boolean              Read Freleased                 Write Freleased;
-     property _blob               : TMediaData_BlobClass Read F_blob                    Write F_blob;
+    property _retainCount: Integer Read F_retainCount Write F_retainCount;
+    property _inAutoreleasePool: Boolean Read F_inAutoreleasePool
+      Write F_inAutoreleasePool;
+    property released: Boolean Read Freleased Write Freleased;
+    property _blob: TMediaData_BlobClass Read F_blob Write F_blob;
   end;
 
   TMediaDataClass = class(TClassPadrao)
   Private
-     Ftype                  : String;
-     FmediaStage            : String;
-     Fsize                  : Extended;
-     Ffilehash              : String;
-     Fmimetype              : String;
-     FmediaBlob             : String;
-     //FrenderableUrl         : String;
-     FfullHeight            : Integer;
-     FfullWidth             : Integer;
-     FaspectRatio           : double;
-     FanimationDuration     : Extended;
-     FanimatedAsNewMsg      : Boolean;
-     F_swStreamingSupported : Boolean;
-     F_listeningToSwSupport : Boolean;
-     Fpreview: TMediaDataPreviewClass;
+    Ftype: String;
+    FmediaStage: String;
+    Fsize: Extended;
+    Ffilehash: String;
+    Fmimetype: String;
+    FmediaBlob: String;
+    // FrenderableUrl         : String;
+    FfullHeight: Integer;
+    FfullWidth: Integer;
+    FaspectRatio: double;
+    FanimationDuration: Extended;
+    FanimatedAsNewMsg: Boolean;
+    F_swStreamingSupported: Boolean;
+    F_listeningToSwSupport: Boolean;
+    Fpreview: TMediaDataPreviewClass;
   public
-     constructor Create(pAJsonString: string);
-     destructor  Destroy;       override;
+    constructor Create(pAJsonString: string);
+    destructor Destroy; override;
 
-     property &type                 : String        Read Ftype                        Write Ftype;
-     property mediaStage            : String        Read FmediaStage                  Write FmediaStage;
-     property size                  : Extended      Read Fsize                        Write Fsize;
-     property filehash              : String        Read Ffilehash                    Write Ffilehash;
-     property mimetype              : String        Read Fmimetype                    Write Fmimetype;
-     property mediaBlob             : String        Read FmediaBlob                   Write FmediaBlob;
-     property fullHeight            : Integer       Read FfullHeight                  Write FfullHeight;
-     property fullWidth             : Integer       Read FfullWidth                   Write FfullWidth;
-     property aspectRatio           : double        Read FaspectRatio                 Write FaspectRatio;
-     property animationDuration     : Extended      Read FanimationDuration           Write FanimationDuration;
-     property animatedAsNewMsg      : Boolean       Read FanimatedAsNewMsg            Write FanimatedAsNewMsg;
-     property _swStreamingSupported : Boolean       Read F_swStreamingSupported       Write F_swStreamingSupported;
-     property _listeningToSwSupport : Boolean       Read F_listeningToSwSupport       Write F_listeningToSwSupport;
-     property preview     : TMediaDataPreviewClass  Read Fpreview                     Write Fpreview;
-//     property renderableUrl         : String        Read FrenderableUrl               Write FrenderableUrl;
+    property &type: String Read Ftype Write Ftype;
+    property mediaStage: String Read FmediaStage Write FmediaStage;
+    property size: Extended Read Fsize Write Fsize;
+    property filehash: String Read Ffilehash Write Ffilehash;
+    property mimetype: String Read Fmimetype Write Fmimetype;
+    property mediaBlob: String Read FmediaBlob Write FmediaBlob;
+    property fullHeight: Integer Read FfullHeight Write FfullHeight;
+    property fullWidth: Integer Read FfullWidth Write FfullWidth;
+    property aspectRatio: double Read FaspectRatio Write FaspectRatio;
+    property animationDuration: Extended Read FanimationDuration
+      Write FanimationDuration;
+    property animatedAsNewMsg: Boolean Read FanimatedAsNewMsg
+      Write FanimatedAsNewMsg;
+    property _swStreamingSupported: Boolean Read F_swStreamingSupported
+      Write F_swStreamingSupported;
+    property _listeningToSwSupport: Boolean Read F_listeningToSwSupport
+      Write F_listeningToSwSupport;
+    property preview: TMediaDataPreviewClass Read Fpreview Write Fpreview;
+    // property renderableUrl         : String        Read FrenderableUrl               Write FrenderableUrl;
   end;
 
   TResponseMyNumber = class(TClassPadraoString)
@@ -277,14 +279,13 @@ type
     constructor Create(pAJsonString: string);
   end;
 
-  //Mike 29/12/2020
+  // Mike 29/12/2020
   TResponseIsDelivered = class(TClassPadraoString)
   public
     constructor Create(pAJsonString: string);
   end;
 
-
-  TResponseIsConnected = class(TClassPadraoString) //mike
+  TResponseIsConnected = class(TClassPadraoString) // mike
   public
     constructor Create(pAJsonString: string);
   end;
@@ -296,61 +297,62 @@ type
     property teste: String read FTeste write FTeste;
   end;
 
-  TPresenceClass = class(TClassPadraoList<TChatstatesClass>)
+  TPresenceClass = class(TClassPadraoList<TChatStatesClass>)
   private
-    FChatstates: TArray<TChatstatesClass>;
-    FId        : String;
+    FChatstates: TArray<TChatStatesClass>;
+    FId: String;
   public
     constructor Create(pAJsonString: string);
     destructor Destroy; override;
 
-    property   chatstates: TArray<TChatstatesClass> read FChatstates write FChatstates;
-    property   id        : String                        read FId         write FId;
+    property chatstates: TArray<TChatStatesClass> read FChatstates
+      write FChatstates;
+    property id: String read FId write FId;
   end;
 
   TParticipantsClass = class(TClassPadrao)
   private
-    FId          : String;
-    FIsAdmin     : Boolean;
+    FId: String;
+    FIsAdmin: Boolean;
     FIsSuperAdmin: Boolean;
   public
-    property id:           String   read   FId           write FId;
-    property isAdmin:      Boolean  read   FIsAdmin      write FIsAdmin;
-    property isSuperAdmin: Boolean  read   FIsSuperAdmin write FIsSuperAdmin;
+    property id: String read FId write FId;
+    property isAdmin: Boolean read FIsAdmin write FIsAdmin;
+    property isSuperAdmin: Boolean read FIsSuperAdmin write FIsSuperAdmin;
   end;
-
 
   TGroupMetadataClass = class(TClassPadraoList<TParticipantsClass>)
   private
-    FCreation : Extended;
-    FDesc     : String;
-    FDescId   : String;
+    FCreation: Extended;
+    FDesc: String;
+    FDescId: String;
     FDescOwner: String;
-    FDescTime : Extended;
-    FId       : String;
-    FOwner    : String;
+    FDescTime: Extended;
+    FId: String;
+    FOwner: String;
     FParticipants: TArray<TParticipantsClass>;
-    FPendingParticipants:TArray<TParticipantsClass>;  //@LuizAlvez
-    FRestrict    : Boolean;
+    FPendingParticipants: TArray<TParticipantsClass>; // @LuizAlvez
+    FRestrict: Boolean;
   public
     constructor Create(pAJsonString: string);
     destructor Destroy; override;
 
-    property creation : Extended     read FCreation   write FCreation;
-    property desc     : String       read FDesc       write FDesc;
-    property descId   : String       read FDescId     write FDescId;
-    property descOwner: String       read FDescOwner  write FDescOwner;
-    property descTime : Extended     read FDescTime   write FDescTime;
-    property id       : String       read FId         write FId;
-    property owner    : String       read FOwner      write FOwner;
-    property restrict : Boolean      read FRestrict   write FRestrict;
-    property participants: TArray<TParticipantsClass>        read FParticipants        write FParticipants;
-    property pendingParticipants: TArray<TParticipantsClass> read FPendingParticipants Write FPendingParticipants;  //@LuizAlvez
+    property creation: Extended read FCreation write FCreation;
+    property desc: String read FDesc write FDesc;
+    property descId: String read FDescId write FDescId;
+    property descOwner: String read FDescOwner write FDescOwner;
+    property descTime: Extended read FDescTime write FDescTime;
+    property id: String read FId write FId;
+    property owner: String read FOwner write FOwner;
+    property restrict: Boolean read FRestrict write FRestrict;
+    property participants: TArray<TParticipantsClass> read FParticipants
+      write FParticipants;
+    property pendingParticipants: TArray<TParticipantsClass>
+      read FPendingParticipants Write FPendingParticipants; // @LuizAlvez
   end;
 
-
- TPhoneClass = class(TClassPadrao)
- private
+  TPhoneClass = class(TClassPadrao)
+  private
     Fdevice_manufacturer: String;
     Fdevice_model: String;
     Fos_build_number: String;
@@ -358,458 +360,463 @@ type
     Fmnc: String;
     Fmcc: String;
     Fwa_version: String;
- public
-  property device_manufacturer : String read Fdevice_manufacturer write Fdevice_manufacturer;
-  property device_model        : String read Fdevice_model write Fdevice_model;
-  property mcc                 : String read Fmcc write Fmcc;
-  property mnc                 : String read Fmnc write Fmnc;
-  property os_build_number     : String read Fos_build_number write Fos_build_number;
-  property os_version          : String read Fos_version write Fos_version;
-  property wa_version          : String read Fwa_version write Fwa_version;
- end;
+  public
+    property device_manufacturer: String read Fdevice_manufacturer
+      write Fdevice_manufacturer;
+    property device_model: String read Fdevice_model write Fdevice_model;
+    property mcc: String read Fmcc write Fmcc;
+    property mnc: String read Fmnc write Fmnc;
+    property os_build_number: String read Fos_build_number
+      write Fos_build_number;
+    property os_version: String read Fos_version write Fos_version;
+    property wa_version: String read Fwa_version write Fwa_version;
+  end;
 
   TResponseStatusMessage = class(TClassPadrao)
   private
-   Fid : String;
-   FStatus : String;
-   public
-    property id : String read Fid write Fid;
-    property status : String read FStatus write FStatus;
+    FId: String;
+    FStatus: String;
+  public
+    property id: String read FId write FId;
+    property status: String read FStatus write FStatus;
   end;
 
   TReturnCheckNumber = class(TClassPadrao)
   private
-   Fid : String;
-   Fvalid : boolean;
-   public
-    property id : String read Fid write Fid;
-    property valid : boolean  read Fvalid write Fvalid;
+    FId: String;
+    Fvalid: Boolean;
+  public
+    property id: String read FId write FId;
+    property valid: Boolean read Fvalid write Fvalid;
   end;
 
-
- TGetMeClass = class(TClassPadrao)
-   private
-    Fbattery: integer;
+  TGetMeClass = class(TClassPadrao)
+  private
+    Fbattery: Integer;
     Flocate: String;
     Flc: String;
     FserverToken: String;
-    Fplugged: boolean;
+    Fplugged: Boolean;
     Fpushname: String;
     Flg: String;
-    Fme : String;
-    Fphone : TPhoneClass;
-    Fstatus : TResponseStatusMessage;
-   public
-    constructor Create(pAJsonString: string; PJsonOption: TJsonOptions = JsonOptionClassPadrao);
+    Fme: String;
+    Fphone: TPhoneClass;
+    FStatus: TResponseStatusMessage;
+  public
+    constructor Create(pAJsonString: string;
+      PJsonOption: TJsonOptions = JsonOptionClassPadrao);
     destructor Destroy; override;
-    property  battery     : integer read Fbattery write Fbattery;
-    property  lc          : String read Flc write Flc;
-    property  lg          : String read Flg write Flg;
-    property  locate      : String read Flocate write Flocate;
-    property  plugged     : boolean read Fplugged write Fplugged;
-    property  pushname    : String read Fpushname write Fpushname;
-    property  serverToken : String read FserverToken write FserverToken;
- // property   platform : String
-    property  phone       : TPhoneClass read Fphone write Fphone;
-    property  status      : TResponseStatusMessage read Fstatus write Fstatus;
-    property  me          : String read Fme write Fme;
- end;
-
+    property battery: Integer read Fbattery write Fbattery;
+    property lc: String read Flc write Flc;
+    property lg: String read Flg write Flg;
+    property locate: String read Flocate write Flocate;
+    property plugged: Boolean read Fplugged write Fplugged;
+    property pushname: String read Fpushname write Fpushname;
+    property serverToken: String read FserverToken write FserverToken;
+    // property   platform : String
+    property phone: TPhoneClass read Fphone write Fphone;
+    property status: TResponseStatusMessage read FStatus write FStatus;
+    property me: String read Fme write Fme;
+  end;
 
   TProfilePicThumbObjClass = class(TClassPadrao)
   private
-    FEurl   : String;
-    FId     : String;
-    FImg    : String;
+    FEurl: String;
+    FId: String;
+    FImg: String;
     FImgFull: String;
-    FTag    : String;
+    FTag: String;
   public
-    property eurl:    String      read FEurl      write FEurl;
-    property id:      String      read FId        write FId;
-    property img:     String      read FImg       write FImg;
-    property imgFull: String      read FImgFull   write FImgFull;
-    property tag:     String      read FTag       write FTag;
+    property eurl: String read FEurl write FEurl;
+    property id: String read FId write FId;
+    property img: String read FImg write FImg;
+    property imgFull: String read FImgFull write FImgFull;
+    property tag: String read FTag write FTag;
   end;
 
   TContactClass = class(TClassPadrao)
   private
-    FId           : String;
-    FName         : String;
-    Fpushname     : String;
-    FType         : String;
-    FverifiedName : String;
-    Fmsgs         : String;
-    FstatusMute   : Boolean;
-      FsectionHeader : String;
-    FLabels       : TArray<String>;
+    FId: String;
+    FName: String;
+    Fpushname: String;
+    Ftype: String;
+    FverifiedName: String;
+    Fmsgs: String;
+    FstatusMute: Boolean;
+    FsectionHeader: String;
+    FLabels: TArray<String>;
     FFormattedName: String;
-//    FGlobal       : String;
-    FIsMe         : Boolean;
-    FIsMyContact  : Boolean;
-    FIsPSA        : Boolean;
-//    FIsBusiness   : Boolean;
-//    FIsEnterprise : Boolean;
-//    FisContactBlocked: Boolean;
-    FIsUser       : Boolean;
-    FIsWAContact  : Boolean;
+    // FGlobal       : String;
+    FIsMe: Boolean;
+    FIsMyContact: Boolean;
+    FIsPSA: Boolean;
+    // FIsBusiness   : Boolean;
+    // FIsEnterprise : Boolean;
+    // FisContactBlocked: Boolean;
+    FIsUser: Boolean;
+    FIsWAContact: Boolean;
     FProfilePicThumbObj: TProfilePicThumbObjClass;
   public
     constructor Create(pAJsonString: string);
     destructor Destroy; override;
 
-    property formattedName:  String          read FFormattedName      write FFormattedName;
-//    property Global:         String          read FGlobal             write FGlobal;
-    property sectionHeader:  String          read FsectionHeader      write FsectionHeader;
-    property id:             String          read FId                 write FId;
-    property name:           String          read FName               write FName;
-    property pushname:       String          Read Fpushname           Write Fpushname;
-    property verifiedName:   String          Read FverifiedName       Write FverifiedName;
-//    property isBusiness:     Boolean         read FIsBusiness         write FIsBusiness;
-//    property isEnterprise:   Boolean         read FIsEnterprise       write FIsEnterprise;
-    property isUser:         Boolean         read FIsUser             write FIsUser;
-//    property isContactBlocked: Boolean       read FisContactBlocked   write FisContactBlocked;
-    property statusMute:     Boolean         read FStatusMute         write FStatusMute;
-    property labels:         TArray<String>  read FLabels             write FLabels;
-    property isMe:           Boolean         read FIsMe               write FIsMe;
-    property isMyContact:    Boolean         read FIsMyContact        write FIsMyContact;
-    property isPSA:          Boolean         read FIsPSA              write FIsPSA;
-    property isWAContact:    Boolean         read FIsWAContact        write FIsWAContact;
-    property &type:          String          read FType               write FType;
-    property profilePicThumbObj: TProfilePicThumbObjClass read FProfilePicThumbObj write FProfilePicThumbObj;
-    property Msgs:          String           read Fmsgs               write Fmsgs;
+    property formattedName: String read FFormattedName write FFormattedName;
+    // property Global:         String          read FGlobal             write FGlobal;
+    property sectionHeader: String read FsectionHeader write FsectionHeader;
+    property id: String read FId write FId;
+    property name: String read FName write FName;
+    property pushname: String Read Fpushname Write Fpushname;
+    property verifiedName: String Read FverifiedName Write FverifiedName;
+    // property isBusiness:     Boolean         read FIsBusiness         write FIsBusiness;
+    // property isEnterprise:   Boolean         read FIsEnterprise       write FIsEnterprise;
+    property isUser: Boolean read FIsUser write FIsUser;
+    // property isContactBlocked: Boolean       read FisContactBlocked   write FisContactBlocked;
+    property statusMute: Boolean read FstatusMute write FstatusMute;
+    property labels: TArray<String> read FLabels write FLabels;
+    property isMe: Boolean read FIsMe write FIsMe;
+    property isMyContact: Boolean read FIsMyContact write FIsMyContact;
+    property isPSA: Boolean read FIsPSA write FIsPSA;
+    property isWAContact: Boolean read FIsWAContact write FIsWAContact;
+    property &type: String read Ftype write Ftype;
+    property profilePicThumbObj: TProfilePicThumbObjClass
+      read FProfilePicThumbObj write FProfilePicThumbObj;
+    property Msgs: String read Fmsgs write Fmsgs;
   end;
 
   TLastReceivedKeyClass = class(TClassPadrao)
   private
     F_serialized: String;
-    FFromMe     : Boolean;
-    FId         : String;
-    FRemote     : String;
+    FFromMe: Boolean;
+    FId: String;
+    FRemote: String;
   public
-    property _serialized: String   read F_serialized write F_serialized;
-    property fromMe:      Boolean  read FFromMe      write FFromMe;
-    property id:          String   read FId          write FId;
-    property remote:      String   read FRemote      write FRemote;
+    property _serialized: String read F_serialized write F_serialized;
+    property fromMe: Boolean read FFromMe write FFromMe;
+    property id: String read FId write FId;
+    property remote: String read FRemote write FRemote;
   end;
 
-  //Experimental - Mike
+  // Experimental - Mike
   TButtonsClass = class(TClassPadrao)
   private
-    FID            :string;
-    FDisplayText   :string;
-    FSubtype       :string;
-    FSelectionId   :string;
+    FId: string;
+    FDisplayText: string;
+    FSubtype: string;
+    FSelectionId: string;
 
   public
-    property    ID          :string read FID          write FID;
-    property    DisplayText :string read FDisplayText write FDisplayText;
-    property    Subtype     :string read FSubtype     write FSubtype;
-    property    SelectionId :string read FSelectionId write FSelectionId;
+    property id: string read FId write FId;
+    property DisplayText: string read FDisplayText write FDisplayText;
+    property Subtype: string read FSubtype write FSubtype;
+    property SelectionId: string read FSelectionId write FSelectionId;
   end;
 
   TMessagesClass = class(TClassPadrao)
   private
-    FId              : String;
-    FBody            : String;
-    FType            : String;
-    FT               : Extended;
-    FNotifyName      : String;
-    FFrom            : String;
-    FTo              : String;
-    FSelf            : String;
-    FAck             : Extended;
-    FInvis           : Boolean;
-    FIsNewMsg        : Boolean;
-    FStar            : Boolean;
-    FRecvFresh       : Boolean;
+    FId: String;
+    Fbody: String;
+    Ftype: String;
+    FT: Extended;
+    FNotifyName: String;
+    FFrom: String;
+    FTo: String;
+    FSelf: String;
+    FAck: Extended;
+    FInvis: Boolean;
+    FIsNewMsg: Boolean;
+    FStar: Boolean;
+    FRecvFresh: Boolean;
 
-    FLat             : Extended;
-    FLng             : Extended;
+    FLat: Extended;
+    FLng: Extended;
 
-    FSubType         : String;
+    FSubtype: String;
 
-    FCaption         : String;
-    FclientUrl       : String;
-    FdirectPath      : String;
-    Fmimetype        : String;
-    Ffilehash        : String;
-    Fuploadhash      : String;
-    FSize            : Extended;
-    Ffilename        : String;
-    FmediaKey           : String;
-    FmediaKeyTimestamp  : Extended;
-    FpageCount          : Extended;
+    FCaption: String;
+    FclientUrl: String;
+    FdirectPath: String;
+    Fmimetype: String;
+    Ffilehash: String;
+    Fuploadhash: String;
+    Fsize: Extended;
+    Ffilename: String;
+    FmediaKey: String;
+    FmediaKeyTimestamp: Extended;
+    FpageCount: Extended;
 
-    FBroadcast       : Boolean;
+    FBroadcast: Boolean;
     FMentionedJidList: TArray<String>;
 
-    //Experimental - Mike
-    FButtons          : TArray<TButtonsClass>;
-    //Experimental - Mike
+    // Experimental - Mike
+    FButtons: TArray<TButtonsClass>;
+    // Experimental - Mike
 
-    FIsForwarded     : Boolean;
-    FLabels          : TArray<String>;
-    FSender          : TSenderClass;
-    FTimestamp       : Extended;
-    FContent         : String;
-    FIsGroupMsg      : Boolean;
-    FIsMMS           : Boolean;
-    FIsMedia         : Boolean;
-    FIsNotification  : Boolean;
-    FIsPSA           : Boolean;
-    FChat            : TChatClass;
-    FChatId          : String;
-    FquotedMsgObj    : String;
-    FMediaData       : TMediaDataClass;
-    FselectedButtonId : String;
-    FselectedDisplayText : String;
+    FIsForwarded: Boolean;
+    FLabels: TArray<String>;
+    FSender: TSenderClass;
+    FTimestamp: Extended;
+    FContent: String;
+    FIsGroupMsg: Boolean;
+    FIsMMS: Boolean;
+    FIsMedia: Boolean;
+    FIsNotification: Boolean;
+    FIsPSA: Boolean;
+    FChat: TChatClass;
+    FChatId: String;
+    FquotedMsgObj: String;
+    FMediaData: TMediaDataClass;
+    FselectedButtonId: String;
+    FselectedDisplayText: String;
     FselectButtonID: String;
 
-    public
+  public
     constructor Create(pAJsonString: string);
-    destructor  Destroy;       override;
+    destructor Destroy; override;
 
-    property ack        : Extended            read FAck                write FAck;
-    property body       : String              read FBody               write FBody;
-    property broadcast  : Boolean             read FBroadcast          write FBroadcast;
-    property chat       : TChatClass          read FChat               write FChat;
-    property chatId     : String              read FChatId             write FChatId;
-    property Caption    : String              Read FCaption            Write FCaption;
-    property content    : String              read FContent            write FContent;
-    property from       : String              read FFrom               write FFrom;
-    property id         : String              read FId                 write FId;
-    property selectedButtonId : String        read FselectedButtonId   write FselectedButtonId;
-    property selectedDisplayText : String     read FselectedDisplayText write FselectedDisplayText;
-    property invis      : Boolean             read FInvis              write FInvis;
-    property isForwarded: Boolean             read FIsForwarded        write FIsForwarded;
-    property isGroupMsg : Boolean             read FIsGroupMsg         write FIsGroupMsg;
-    property isMMS      : Boolean             read FIsMMS              write FIsMMS;
-    property isMedia    : Boolean             read FIsMedia            write FIsMedia;
-    property isNewMsg   : Boolean             read FIsNewMsg           write FIsNewMsg;
+    property ack: Extended read FAck write FAck;
+    property body: String read Fbody write Fbody;
+    property broadcast: Boolean read FBroadcast write FBroadcast;
+    property chat: TChatClass read FChat write FChat;
+    property chatId: String read FChatId write FChatId;
+    property Caption: String Read FCaption Write FCaption;
+    property content: String read FContent write FContent;
+    property from: String read FFrom write FFrom;
+    property id: String read FId write FId;
+    property selectedButtonId: String read FselectedButtonId
+      write FselectedButtonId;
+    property selectedDisplayText: String read FselectedDisplayText
+      write FselectedDisplayText;
+    property invis: Boolean read FInvis write FInvis;
+    property isForwarded: Boolean read FIsForwarded write FIsForwarded;
+    property isGroupMsg: Boolean read FIsGroupMsg write FIsGroupMsg;
+    property isMMS: Boolean read FIsMMS write FIsMMS;
+    property isMedia: Boolean read FIsMedia write FIsMedia;
+    property isNewMsg: Boolean read FIsNewMsg write FIsNewMsg;
 
-    property lat        : Extended            read FLat                write FLat;
-    property lng        : Extended            read FLng                write FLng;
+    property lat: Extended read FLat write FLat;
+    property lng: Extended read FLng write FLng;
 
-    property subType    : String              read FSubType            write FSubType;
+    property Subtype: String read FSubtype write FSubtype;
 
-    property isNotification: Boolean          read FIsNotification     write FIsNotification;
-    property isPSA      : Boolean             read FIsPSA              write FIsPSA;
-    property labels     : TArray<String>      read FLabels             write FLabels;
-    property mediaData  : TMediaDataClass     read FMediaData          write FMediaData;
-    property mentionedJidList: TArray<String> read FMentionedJidList   write FMentionedJidList;
+    property isNotification: Boolean read FIsNotification write FIsNotification;
+    property isPSA: Boolean read FIsPSA write FIsPSA;
+    property labels: TArray<String> read FLabels write FLabels;
+    property mediaData: TMediaDataClass read FMediaData write FMediaData;
+    property mentionedJidList: TArray<String> read FMentionedJidList
+      write FMentionedJidList;
 
-    //Experimental - Mike
-    property buttons: TArray<TButtonsClass>    read FButtons             write FButtons;
-    //Experimental - Mike
+    // Experimental - Mike
+    property buttons: TArray<TButtonsClass> read FButtons write FButtons;
+    // Experimental - Mike
 
-    property notifyName : String              read FNotifyName         write FNotifyName;
-    property recvFresh  : Boolean             read FRecvFresh          write FRecvFresh;
-    property self       : String              read FSelf               write FSelf;
-    property mimetype   : String              read Fmimetype           Write Fmimetype;
-    property filename   : String              read Ffilename           Write Ffilename;
-    property clientUrl  : String              read FclientUrl          Write FclientUrl;
-    property directPath : String              read FdirectPath         Write FdirectPath;
-    property filehash   : String              read Ffilehash           Write Ffilehash;
-    property uploadhash : String              read Fuploadhash         Write Fuploadhash;
-    property Size       : Extended            read FSize               Write FSize;
-    property mediaKey   : String              read FmediaKey           Write FmediaKey;
-    property mediaKeyTimestamp  : Extended    read FmediaKeyTimestamp  Write FmediaKeyTimestamp;
-    property pageCount     : Extended         read FpageCount          Write FpageCount;
-    property quotedMsgObj  : String           read FquotedMsgObj       Write FquotedMsgObj;
-    property sender     : TSenderClass        read FSender             write FSender;
-    property star       : Boolean             read FStar               write FStar;
-    property t          : Extended            read FT                  write FT;
-    property timestamp  : Extended            read FTimestamp          write FTimestamp;
-    property &to        : String              read FTo                 write FTo;   //@LuizAlvez
-    property &type      : String              read FType               write FType;
-    property selectButtonID : String          read FselectButtonID write FselectButtonID;
+    property notifyName: String read FNotifyName write FNotifyName;
+    property recvFresh: Boolean read FRecvFresh write FRecvFresh;
+    property self: String read FSelf write FSelf;
+    property mimetype: String read Fmimetype Write Fmimetype;
+    property filename: String read Ffilename Write Ffilename;
+    property clientUrl: String read FclientUrl Write FclientUrl;
+    property directPath: String read FdirectPath Write FdirectPath;
+    property filehash: String read Ffilehash Write Ffilehash;
+    property uploadhash: String read Fuploadhash Write Fuploadhash;
+    property size: Extended read Fsize Write Fsize;
+    property mediaKey: String read FmediaKey Write FmediaKey;
+    property mediaKeyTimestamp: Extended read FmediaKeyTimestamp
+      Write FmediaKeyTimestamp;
+    property pageCount: Extended read FpageCount Write FpageCount;
+    property quotedMsgObj: String read FquotedMsgObj Write FquotedMsgObj;
+    property Sender: TSenderClass read FSender write FSender;
+    property star: Boolean read FStar write FStar;
+    property T: Extended read FT write FT;
+    property timestamp: Extended read FTimestamp write FTimestamp;
+    property &to: String read FTo write FTo; // @LuizAlvez
+    property &type: String read Ftype write Ftype;
+    property selectButtonID: String read FselectButtonID write FselectButtonID;
   end;
 
   TChatClass = class(TClassPadraoList<TMessagesClass>)
   private
-    FId             : String;
-    FPendingMsgs    : Boolean;
+    FId: String;
+    FPendingMsgs: Boolean;
     FLastReceivedKey: TLastReceivedKeyClass;
-    FT              : Extended;
-    FUnreadCount    : Extended;
-    FArchive        : Boolean;
-    FIsReadOnly     : Boolean;
-    FModifyTag      : Extended;
-    FMuteExpiration : Extended;
-    FNotSpam        : Boolean;
-    FPin            : Extended;
-    Fmsgs           : String;
-    FKind           : String;
-    FKindTypeNumber : TTypeNumber;
-    FIsGroup        : Boolean;
-    FContact        : TContactClass;
-    FGroupMetadata  : TGroupMetadataClass;
-    FPresence       : TPresenceClass;
-    FMessages       : tArray<TMessagesClass>;
+    FT: Extended;
+    FUnreadCount: Extended;
+    FArchive: Boolean;
+    FIsReadOnly: Boolean;
+    FModifyTag: Extended;
+    FMuteExpiration: Extended;
+    FNotSpam: Boolean;
+    FPin: Extended;
+    Fmsgs: String;
+    FKind: String;
+    FKindTypeNumber: TTypeNumber;
+    FIsGroup: Boolean;
+    FContact: TContactClass;
+    FGroupMetadata: TGroupMetadataClass;
+    FPresence: TPresenceClass;
+    FMessages: TArray<TMessagesClass>;
     FIsAnnounceGrpRestrict: Boolean;
   public
     constructor Create(pAJsonString: string);
     destructor Destroy; override;
 
-    property isAnnounceGrpRestrict: Boolean               read FIsAnnounceGrpRestrict write FIsAnnounceGrpRestrict;
-    property groupMetadata  : TGroupMetadataClass         read FGroupMetadata         write FGroupMetadata;
-    property archive        : Boolean                     read FArchive               write FArchive;
-    property contact        : TContactClass               Read FContact               write FContact;
-    property id             : String                      read FId                    write FId;
-    property isGroup        : Boolean                     read FIsGroup               write FIsGroup;
-    property isReadOnly     : Boolean                     read FIsReadOnly            write FIsReadOnly;
-    property kind           : String                      read FKind                  Write FKind;
-    property KindTypeNumber : TTypeNumber                 read FKindTypeNumber;
+    property isAnnounceGrpRestrict: Boolean read FIsAnnounceGrpRestrict
+      write FIsAnnounceGrpRestrict;
+    property groupMetadata: TGroupMetadataClass read FGroupMetadata
+      write FGroupMetadata;
+    property archive: Boolean read FArchive write FArchive;
+    property contact: TContactClass Read FContact write FContact;
+    property id: String read FId write FId;
+    property isGroup: Boolean read FIsGroup write FIsGroup;
+    property isReadOnly: Boolean read FIsReadOnly write FIsReadOnly;
+    property kind: String read FKind Write FKind;
+    property KindTypeNumber: TTypeNumber read FKindTypeNumber;
 
-    property lastReceivedKey: TLastReceivedKeyClass       read FLastReceivedKey       write FLastReceivedKey;
-    property messages       : TArray<TMessagesClass>      read FMessages              write FMessages;
-    property modifyTag      : Extended                    read FModifyTag             write FModifyTag;
-    property muteExpiration : Extended                    read FMuteExpiration        write FMuteExpiration;
-    property notSpam        : Boolean                     read FNotSpam               write FNotSpam;
-    property pendingMsgs    : Boolean                     read FPendingMsgs           write FPendingMsgs;
-    property msgs           : String                      Read Fmsgs                  Write Fmsgs ;
-    property pin            : Extended                    read FPin                   write FPin;
-    property presence       : TPresenceClass              read FPresence              write FPresence;
-    property t              : Extended                    read FT                     write FT;
-    property unreadCount    : Extended                    read FUnreadCount           write FUnreadCount;
+    property lastReceivedKey: TLastReceivedKeyClass read FLastReceivedKey
+      write FLastReceivedKey;
+    property messages: TArray<TMessagesClass> read FMessages write FMessages;
+    property modifyTag: Extended read FModifyTag write FModifyTag;
+    property muteExpiration: Extended read FMuteExpiration
+      write FMuteExpiration;
+    property notSpam: Boolean read FNotSpam write FNotSpam;
+    property pendingMsgs: Boolean read FPendingMsgs write FPendingMsgs;
+    property Msgs: String Read Fmsgs Write Fmsgs;
+    property pin: Extended read FPin write FPin;
+    property presence: TPresenceClass read FPresence write FPresence;
+    property T: Extended read FT write FT;
+    property unreadCount: Extended read FUnreadCount write FUnreadCount;
   end;
 
-{##########################################################################################
-                                RETORNOS AO CONSOLE
-##########################################################################################}
-TRetornoAllContacts = class(TClassPadraoList<TContactClass>)
-Public
-  constructor Create(pAJsonString: string);
-end;
+  { ##########################################################################################
+    RETORNOS AO CONSOLE
+    ########################################################################################## }
+  TRetornoAllContacts = class(TClassPadraoList<TContactClass>)
+  Public
+    constructor Create(pAJsonString: string);
+  end;
 
-//Mike
-//TRetornoAllGroups = class(TClassPadraoList<TContactClass>)
-//Public
-//  constructor Create(pAJsonString: string);
-//end;
+  // Mike
+  // TRetornoAllGroups = class(TClassPadraoList<TContactClass>)
+  // Public
+  // constructor Create(pAJsonString: string);
+  // end;
 
-TRetornoAllGroups = class(TClassPadrao)
+  TRetornoAllGroups = class(TClassPadrao)
   private
     FNumbers: TStringList;
   public
-    property    Numbers: TStringList   read FNumbers;
+    property Numbers: TStringList read FNumbers;
     constructor Create(pAJsonString: string);
     destructor Destroy; override;
-end;
+  end;
 
+  TRetornoAllGroupAdmins = class(TClassPadrao)
+  private
+    FNumbers: TStringList;
+  public
+    property Numbers: TStringList read FNumbers;
+    constructor Create(pAJsonString: string);
+    destructor Destroy; override;
+  end;
 
-TRetornoAllGroupAdmins = class(TClassPadrao)
-private
-  FNumbers: TStringList;
-public
-  property    Numbers: TStringList   read FNumbers;
-  constructor Create(pAJsonString: string);
-  destructor Destroy; override;
-end;
+  // TRetornoAllGroups = class(TClassPadraoList<TClassGetAllGroupContacts>)
+  // Public
+  // constructor Create(pAJsonString: string);
+  // end;
 
-//TRetornoAllGroups = class(TClassPadraoList<TClassGetAllGroupContacts>)
-//Public
-//  constructor Create(pAJsonString: string);
-//end;
+  TChatList = class(TClassPadraoList<TChatClass>)
+  end;
 
-TChatList = class(TClassPadraoList<TChatClass>)
-end;
+  TChatList2 = class(TClassPadraoList<TChatClass>)
+  end;
 
+  TRetornoAllGroupContacts = class(TClassPadraoList<TChatClass>)
+  end;
 
-TChatList2 = class(TClassPadraoList<TChatClass>)
-end;
+  TResultQRCodeClass = class(TClassPadrao)
+  private
+    FAQrCode: String;
+    FAQrCodeImage: TPicture;
+    FAQrCodeImageStream: TMemoryStream;
+    FAQrCodeSucess: Boolean;
+    FAImageDif: Boolean;
+    procedure ProcessQRCodeImage;
+    Function CreateImage: Boolean;
+  public
+    destructor Destroy; override;
+    constructor Create(pAJsonString: string);
 
+    property AQrCode: String read FAQrCode write FAQrCode;
+    property AQrCodeImageStream: TMemoryStream Read FAQrCodeImageStream;
+    property AQrCodeImage: TPicture read FAQrCodeImage;
+    property AQrCodeSucess: Boolean read FAQrCodeSucess;
+    property AImageDif: Boolean read FAImageDif;
+    Function AQrCodeQuestion: Boolean;
+  end;
 
-TRetornoAllGroupContacts = class(TClassPadraoList<TChatClass>)
-end;
+  TQrCodeClass = class(TClassPadrao)
+  private
+    FResult: TResultQRCodeClass;
+    FTags: TQrCodeRets;
+  public
+    constructor Create(pAJsonString: string; PJsonOption: TJsonOptions = [];
+      PTagRequired: TQrCodeRets = []);
+    destructor Destroy; override;
 
+    property Tags: TQrCodeRets read FTags;
+    property Result: TResultQRCodeClass read FResult write FResult;
+  end;
+  { ########################################################################################## }
 
-TResultQRCodeClass = class(TClassPadrao)
-private
-  FAQrCode: String;
-  FAQrCodeImage: TPicture;
-  FAQrCodeImageStream: TMemoryStream;
-  FAQrCodeSucess: Boolean;
-  FAImageDif    : Boolean;
-  procedure ProcessQRCodeImage;
-  Function  CreateImage:Boolean;
-public
-  destructor  Destroy; override;
-  constructor Create(pAJsonString: string);
+  TSenderClass = class(TClassPadrao)
+  private
+    FFormattedName: String;
+    FId: String;
+    FIsBusiness: Boolean;
+    FIsEnterprise: Boolean;
+    FIsMe: Boolean;
+    FIsMyContact: Boolean;
+    FIsPSA: Boolean;
+    FIsUser: Boolean;
+    FIsWAContact: Boolean;
+    FLabels: TArray<String>;
+    FProfilePicThumbObj: TProfilePicThumbObjClass;
+    Fpushname: String;
+    FstatusMute: Boolean;
+    Ftype: String;
+    FName: String; // @LuizAlvez
+    FverifiedName: String; // @LuizAlvez
+  public
+    destructor Destroy; override;
+    constructor Create(pAJsonString: string);
 
-  property  AQrCode: String                    read FAQrCode                      write FAQrCode;
-  property  AQrCodeImageStream: TMemoryStream  Read FAQrCodeImageStream;
-  property  AQrCodeImage: TPicture             read FAQrCodeImage;
-  property  AQrCodeSucess: Boolean             read FAQrCodeSucess;
-  property  AImageDif:  Boolean                read FAImageDif;
-  Function  AQrCodeQuestion: Boolean;
-end;
+    property profilePicThumbObj: TProfilePicThumbObjClass
+      read FProfilePicThumbObj write FProfilePicThumbObj;
+    property formattedName: String read FFormattedName write FFormattedName;
+    property id: String read FId write FId;
+    property isBusiness: Boolean read FIsBusiness write FIsBusiness;
+    property isEnterprise: Boolean read FIsEnterprise write FIsEnterprise;
+    property isMe: Boolean read FIsMe write FIsMe;
+    property isMyContact: Boolean read FIsMyContact write FIsMyContact;
+    property isPSA: Boolean read FIsPSA write FIsPSA;
+    property isUser: Boolean read FIsUser write FIsUser;
+    property isWAContact: Boolean read FIsWAContact write FIsWAContact;
+    property labels: TArray<String> read FLabels write FLabels;
+    property pushname: String read Fpushname write Fpushname;
+    property statusMute: Boolean read FstatusMute write FstatusMute;
+    property &type: String read Ftype write Ftype;
+    property name: String read FName write FName; // @LuizAlvez
+    property verifiedName: String read FverifiedName write FverifiedName;
+    // @LuizAlvez
 
-TQrCodeClass = class(TClassPadrao)
-private
-  FResult: TResultQRCodeClass;
-  FTags: TQrCodeRets;
-public
-  constructor Create(pAJsonString: string; PJsonOption: TJsonOptions = [];  PTagRequired: TQrCodeRets=[]);
-  destructor  Destroy; override;
+  end;
 
-  property    Tags  :  TQrCodeRets        read FTags;
-  property    Result:  TResultQRCodeClass read FResult write FResult;
-end;
-{##########################################################################################}
-
-
-TSenderClass = class(TClassPadrao)
-private
-  FFormattedName: String;
-  FId           : String;
-  FIsBusiness   : Boolean;
-  FIsEnterprise : Boolean;
-  FIsMe         : Boolean;
-  FIsMyContact  : Boolean;
-  FIsPSA        : Boolean;
-  FIsUser       : Boolean;
-  FIsWAContact  : Boolean;
-  FLabels            : TArray<String>;
-  FProfilePicThumbObj: TProfilePicThumbObjClass;
-  FPushname     : String;
-  FStatusMute   : Boolean;
-  FType         : String;
-  FName         : String;//@LuizAlvez
-  FverifiedName : String;//@LuizAlvez
-public
-  destructor Destroy; override;
-  constructor Create(pAJsonString: string);
-
-  property profilePicThumbObj: TProfilePicThumbObjClass read FProfilePicThumbObj write FProfilePicThumbObj;
-  property formattedName:   String         read FFormattedName write FFormattedName;
-  property id:              String         read FId            write FId;
-  property isBusiness:      Boolean        read FIsBusiness    write FIsBusiness;
-  property isEnterprise:    Boolean        read FIsEnterprise  write FIsEnterprise;
-  property isMe:            Boolean        read FIsMe          write FIsMe;
-  property isMyContact:     Boolean        read FIsMyContact   write FIsMyContact;
-  property isPSA:           Boolean        read FIsPSA         write FIsPSA;
-  property isUser:          Boolean        read FIsUser        write FIsUser;
-  property isWAContact:     Boolean        read FIsWAContact   write FIsWAContact;
-  property labels:          TArray<String> read FLabels        write FLabels;
-  property pushname:        String         read FPushname      write FPushname;
-  property statusMute:      Boolean        read FStatusMute    write FStatusMute;
-  property &type:           String         read FType          write FType;
-  property name:            String         read FName          write FName;          //@LuizAlvez
-  property verifiedName:    String         read FverifiedName  write FverifiedName;  //@LuizAlvez
-
-end;
-
-
-Procedure LogAdd(Pvalor:WideString; PCab:String = '');
+Procedure LogAdd(Pvalor: WideString; PCab: String = '');
 Procedure ClearLastQrcodeCtr;
-
 
 implementation
 
-
 uses
-  System.JSON, System.SysUtils, Vcl.Dialogs, System.NetEncoding,
+  System.Json, System.SysUtils, Vcl.Dialogs, System.NetEncoding,
   Vcl.Imaging.pngimage, uTInject.ConfigCEF, Vcl.Forms, Winapi.Windows,
   uTInject.Diversos;
 
@@ -818,29 +825,34 @@ var
 
 Procedure ClearLastQrcodeCtr;
 Begin
-  FUltimoQrCode:= '';
+  FUltimoQrCode := '';
 End;
 
-Procedure LogAdd(Pvalor:WideString; PCab:String);
+Procedure LogAdd(Pvalor: WideString; PCab: String);
 Var
-  LTmp, LName:String;
+  LTmp, LName: String;
 Begin
   try
     if Assigned(GlobalCEFApp) then
     Begin
-      //Garante um arquivo novo e limpo a cada hora
-      LName := GlobalCEFApp.LogConsole+ 'ConsoleMessage'+FormatDateTime('yymmdd_HH', now) +'.log';
+      // Garante um arquivo novo e limpo a cada hora
+      LName := GlobalCEFApp.LogConsole + 'ConsoleMessage' +
+        FormatDateTime('yymmdd_HH', now) + '.log';
 
-      if (not GlobalCEFApp.LogConsoleActive) or (GlobalCEFApp.LogConsole = '') Then
-         Exit;
+      if (not GlobalCEFApp.LogConsoleActive) or
+        (GlobalCEFApp.LogConsole = '') Then
+        Exit;
 
       if PCab = '' then
-         LTmp:= '[' + FormatDateTime('dd/mm/yy hh:nn:ss', now) + ']  ' else
-         if PCab= 'CONSOLE'  then
-            LTmp:= '[' + FormatDateTime('dd/mm/yy hh:nn:ss', now) + ' - ' + PCab + ']  ' + slinebreak Else
-            LTmp:= '[' + FormatDateTime('dd/mm/yy hh:nn:ss', now) + ' - ' + PCab + ']  ' + slinebreak;
+        LTmp := '[' + FormatDateTime('dd/mm/yy hh:nn:ss', now) + ']  '
+      else if PCab = 'CONSOLE' then
+        LTmp := '[' + FormatDateTime('dd/mm/yy hh:nn:ss', now) + ' - ' + PCab +
+          ']  ' + slinebreak
+      Else
+        LTmp := '[' + FormatDateTime('dd/mm/yy hh:nn:ss', now) + ' - ' + PCab +
+          ']  ' + slinebreak;
 
-      if PCab= 'CONSOLE'  then
+      if PCab = 'CONSOLE' then
         TFile.AppendAllText(LName, slinebreak, TEncoding.ASCII);
       TFile.AppendAllText(LName, slinebreak + LTmp + Pvalor, TEncoding.ASCII);
     End;
@@ -849,20 +861,19 @@ Begin
   end;
 End;
 
-
-  {TResultQRCodeClass}
+{ TResultQRCodeClass }
 function TResultQRCodeClass.AQrCodeQuestion: Boolean;
 begin
-  //Se sucesso e a imagem for diferenre!!
+  // Se sucesso e a imagem for diferenre!!
   Result := (AQrCodeSucess and AImageDif);
 end;
 
 constructor TResultQRCodeClass.Create(pAJsonString: string);
 begin
-  FAQrCodeImage       := TPicture.Create;
+  FAQrCodeImage := TPicture.Create;
   FAQrCodeImageStream := TMemoryStream.Create;
-  FAQrCodeSucess      := False;
-  FAImageDif          := False;
+  FAQrCodeSucess := False;
+  FAImageDif := False;
 
   inherited Create(pAJsonString);
 end;
@@ -870,30 +881,30 @@ end;
 function TResultQRCodeClass.CreateImage: Boolean;
 {$IFNDEF VER330}
 var
-    PNG: TpngImage;
+  PNG: TpngImage;
 {$ENDIF}
 begin
   Result := False;
   try
-    if FAQrCodeImageStream.Size <= 0 Then
-       Exit;
+    if FAQrCodeImageStream.size <= 0 Then
+      Exit;
 
     FreeAndNil(FAQrCodeImage);
-    FAQrCodeImage  := TPicture.Create;       
+    FAQrCodeImage := TPicture.Create;
     FAQrCodeImageStream.Position := 0;
-    
-    {$IFDEF VER330}
-      FAQrCodeImage.LoadFromStream(FAQrCodeImageStream);
-   {$ELSE}
-      PNG := TPngImage.Create;
-      try
-        Png.LoadFromStream(FAQrCodeImageStream);
-        FAQrCodeImage.Graphic := PNG;
-      finally
-        PNG.Free;
-      end;
-   {$ENDIF}
-    result := True;
+
+{$IFDEF VER330}
+    FAQrCodeImage.LoadFromStream(FAQrCodeImageStream);
+{$ELSE}
+    PNG := TpngImage.Create;
+    try
+      PNG.LoadFromStream(FAQrCodeImageStream);
+      FAQrCodeImage.Graphic := PNG;
+    finally
+      PNG.Free;
+    end;
+{$ENDIF}
+    Result := True;
   Except
   end;
 end;
@@ -910,32 +921,33 @@ var
   LMem: TMemoryStream;
   LConvert: TStringList;
 begin
-  //Se a imagem for a mesma!! nao precisa fazer nada!
+  // Se a imagem for a mesma!! nao precisa fazer nada!
   if FUltimoQrCode = AQrCode then
   Begin
-    FAImageDif     := False;
+    FAImageDif := False;
     Exit;
   End;
-  FUltimoQrCode  := AQrCode;
+  FUltimoQrCode := AQrCode;
 
   FAQrCodeImageStream.Free;
-  FAQrCodeSucess        := False;
-  LMem                  := TMemoryStream.Create;
-  FAQrCodeImageStream   := TMemoryStream.Create;
-  LConvert              := TStringList.Create;
+  FAQrCodeSucess := False;
+  LMem := TMemoryStream.Create;
+  FAQrCodeImageStream := TMemoryStream.Create;
+  LConvert := TStringList.Create;
   try
     try
-      LConvert.Add(copy(aQrCode, 23, length(aQrCode)));
+      LConvert.Add(copy(AQrCode, 23, length(AQrCode)));
       LConvert.SaveToStream(LMem);
-      if LMem.Size > 3000 Then //Tamanho minimo de uma imagem
+      if LMem.size > 3000 Then // Tamanho minimo de uma imagem
       Begin
         LMem.Position := 0;
-        TNetEncoding.Base64.Decode(LMem, FAQrCodeImageStream );
+        TNetEncoding.Base64.Decode(LMem, FAQrCodeImageStream);
         FAQrCodeImageStream.Position := 0;
 
         FAQrCodeSucess := True;
         FAQrCodeSucess := CreateImage;
-      End else
+      End
+      else
       Begin
         FAQrCodeSucess := False;
       end;
@@ -943,7 +955,7 @@ begin
       FAQrCodeSucess := False;
     end;
   finally
-    FAImageDif     := TRUE;
+    FAImageDif := True;
     FreeAndNil(LConvert);
     LMem.Free;
   end;
@@ -954,11 +966,12 @@ constructor TResponseConsoleMessage.Create(pAJsonString: string);
 var
   lAJsonObj: TJSONValue;
 begin
-  lAJsonObj := TJSONObject.ParseJSONValue(TEncoding.UTF8.GetBytes(pAJsonString),0); { TODO : mudei de ASCII para UTF8 aqui }
+  lAJsonObj := TJSONObject.ParseJSONValue(TEncoding.UTF8.GetBytes(pAJsonString),
+    0); { TODO : mudei de ASCII para UTF8 aqui }
   try
     if not Assigned(lAJsonObj) then
-       Exit;
-   inherited Create(pAJsonString);
+      Exit;
+    inherited Create(pAJsonString);
   finally
     FreeAndNil(lAJsonObj);
   end;
@@ -977,43 +990,43 @@ end;
 
 destructor TContactClass.Destroy;
 begin
-  FreeAndNil(FProfilePicThumbObj);//.free;
+  FreeAndNil(FProfilePicThumbObj); // .free;
   inherited;
 end;
 
-{TResultClass}
+{ TResultClass }
 constructor TChatClass.Create(pAJsonString: string);
 begin
   FLastReceivedKey := TLastReceivedKeyClass.Create(JsonString);
-  FContact         := TContactClass.Create        (JsonString);
-  FGroupMetadata   := TGroupMetadataClass.Create  (JsonString);
-  FKindTypeNumber  := TypUndefined;
+  FContact := TContactClass.Create(JsonString);
+  FGroupMetadata := TGroupMetadataClass.Create(JsonString);
+  FKindTypeNumber := TypUndefined;
   inherited Create(pAJsonString);
-  if LowerCase(FKind) =  LowerCase('chat') then
-     FKindTypeNumber := TypContact else
-     if LowerCase(FKind) =  LowerCase('group') then
-        FKindTypeNumber := TypGroup else
-        FKindTypeNumber := TypList;
+  if LowerCase(FKind) = LowerCase('chat') then
+    FKindTypeNumber := TypContact
+  else if LowerCase(FKind) = LowerCase('group') then
+    FKindTypeNumber := TypGroup
+  else
+    FKindTypeNumber := TypList;
 end;
 
 destructor TChatClass.Destroy;
 begin
   ClearArray(FMessages);
   FreeAndNil(FPresence);
-  FreeAndNil(FLastReceivedKey);//.free;
-  FreeAndNil(FContact);//.free;
-  FreeAndNil(FGroupMetadata);//.free;
+  FreeAndNil(FLastReceivedKey); // .free;
+  FreeAndNil(FContact); // .free;
+  FreeAndNil(FGroupMetadata); // .free;
   inherited;
 end;
 
-
-{TRetornoAllContacts}
+{ TRetornoAllContacts }
 constructor TRetornoAllContacts.Create(pAJsonString: string);
 begin
- inherited Create(pAJsonString);
+  inherited Create(pAJsonString);
 end;
 
-{TSenderClass}
+{ TSenderClass }
 constructor TSenderClass.Create(pAJsonString: string);
 begin
   FProfilePicThumbObj := TProfilePicThumbObjClass.Create(JsonString);
@@ -1022,69 +1035,71 @@ end;
 
 destructor TSenderClass.Destroy;
 begin
-  FreeAndNil(FProfilePicThumbObj);//.free;
+  FreeAndNil(FProfilePicThumbObj); // .free;
   inherited;
 end;
 
-{TMessagesClass}
+{ TMessagesClass }
 constructor TMessagesClass.Create(pAJsonString: string);
 begin
-  FSender    := TSenderClass.Create   (JsonString);
-  FChat      := TChatClass.Create     (JsonString);
+  FSender := TSenderClass.Create(JsonString);
+  FChat := TChatClass.Create(JsonString);
   FMediaData := TMediaDataClass.Create(JsonString);
   inherited Create(pAJsonString);
 end;
 
 destructor TMessagesClass.Destroy;
 begin
-  FreeAndNil(FSender);//.free;
-  FreeAndNil(FChat);//.free;
-  FreeAndNil(FMediaData);//.free;
+  FreeAndNil(FSender); // .free;
+  FreeAndNil(FChat); // .free;
+  FreeAndNil(FMediaData); // .free;
   inherited;
 end;
 
 { procedure TMessagesClass.SetselectButtonID(const Value: String);
-begin
+  begin
   FselectButtonID := Value;
-end;
+  end;
 
-TQrCodeClass }
-constructor TQrCodeClass.Create(pAJsonString: string; PJsonOption: TJsonOptions; PTagRequired: TQrCodeRets);
+  TQrCodeClass }
+constructor TQrCodeClass.Create(pAJsonString: string; PJsonOption: TJsonOptions;
+  PTagRequired: TQrCodeRets);
 var
-  lCode : String;
+  lCode: String;
   LAchou: Boolean;
 begin
-  lCode  := copy(pAJsonString, 42, 4);
+  lCode := copy(pAJsonString, 42, 4);
   LAchou := False;
-  FTags  := [];
+  FTags := [];
 
   if PTagRequired <> [] Then
   Begin
-    If PTagRequired = [TQR_Http]  Then
+    If PTagRequired = [TQR_Http] Then
     Begin
       if (AnsiUpperCase(lCode) = AnsiUpperCase('http')) Then
-         LAchou:= true;
+        LAchou := True;
     end;
-    If PTagRequired = [TQR_Img]  Then
+    If PTagRequired = [TQR_Img] Then
     Begin
       if (AnsiUpperCase(lCode) = AnsiUpperCase('/img')) Then
-         LAchou:= true;
+        LAchou := True;
     end;
-    If PTagRequired = [TQR_Data]  Then
+    If PTagRequired = [TQR_Data] Then
     Begin
       if (AnsiUpperCase(lCode) = AnsiUpperCase('data')) Then
-         LAchou:= true;
+        LAchou := True;
     end;
     if Not LAchou Then
-        Abort;
-  End else
+      Abort;
+  End
+  else
   begin
     if (AnsiUpperCase(lCode) = AnsiUpperCase('http')) Then
-       FTags := FTags + [TQR_Http];
+      FTags := FTags + [TQR_Http];
     if (AnsiUpperCase(lCode) = AnsiUpperCase('/img')) Then
-       FTags := FTags + [TQR_Img];
+      FTags := FTags + [TQR_Img];
     if (AnsiUpperCase(lCode) = AnsiUpperCase('data')) Then
-       FTags := FTags + [TQR_Data];
+      FTags := FTags + [TQR_Data];
   end;
   inherited Create(pAJsonString);
   FResult.ProcessQRCodeImage;
@@ -1092,40 +1107,40 @@ end;
 
 destructor TQrCodeClass.Destroy;
 begin
-  FreeandNil(FResult);
+  FreeAndNil(FResult);
 
   inherited;
 end;
 
 { TClassPadrao }
-constructor TClassPadrao.Create(pAJsonString: string; PJsonOption: TJsonOptions);
+constructor TClassPadrao.Create(pAJsonString: string;
+  PJsonOption: TJsonOptions);
 var
   lAJsonObj: TJSONValue;
 begin
 
-  lAJsonObj      := TJSONObject.ParseJSONValue(pAJsonString);
+  lAJsonObj := TJSONObject.ParseJSONValue(pAJsonString);
   FInjectWorking := False;
   try
-   try
-    if NOT Assigned(lAJsonObj) then
-       Exit;
+    try
+      if NOT Assigned(lAJsonObj) then
+        Exit;
 
-    //tentar thread aqui...
-    TJson.JsonToObject(Self, TJSONObject(lAJsonObj) ,PJsonOption);
-    //tentar thread aqui...
+      // tentar thread aqui...
+      TJson.JsonToObject(self, TJSONObject(lAJsonObj), PJsonOption);
+      // tentar thread aqui...
 
+      FJsonString := pAJsonString;
+      SleepNoFreeze(10);
 
-    FJsonString := pAJsonString;
-          SleepNoFreeze(10);
+      If LowerCase(self.ClassName) <> LowerCase('TResponseConsoleMessage') Then
+        LogAdd(PrettyJSON(pAJsonString), self.ClassName);
 
-    If LowerCase(SELF.ClassName) <> LowerCase('TResponseConsoleMessage') Then
-       LogAdd(PrettyJSON(pAJsonString), SELF.ClassName);
-
-    FTypeHeader := StrToTypeHeader(name);
-   Except
-     on E : Exception do
-       LogAdd(e.Message, 'ERROR ' + SELF.ClassName);
-   end;
+      FTypeHeader := StrToTypeHeader(name);
+    Except
+      on E: Exception do
+        LogAdd(E.Message, 'ERROR ' + self.ClassName);
+    end;
   finally
     FreeAndNil(lAJsonObj);
   end;
@@ -1138,7 +1153,7 @@ end;
 
 function TClassPadrao.ToJsonString: string;
 begin
-  result := TJson.ObjectToJsonString(self);
+  Result := TJson.ObjectToJsonString(self);
 end;
 
 { TClassPadraoList<T> }
@@ -1146,22 +1161,20 @@ procedure TClassPadraoList<T>.ClearArray(PArray: TArray<T>);
 var
   I: Integer;
 begin
-   try
-   {$IFDEF VER340}
-      PArray := nil;
-   {$ENDIF}
-
-    for i:= Length(PArray)-1 downto 0 do
-        {$IFDEF VER300}
-          freeAndNil(PArray[i]);
-        {$ENDIF}
-
-        {$IFDEF VER330}
-          freeAndNil(PArray[i]);
-        {$ENDIF}
-   finally
-     SetLength(PArray, 0);
-   end;
+  try
+{$IFDEF VER340}
+    PArray := nil;
+{$ENDIF}
+    for I := length(PArray) - 1 downto 0 do
+{$IFDEF VER300}
+      FreeAndNil(PArray[I]);
+{$ENDIF}
+{$IFDEF VER330}
+    FreeAndNil(PArray[I]);
+{$ENDIF}
+  finally
+    SetLength(PArray, 0);
+  end;
 end;
 
 destructor TClassPadraoList<T>.Destroy;
@@ -1187,13 +1200,13 @@ end;
 constructor TResponseMyNumber.Create(pAJsonString: string);
 begin
   inherited Create(pAJsonString);
-  FResult := Copy(FResult, 0 , Pos('@', FResult)-1);
+  FResult := copy(FResult, 0, Pos('@', FResult) - 1);
 end;
 
 destructor TGroupMetadataClass.Destroy;
 begin
   ClearArray(FParticipants);
-  ClearArray(FPendingParticipants);     //@LuizAlvez
+  ClearArray(FPendingParticipants); // @LuizAlvez
   inherited;
 end;
 
@@ -1201,32 +1214,31 @@ end;
 
 constructor TUrlIndy.Create;
 begin
-  {$IFDEF DELPHI25_UP}
-    inherited;
-  {$ELSE}
-    inherited create;
-  {$ENDIF}
+{$IFDEF DELPHI25_UP}
+  inherited;
+{$ELSE}
+  inherited Create;
+{$ENDIF}
+  FTimeOut := 10;
+  FTImeOutIndy := TTimer.Create(Nil);
+  FTImeOutIndy.OnTimer := OnTimeOutIndy;
+  FTImeOutIndy.Interval := FTimeOut * 1000;
+  FTImeOutIndy.Enabled := False;
+  FShowException := True;
 
-  FTimeOut                := 10;
-  FTImeOutIndy            := TTimer.Create(Nil);
-  FTImeOutIndy.OnTimer    := OnTimeOutIndy;
-  FTImeOutIndy.Interval   := FTimeOut * 1000;
-  FTImeOutIndy.Enabled    := False;
-  FShowException          := True;
+{$IFDEF DELPHI25_UP}
+  FIdAntiFreeze := TIdAntiFreeze.Create(nil);
+{$ENDIF}
+  FReturnUrl := TMemoryStream.Create;
 
-  {$IFDEF DELPHI25_UP}
-    FIdAntiFreeze           := TIdAntiFreeze.Create(nil);
-  {$ENDIF}
-  FReturnUrl              := TMemoryStream.Create;
+  HandleRedirects := True;
+  ProtocolVersion := pv1_1;
 
-  HandleRedirects         := True;
-  ProtocolVersion         := pv1_1;
-
-  Request.UserAgent       := 'Mozilla/5.0 (compatible; Test)';
-  //Request.UserAgent       := 'Mozilla/3.0 (compatible; Indy Library)';
+  Request.UserAgent := 'Mozilla/5.0 (compatible; Test)';
+  // Request.UserAgent       := 'Mozilla/3.0 (compatible; Indy Library)';
 
   SSIOHandler := TIdSSLIOHandlerSocketOpenSSL.Create(nil);
-  Self.IOHandler := SSIOHandler;
+  self.IOHandler := SSIOHandler;
 
   with IOHandler as TIdSSLIOHandlerSocketOpenSSL do
   begin
@@ -1239,13 +1251,13 @@ end;
 
 destructor TUrlIndy.Destroy;
 begin
-  FTImeOutIndy.Enabled       := False;
-  FreeandNil(FReturnUrl);
-  FreeandNil(FTImeOutIndy);
-  FreeandNil(SSIOHandler);
-  {$IFDEF DELPHI25_UP}
-     FreeandNil(FIdAntiFreeze);
-  {$ENDIF}
+  FTImeOutIndy.Enabled := False;
+  FreeAndNil(FReturnUrl);
+  FreeAndNil(FTImeOutIndy);
+  FreeAndNil(SSIOHandler);
+{$IFDEF DELPHI25_UP}
+  FreeAndNil(FIdAntiFreeze);
+{$ENDIF}
   inherited;
 end;
 
@@ -1260,47 +1272,50 @@ end;
 
 function TUrlIndy.GetUrl(const Purl: String): Boolean;
 begin
-  FTImeOutIndy.Interval      := FTimeOut * 1000;
-  FTImeOutIndy.Enabled       := False;
+  FTImeOutIndy.Interval := FTimeOut * 1000;
+  FTImeOutIndy.Enabled := False;
   try
     FReturnUrl.Free;
-    FReturnUrl               := TMemoryStream.Create;
-    FTImeOutIndy.Enabled     := True;
+    FReturnUrl := TMemoryStream.Create;
+    FTImeOutIndy.Enabled := True;
     try
-      //Get(Purl, FReturnUrl);
+      // Get(Purl, FReturnUrl);
 
       DownLoadInternetFile(TInjectJS_JSUrlPadrao, 'js.abr');
 
-
     Except
-      on E : Exception do
+      on E: Exception do
       Begin
         if FShowException then
         Begin
-          if pos(AnsiUpperCase('Cold not load SSL'), AnsiUpperCase(e.Message)) > 0 then
-             Application.MessageBox(PWideChar(MSG_Exceptlibeay32dll), PWideChar(Application.Title), MB_ICONERROR + mb_ok) else
-             Application.MessageBox(Pwidechar('Erro HTTP GET (js.abr) ' + e.Message), PWideChar(Application.Title), MB_ICONWARNING + mb_ok);
+          if Pos(AnsiUpperCase('Cold not load SSL'), AnsiUpperCase(E.Message)) > 0
+          then
+            Application.MessageBox(PWideChar(MSG_Exceptlibeay32dll),
+              PWideChar(Application.Title), MB_ICONERROR + mb_ok)
+          else
+            Application.MessageBox
+              (PWideChar('Erro HTTP GET (js.abr) ' + E.Message),
+              PWideChar(Application.Title), MB_ICONWARNING + mb_ok);
         End;
       End;
     end;
   finally
-    FTImeOutIndy.Enabled  := False;
-    FReturnUrl.position   := 0;
-    Result                := FReturnUrl.size > 0;
+    FTImeOutIndy.Enabled := False;
+    FReturnUrl.Position := 0;
+    Result := FReturnUrl.size > 0;
   end;
 
 end;
 
 procedure TUrlIndy.OnTimeOutIndy(Sender: TObject);
 begin
-  FTImeOutIndy.Enabled   := False;
+  FTImeOutIndy.Enabled := False;
   try
-    Disconnect(true);
+    Disconnect(True);
   Except
-    //Nao mostrar erro.. essa rotina e exatamente para isso!
+    // Nao mostrar erro.. essa rotina e exatamente para isso!
   end;
 end;
-
 
 { TMediaDataClass }
 
@@ -1328,20 +1343,19 @@ begin
   inherited;
 end;
 
-
 { TResponseIsConnected }
 
 constructor TResponseIsConnected.Create(pAJsonString: string);
 begin
   inherited Create(pAJsonString);
-  //FResult := FResult;//Copy(FResult, 0 , Pos('@', FResult)-1);
+  // FResult := FResult;//Copy(FResult, 0 , Pos('@', FResult)-1);
 end;
 
 { TResponseGetProfilePicThumb }
 
 constructor TResponseGetProfilePicThumb.Create(pAJsonString: string);
 begin
- Base64 :=  copy(pAJsonString, 34, length(pAJsonString) - 35);
+  Base64 := copy(pAJsonString, 34, length(pAJsonString) - 35);
 end;
 
 destructor TResponseGetProfilePicThumb.Destroy;
@@ -1355,19 +1369,20 @@ end;
 constructor TRetornoAllGroups.Create(pAJsonString: string);
 begin
   inherited Create(pAJsonString);
-  FNumbers      := TStringList.create;
+  FNumbers := TStringList.Create;
   FNumbers.Text := FJsonString;
-  //Quebrar linhas de acordo com cada valor separado por virgula
+  // Quebrar linhas de acordo com cada valor separado por virgula
   FNumbers.Text := StringReplace(FNumbers.Text, '",', Enter, [rfReplaceAll]);
-  FNumbers.Text := StringReplace(FNumbers.Text, '"' , '',    [rfReplaceAll]);
-  FNumbers.Text := StringReplace(FNumbers.Text, '{result:[' , '',    [rfReplaceAll]);
-  FNumbers.Text := StringReplace(FNumbers.Text, ']}' , '',    [rfReplaceAll]);
+  FNumbers.Text := StringReplace(FNumbers.Text, '"', '', [rfReplaceAll]);
+  FNumbers.Text := StringReplace(FNumbers.Text, '{result:[', '',
+    [rfReplaceAll]);
+  FNumbers.Text := StringReplace(FNumbers.Text, ']}', '', [rfReplaceAll]);
 end;
 
 destructor TRetornoAllGroups.Destroy;
 begin
   inherited;
-  Freeandnil(FNumbers);
+  FreeAndNil(FNumbers);
 end;
 
 { TClassGetAllGroupContacts }
@@ -1377,40 +1392,39 @@ constructor TClassAllGroupContacts.Create(pAJsonString: string;
 var
   lAJsonObj: TJSONValue;
 begin
-  lAJsonObj      := TJSONObject.ParseJSONValue(pAJsonString);
+  lAJsonObj := TJSONObject.ParseJSONValue(pAJsonString);
 
   try
-   try
-    if NOT Assigned(lAJsonObj) then
-       Exit;
+    try
+      if NOT Assigned(lAJsonObj) then
+        Exit;
 
-    TJson.JsonToObject(Self, TJSONObject(lAJsonObj) ,PJsonOption);
+      TJson.JsonToObject(self, TJSONObject(lAJsonObj), PJsonOption);
 
-          SleepNoFreeze(10);
+      SleepNoFreeze(10);
 
-    If LowerCase(SELF.ClassName) <> LowerCase('TResponseConsoleMessage') Then
-       LogAdd(PrettyJSON(pAJsonString), SELF.ClassName);
+      If LowerCase(self.ClassName) <> LowerCase('TResponseConsoleMessage') Then
+        LogAdd(PrettyJSON(pAJsonString), self.ClassName);
 
-
-   Except
-     on E : Exception do
-       LogAdd(e.Message, 'ERROR ' + SELF.ClassName);
-   end;
+    Except
+      on E: Exception do
+        LogAdd(E.Message, 'ERROR ' + self.ClassName);
+    end;
   finally
     FreeAndNil(lAJsonObj);
   end;
 
 end;
 
-class function TClassAllGroupContacts.FromJsonString(
-  AJsonString: string): TClassAllGroupContacts;
+class function TClassAllGroupContacts.FromJsonString(AJsonString: string)
+  : TClassAllGroupContacts;
 begin
-  result := TJson.JsonToObject<TClassAllGroupContacts>(AJsonString)
+  Result := TJson.JsonToObject<TClassAllGroupContacts>(AJsonString)
 end;
 
 function TClassAllGroupContacts.ToJsonString: string;
 begin
-  result := TJson.ObjectToJsonString(self);
+  Result := TJson.ObjectToJsonString(self);
 end;
 
 { TRetornoAllGroupAdmins }
@@ -1418,37 +1432,39 @@ end;
 constructor TRetornoAllGroupAdmins.Create(pAJsonString: string);
 begin
   inherited Create(pAJsonString);
-  FNumbers      := TStringList.create;
+  FNumbers := TStringList.Create;
   FNumbers.Text := FJsonString;
-  //Quebrar linhas de acordo com cada valor separado por virgula
+  // Quebrar linhas de acordo com cada valor separado por virgula
   FNumbers.Text := StringReplace(FNumbers.Text, '",', Enter, [rfReplaceAll]);
-  FNumbers.Text := StringReplace(FNumbers.Text, '"' , '',    [rfReplaceAll]);
-  FNumbers.Text := StringReplace(FNumbers.Text, '{result:[' , '',    [rfReplaceAll]);
-  FNumbers.Text := StringReplace(FNumbers.Text, '[' , '',    [rfReplaceAll]);
-  FNumbers.Text := StringReplace(FNumbers.Text, ']' , '',    [rfReplaceAll]);
-  FNumbers.Text := StringReplace(FNumbers.Text, '}' , '',    [rfReplaceAll]);
+  FNumbers.Text := StringReplace(FNumbers.Text, '"', '', [rfReplaceAll]);
+  FNumbers.Text := StringReplace(FNumbers.Text, '{result:[', '',
+    [rfReplaceAll]);
+  FNumbers.Text := StringReplace(FNumbers.Text, '[', '', [rfReplaceAll]);
+  FNumbers.Text := StringReplace(FNumbers.Text, ']', '', [rfReplaceAll]);
+  FNumbers.Text := StringReplace(FNumbers.Text, '}', '', [rfReplaceAll]);
 
 end;
 
 destructor TRetornoAllGroupAdmins.Destroy;
 begin
   inherited;
-  Freeandnil(FNumbers);
+  FreeAndNil(FNumbers);
 end;
 
 { TGetMeClass }
 
-constructor TGetMeClass.Create(pAJsonString: string; PJsonOption: TJsonOptions = JsonOptionClassPadrao);
+constructor TGetMeClass.Create(pAJsonString: string;
+  PJsonOption: TJsonOptions = JsonOptionClassPadrao);
 begin
- Fphone    := TPhoneClass.Create(JsonString);
- Fstatus   := TResponseStatusMessage.Create(JsonString);
- inherited Create(pAJsonString);
+  Fphone := TPhoneClass.Create(JsonString);
+  FStatus := TResponseStatusMessage.Create(JsonString);
+  inherited Create(pAJsonString);
 end;
 
 destructor TGetMeClass.Destroy;
 begin
   FreeAndNil(Fphone);
-  FreeAndNil(Fstatus);
+  FreeAndNil(FStatus);
   inherited;
 end;
 
@@ -1457,7 +1473,7 @@ end;
 constructor TResponseIsDelivered.Create(pAJsonString: string);
 begin
   inherited Create(pAJsonString);
-  //FResult := (Copy (FResult, Pos ('@c.us_', FResult) + 2, Length (FResult)));
+  // FResult := (Copy (FResult, Pos ('@c.us_', FResult) + 2, Length (FResult)));
 end;
 
 end.
